@@ -1,0 +1,7390 @@
+(({:path "../spork/",
+   :totals {:code 38416, :comment 13258, :blank 7054}}
+  {:path "../marathon/",
+   :totals {:code 64314, :comment 25682, :blank 11728}})
+ (["obe\\cljgui\\scene\\core.clj" {:comment 207, :code 295, :blank 92}]
+  ["src\\spork\\sim\\pure\\test.clj"
+   {:code 128, :blank 21, :comment 19}]
+  ["src\\spork\\cljgraph\\jungapi.clj"
+   {:comment 86, :code 203, :blank 49}]
+  ["src\\spork\\util\\zip.clj" {:comment 13, :blank 5, :code 81}]
+  ["src\\spork\\util\\parsing.clj" {:comment 25, :code 188, :blank 23}]
+  ["orgtest.clj" {:code 35, :blank 10, :comment 4}]
+  ["src\\spork\\opt\\optimization.clj"
+   {:comment 18, :code 78, :blank 19}]
+  ["src\\spork\\util\\numerics.clj"
+   {:comment 25, :code 195, :blank 25}]
+  ["src\\spork\\trends.clj" {:comment 41, :code 155, :blank 26}]
+  ["src\\spork\\cljgraph\\arrayflow.clj"
+   {:comment 55, :code 401, :blank 56}]
+  ["src\\spork\\protocols\\core.clj"
+   {:comment 50, :blank 48, :code 213}]
+  ["obe\\cljgui\\scene\\manager.clj"
+   {:code 15, :blank 25, :comment 85}]
+  ["obe\\cljgui\\examples\\examples.clj" {:comment 2, :code 4}]
+  ["src\\spork\\data\\ctrie.clj" {:comment 21, :code 108, :blank 21}]
+  ["src\\spork\\graphics2d\\strokes.clj"
+   {:comment 30, :code 100, :blank 16}]
+  ["src\\spork\\mining\\core.clj" {:comment 4, :code 32, :blank 6}]
+  ["src\\spork\\data\\test.clj" {:code 109, :blank 23, :comment 9}]
+  ["src\\spork\\cljgraph\\io.clj" {:comment 3, :code 17, :blank 8}]
+  ["obe\\clogg\\core.clj" {:comment 86, :code 124, :blank 85}]
+  ["src\\spork\\data\\protocols.clj" {:comment 1, :code 6, :blank 2}]
+  ["src\\spork\\util\\stream.clj" {:comment 19, :code 118, :blank 13}]
+  ["src\\spork\\graphics2d\\swing.clj"
+   {:comment 113, :code 557, :blank 85}]
+  ["src\\spork\\util\\zipfile.clj" {:comment 11, :code 205, :blank 36}]
+  ["test\\spork\\core_test.clj" {:code 5, :blank 1}]
+  ["obe\\cljgui\\scenegraph.clj" {:comment 143, :blank 62, :code 401}]
+  ["obe\\cljgui\\animation.clj" {:code 239, :blank 55, :comment 37}]
+  ["src\\spork\\ai\\behavior.clj"
+   {:comment 389, :blank 100, :code 431}]
+  ["src\\spork\\sim\\examples\\westworld.clj"
+   {:comment 23, :code 87, :blank 21}]
+  ["src\\spork\\entitysystem\\entitytesting.clj"
+   {:comment 4, :blank 14, :code 51}]
+  ["obe\\cljgui\\scene\\scenegraph.clj"
+   {:comment 273, :blank 112, :code 446}]
+  ["src\\spork\\util\\metaprogramming.clj"
+   {:comment 45, :code 263, :blank 45}]
+  ["src\\spork\\entitysystem\\ephemeral.clj"
+   {:comment 24, :code 89, :blank 14}]
+  ["loop.clj" {:comment 321, :blank 151, :code 1480}]
+  ["src\\spork\\data\\priorityq.clj"
+   {:comment 91, :blank 62, :code 483}]
+  ["ayuk.clj" {:code 104, :blank 24, :comment 2}]
+  ["src\\spork\\util\\inspection.clj"
+   {:comment 47, :code 104, :blank 21}]
+  ["src\\spork\\util\\reducers.clj"
+   {:comment 32, :code 163, :blank 16}]
+  ["src\\spork\\ai\\messaging.clj" {:comment 17, :code 45, :blank 5}]
+  ["src\\spork\\sim\\backburner\\events.clj"
+   {:code 289, :blank 65, :comment 95}]
+  ["src\\spork\\sketch.clj" {:comment 177, :code 1038, :blank 134}]
+  ["src\\spork\\data\\sparse.clj" {:comment 79, :code 277, :blank 28}]
+  ["obe\\displaced\\gridbag.clj" {:comment 27, :code 18, :blank 7}]
+  ["obe\\cljgui\\components\\grid.clj"
+   {:comment 71, :blank 58, :code 322}]
+  ["src\\spork\\util\\sampling.clj"
+   {:comment 166, :code 501, :blank 117}]
+  ["src\\spork\\graphics2d\\scene.clj"
+   {:comment 79, :code 105, :blank 24}]
+  ["obe\\displaced\\behavior.clj" {:code 100, :blank 22, :comment 50}]
+  ["src\\spork\\mvc.clj" {:comment 42, :code 25, :blank 11}]
+  ["src\\spork\\cljgui\\components\\swing.clj"
+   {:code 858, :comment 198, :blank 149}]
+  ["src\\spork\\cljgui\\components\\PaintPanel.clj"
+   {:comment 19, :blank 12, :code 61}]
+  ["src\\spork\\cljgraph\\flowtests.clj" {:code 47, :blank 10}]
+  ["src\\spork\\util\\excel\\core.clj"
+   {:comment 37, :blank 61, :code 373}]
+  ["src\\spork\\cljgraph\\flow.clj"
+   {:comment 350, :code 887, :blank 173}]
+  ["src\\spork\\util\\codecount.clj"
+   {:code 124, :blank 29, :comment 28}]
+  ["src\\spork\\util\\help.clj" {:comment 4, :code 187, :blank 16}]
+  ["src\\spork\\sim\\agenda.clj" {:comment 98, :code 107, :blank 20}]
+  ["src\\spork\\sim\\backburner\\discrete.clj"
+   {:code 32, :blank 20, :comment 73}]
+  ["src\\spork\\util\\table.clj"
+   {:comment 138, :blank 166, :code 1351}]
+  ["src\\spork\\util\\tags.clj" {:comment 17, :blank 26, :code 148}]
+  ["src\\spork\\util\\array.clj" {:comment 96, :code 80, :blank 23}]
+  ["src\\spork\\data\\tables.clj" {:comment 27, :code 57, :blank 27}]
+  ["src\\spork\\data\\depq.clj" {:comment 3, :code 1}]
+  ["src\\spork\\util\\temporal.clj"
+   {:comment 125, :blank 47, :code 225}]
+  ["obe\\geometry\\math.clj" {:comment 13, :code 18, :blank 7}]
+  ["src\\spork\\data\\lazymap.clj" {:comment 10, :code 59, :blank 5}]
+  ["src\\spork\\data\\sptree.clj" {:comment 1, :code 87, :blank 14}]
+  ["obe\\cljgui\\examples\\reactive.clj"
+   {:code 24, :blank 1, :comment 3}]
+  ["src\\spork\\opt\\neighborhood.clj"
+   {:comment 37, :code 43, :blank 16}]
+  ["src\\spork\\opt\\representation.clj"
+   {:comment 78, :code 394, :blank 61}]
+  ["src\\spork\\util\\datetime.clj" {:comment 5, :blank 7, :code 36}]
+  ["obe\\displaced\\demo.clj" {:code 93, :blank 28, :comment 7}]
+  ["src\\spork\\cljgraph\\tests.clj"
+   {:comment 113, :code 355, :blank 58}]
+  ["src\\spork\\sketch\\activity.clj"
+   {:comment 34, :code 82, :blank 13}]
+  ["src\\spork\\events\\base.clj" {:comment 9, :code 24, :blank 5}]
+  ["src\\spork\\data\\cell.clj" {:comment 8, :code 38, :blank 4}]
+  ["src\\spork\\util\\vectors.clj" {:comment 19, :blank 16, :code 106}]
+  ["src\\spork\\entitysystem\\examples\\orcbattle.clj"
+   {:comment 52, :blank 51, :code 211}]
+  ["src\\spork\\entitysystem\\examples\\orcbattleLOL.clj"
+   {:comment 64, :blank 22}]
+  ["obe\\displaced\\tst.clj" {:code 31, :blank 8, :comment 6}]
+  ["src\\spork\\opt\\fastmultipole.clj"
+   {:comment 16, :blank 26, :code 102}]
+  ["src\\spork\\util\\combinatoric.clj"
+   {:comment 239, :blank 136, :code 566}]
+  ["src\\spork\\sim\\core.clj" {:comment 159, :blank 72, :code 348}]
+  ["src\\spork\\ai\\logic.clj" {:comment 26, :blank 22, :code 169}]
+  ["src\\spork\\data\\fringe.clj" {:code 126, :blank 19, :comment 39}]
+  ["src\\spork\\graphics2d\\stroke.clj" {:code 26, :blank 6}]
+  ["src\\spork\\util\\serial.clj" {:comment 36, :code 94, :blank 26}]
+  ["src\\spork\\data\\grid.clj" {:comment 13, :blank 14, :code 122}]
+  ["src\\spork\\util\\eager.clj" {:comment 5, :blank 7, :code 20}]
+  ["src\\spork\\cljgraph\\search.clj"
+   {:comment 36, :code 167, :blank 36}]
+  ["src\\spork\\util\\interop.clj" {:comment 3, :code 20, :blank 1}]
+  ["src\\spork\\sim\\impure\\core.clj" {:comment 7, :code 1, :blank 1}]
+  ["src\\spork\\util\\vector.clj" {:comment 2, :code 37, :blank 5}]
+  ["src\\spork\\data\\stores\\protocols.clj"
+   {:comment 2, :code 15, :blank 2}]
+  ["obe\\displaced\\gl.clj" {:code 97, :blank 16, :comment 10}]
+  ["src\\spork\\data\\searchstate.clj"
+   {:comment 33, :code 206, :blank 28}]
+  ["obe\\cljgui\\components\\trackbar.clj"
+   {:comment 56, :blank 39, :code 88}]
+  ["src\\spork\\util\\general.clj"
+   {:comment 135, :code 602, :blank 103}]
+  ["src\\spork\\opt\\core.clj" {:comment 63, :blank 34, :code 196}]
+  ["src\\spork\\util\\collections.clj"
+   {:comment 48, :blank 42, :code 242}]
+  ["src\\spork\\entitysystem\\store.clj"
+   {:comment 465, :code 1056, :blank 165}]
+  ["src\\spork\\sim\\backburner\\deprecated.clj"
+   {:code 81, :blank 21, :comment 18}]
+  ["src\\spork\\cljgraph\\networksimplex.clj"
+   {:comment 283, :code 534, :blank 140}]
+  ["src\\spork\\ai\\core.clj" {:comment 68, :code 42, :blank 23}]
+  ["src\\spork\\util\\xml.clj" {:comment 2, :code 32, :blank 7}]
+  ["src\\spork\\util\\stats.clj" {:comment 45, :blank 75, :code 418}]
+  ["src\\spork\\graphics2d\\debug.clj"
+   {:blank 14, :code 125, :comment 35}]
+  ["src\\spork\\data\\passmap.clj"
+   {:comment 104, :code 116, :blank 25}]
+  ["src\\spork\\entitysystem\\examples\\oblol.clj"
+   {:comment 82, :blank 1}]
+  ["src\\spork\\util\\clipboard.clj" {:comment 5, :blank 11, :code 49}]
+  ["src\\spork\\ai\\testing.clj" {:code 243, :comment 103, :blank 48}]
+  ["src\\spork\\ai\\behaviorcontext.clj"
+   {:comment 52, :blank 14, :code 91}]
+  ["src\\spork\\data\\adjacency.clj"
+   {:comment 130, :code 139, :blank 54}]
+  ["src\\spork\\documentation.clj" {:code 13, :blank 5, :comment 6}]
+  ["src\\spork\\opt\\displaced.clj"
+   {:code 231, :blank 23, :comment 76}]
+  ["src\\spork\\data\\mutable.clj"
+   {:comment 176, :code 452, :blank 55}]
+  ["src\\spork\\cljgraph\\main.clj" {:code 74, :blank 17, :comment 7}]
+  ["src\\spork\\data\\indexed.clj" {:comment 22, :code 44, :blank 9}]
+  ["src\\spork\\util\\string.clj" {:comment 9, :code 97, :blank 7}]
+  ["obe\\geometry\\math3d.clj" {:comment 5, :code 42, :blank 9}]
+  ["src\\spork\\data\\managed.clj" {:comment 121, :blank 27, :code 47}]
+  ["src\\spork\\cljgui\\components\\CanvasGraphics.clj"
+   {:comment 13, :code 47, :blank 12}]
+  ["src\\spork\\data\\indexedgraph.clj"
+   {:comment 8, :code 310, :blank 41}]
+  ["src\\spork\\graphics2d\\canvas.clj"
+   {:code 527, :blank 97, :comment 127}]
+  ["obe\\cljgui\\activity.clj" {:comment 16, :code 78, :blank 12}]
+  ["src\\spork\\events\\observe.clj"
+   {:comment 83, :blank 86, :code 440}]
+  ["src\\spork\\util\\comparison.clj"
+   {:comment 20, :blank 13, :code 34}]
+  ["src\\spork\\graphics2d\\primitive.clj"
+   {:comment 48, :code 197, :blank 36}]
+  ["src\\spork\\mining\\clustering.clj"
+   {:comment 77, :code 490, :blank 60}]
+  ["src\\spork\\opt\\packing.clj" {:comment 9, :blank 9, :code 24}]
+  ["src\\spork\\ai\\machine.clj" {:comment 7, :code 77, :blank 7}]
+  ["blah2.clj" {:code 68, :blank 13, :comment 14}]
+  ["src\\spork\\sim\\history.clj" {:comment 90, :code 269, :blank 39}]
+  ["src\\spork\\examples\\samplingvis.clj"
+   {:comment 70, :code 139, :blank 26}]
+  ["src\\spork\\util\\processor.clj"
+   {:comment 24, :blank 33, :code 89}]
+  ["src\\spork\\data\\quadtree.clj"
+   {:code 164, :comment 24, :blank 21}]
+  ["src\\spork\\graphics2d\\font.clj"
+   {:comment 9, :code 47, :blank 11}]
+  ["playground.clj" {:code 195, :blank 38, :comment 51}]
+  ["src\\spork\\sim\\test.clj" {:comment 22, :code 106, :blank 16}]
+  ["src\\spork\\data\\orderedmap.clj"
+   {:comment 31, :blank 16, :code 115}]
+  ["src\\spork\\graphics2d\\image.clj"
+   {:comment 11, :code 164, :blank 13}]
+  ["obe\\sim\\pure\\behavior.clj" {:code 237, :blank 82, :comment 361}]
+  ["src\\spork\\util\\record.clj" {:comment 33, :code 252, :blank 37}]
+  ["src\\spork\\util\\ranges.clj" {:comment 29, :code 93, :blank 18}]
+  ["src\\spork\\data\\bitset.clj" {:comment 16, :code 4, :blank 4}]
+  ["src\\spork\\events\\native.clj"
+   {:comment 168, :blank 81, :code 331}]
+  ["src\\spork\\geometry\\shapes.clj"
+   {:comment 81, :code 170, :blank 46}]
+  ["src\\spork\\entitysystem\\systems.clj" {:comment 167, :blank 3}]
+  ["src\\spork\\util\\diff.clj" {:comment 17, :code 19, :blank 1}]
+  ["src\\spork\\sim\\simcontext.clj"
+   {:comment 133, :blank 70, :code 434}]
+  ["src\\spork\\sketch\\legacy.clj"
+   {:comment 45, :code 210, :blank 23}]
+  ["src\\spork\\protocols\\spatial.clj"
+   {:comment 60, :blank 74, :code 389}]
+  ["src\\spork\\util\\bridging.clj"
+   {:comment 87, :blank 35, :code 184}]
+  ["src\\spork\\sim\\engine.clj" {:comment 148, :blank 34, :code 162}]
+  ["obe\\cljgui\\examples\\drawing.clj"
+   {:code 64, :blank 4, :comment 1}]
+  ["src\\spork\\util\\generators.clj" {:comment 5, :code 20, :blank 2}]
+  ["src\\spork\\util\\topotree.clj"
+   {:comment 29, :code 111, :blank 24}]
+  ["src\\spork\\opt\\annealing.clj"
+   {:comment 187, :blank 53, :code 192}]
+  ["src\\spork\\cljgraph\\blah.clj" {:code 46, :blank 4, :comment 2}]
+  ["src\\spork\\opt\\gaops.clj" {:comment 3, :code 3, :blank 2}]
+  ["src\\spork\\data\\simpleq.clj"
+   {:comment 767, :blank 97, :code 350}]
+  ["obe\\sim\\pure\\scratchpad.clj"
+   {:comment 112, :blank 38, :code 56}]
+  ["obe\\geometry\\primitive.clj" {:comment 48, :code 2, :blank 4}]
+  ["src\\spork\\entitysystem\\diff.clj"
+   {:comment 13, :code 36, :blank 9}]
+  ["src\\spork\\ai\\demo.clj" {:code 178, :blank 31, :comment 157}]
+  ["src\\spork\\data\\core.clj" {:comment 1, :code 1}]
+  ["src\\spork\\sim\\updates.clj" {:comment 71, :code 146, :blank 24}]
+  ["obe\\cljgui\\examples\\flippersample.clj"
+   {:comment 45, :code 154, :blank 37}]
+  ["src\\spork\\util\\mailbox.clj" {:comment 15, :code 51, :blank 18}]
+  ["src\\spork\\opt\\dumbanneal.clj" {:comment 9, :code 61, :blank 5}]
+  ["project.clj" {:code 47, :blank 1, :comment 20}]
+  ["src\\spork\\data\\mpq.clj" {:comment 64, :code 226, :blank 19}]
+  ["src\\spork\\data\\cow.clj" {:comment 5, :code 85, :blank 6}]
+  ["src\\spork\\ai\\notes.clj" {:comment 131, :code 1, :blank 24}]
+  ["src\\spork\\sim\\pure\\network.clj"
+   {:comment 256, :blank 90, :code 401}]
+  ["src\\spork\\util\\excel\\docjure.clj"
+   {:comment 55, :blank 66, :code 330}]
+  ["src\\spork\\util\\log.clj" {:comment 4, :blank 2, :code 5}]
+  ["obe\\cljgui\\scene\\examples.clj"
+   {:code 59, :blank 12, :comment 6}]
+  ["src\\spork\\async\\system.clj" {:comment 43, :blank 20, :code 183}]
+  ["obe\\cljgui\\animation\\example.clj"
+   {:comment 41, :code 248, :blank 56}]
+  ["src\\spork\\util\\io.clj" {:comment 46, :blank 81, :code 545}]
+  ["src\\spork\\data\\column.clj" {:comment 13, :code 1, :blank 3}]
+  ["src\\spork\\data\\edge.clj" {:comment 19, :code 79, :blank 18}]
+  ["obe\\cljgui\\examples\\flipper.clj"
+   {:code 155, :blank 36, :comment 45}]
+  ["src\\spork\\data\\stores\\core.clj"
+   {:comment 52, :code 157, :blank 12}]
+  ["obe\\displaced\\protocols.clj" {:code 23, :blank 5, :comment 20}]
+  ["src\\spork\\data\\associative.clj"
+   {:comment 195, :blank 80, :code 618}]
+  ["blah.clj" {:code 139, :blank 34, :comment 35}]
+  ["src\\spork\\sim\\data.clj" {:code 285, :blank 41, :comment 58}]
+  ["src\\spork\\data\\randq.clj" {:code 62, :blank 2, :comment 4}]
+  ["obe\\cljgui\\scene\\scene2.clj"
+   {:comment 267, :blank 147, :code 660}]
+  ["src\\spork\\data\\digraph.clj" {:comment 65, :code 178, :blank 13}]
+  ["obe\\slowdata.clj" {:code 206, :blank 40, :comment 44}]
+  ["src\\spork\\util\\vecmath.clj" {:comment 55, :blank 23, :code 110}]
+  ["src\\spork\\opt\\dumbga.clj" {:comment 44, :blank 17, :code 72}]
+  ["src\\spork\\util\\indexed.clj" {:comment 12, :code 82, :blank 21}]
+  ["src\\spork\\cljgraph\\core.clj"
+   {:comment 141, :code 592, :blank 131}]
+  ["src\\spork\\entitysystem\\testing.clj"
+   {:code 62, :blank 13, :comment 1}]
+  ["obe\\cljgui\\asyncdrawing.clj" {:comment 27, :blank 42, :code 222}]
+  ["src\\spork\\graphics2d\\swing\\shared.clj"
+   {:code 20, :blank 3, :comment 1}]
+  ["src\\spork\\util\\cellular.clj"
+   {:comment 113, :blank 49, :code 429}]
+  ["src\\spork\\util\\lines.clj" {:code 585, :blank 72, :comment 78}]
+  ["src\\spork\\data\\persistentq.clj"
+   {:comment 91, :code 94, :blank 17}]
+  ["src\\spork\\util\\bitset.clj" {:comment 17, :code 177, :blank 47}]
+  ["src\\spork\\incanter\\extensions.clj" {:comment 51, :blank 9}])
+ ["obe\\cljgui\\scene\\core.clj" {:comment 207, :code 295, :blank 92}]
+ "obe\\cljgui\\scene\\core.clj"
+ {:comment 207, :code 295, :blank 92}
+ [:comment 207]
+ :comment
+ 207
+ [:code 295]
+ :code
+ 295
+ [:blank 92]
+ :blank
+ 92
+ ["src\\spork\\sim\\pure\\test.clj"
+  {:code 128, :blank 21, :comment 19}]
+ "src\\spork\\sim\\pure\\test.clj"
+ {:code 128, :blank 21, :comment 19}
+ [:code 128]
+ :code
+ 128
+ [:blank 21]
+ :blank
+ 21
+ [:comment 19]
+ :comment
+ 19
+ ["src\\spork\\cljgraph\\jungapi.clj"
+  {:comment 86, :code 203, :blank 49}]
+ "src\\spork\\cljgraph\\jungapi.clj"
+ {:comment 86, :code 203, :blank 49}
+ [:comment 86]
+ :comment
+ 86
+ [:code 203]
+ :code
+ 203
+ [:blank 49]
+ :blank
+ 49
+ ["src\\spork\\util\\zip.clj" {:comment 13, :blank 5, :code 81}]
+ "src\\spork\\util\\zip.clj"
+ {:comment 13, :blank 5, :code 81}
+ [:comment 13]
+ :comment
+ 13
+ [:blank 5]
+ :blank
+ 5
+ [:code 81]
+ :code
+ 81
+ ["src\\spork\\util\\parsing.clj" {:comment 25, :code 188, :blank 23}]
+ "src\\spork\\util\\parsing.clj"
+ {:comment 25, :code 188, :blank 23}
+ [:comment 25]
+ :comment
+ 25
+ [:code 188]
+ :code
+ 188
+ [:blank 23]
+ :blank
+ 23
+ ["orgtest.clj" {:code 35, :blank 10, :comment 4}]
+ "orgtest.clj"
+ {:code 35, :blank 10, :comment 4}
+ [:code 35]
+ :code
+ 35
+ [:blank 10]
+ :blank
+ 10
+ [:comment 4]
+ :comment
+ 4
+ ["src\\spork\\opt\\optimization.clj"
+  {:comment 18, :code 78, :blank 19}]
+ "src\\spork\\opt\\optimization.clj"
+ {:comment 18, :code 78, :blank 19}
+ [:comment 18]
+ :comment
+ 18
+ [:code 78]
+ :code
+ 78
+ [:blank 19]
+ :blank
+ 19
+ ["src\\spork\\util\\numerics.clj" {:comment 25, :code 195, :blank 25}]
+ "src\\spork\\util\\numerics.clj"
+ {:comment 25, :code 195, :blank 25}
+ [:comment 25]
+ :comment
+ 25
+ [:code 195]
+ :code
+ 195
+ [:blank 25]
+ :blank
+ 25
+ ["src\\spork\\trends.clj" {:comment 41, :code 155, :blank 26}]
+ "src\\spork\\trends.clj"
+ {:comment 41, :code 155, :blank 26}
+ [:comment 41]
+ :comment
+ 41
+ [:code 155]
+ :code
+ 155
+ [:blank 26]
+ :blank
+ 26
+ ["src\\spork\\cljgraph\\arrayflow.clj"
+  {:comment 55, :code 401, :blank 56}]
+ "src\\spork\\cljgraph\\arrayflow.clj"
+ {:comment 55, :code 401, :blank 56}
+ [:comment 55]
+ :comment
+ 55
+ [:code 401]
+ :code
+ 401
+ [:blank 56]
+ :blank
+ 56
+ ["src\\spork\\protocols\\core.clj"
+  {:comment 50, :blank 48, :code 213}]
+ "src\\spork\\protocols\\core.clj"
+ {:comment 50, :blank 48, :code 213}
+ [:comment 50]
+ :comment
+ 50
+ [:blank 48]
+ :blank
+ 48
+ [:code 213]
+ :code
+ 213
+ ["obe\\cljgui\\scene\\manager.clj" {:code 15, :blank 25, :comment 85}]
+ "obe\\cljgui\\scene\\manager.clj"
+ {:code 15, :blank 25, :comment 85}
+ [:code 15]
+ :code
+ 15
+ [:blank 25]
+ :blank
+ 25
+ [:comment 85]
+ :comment
+ 85
+ ["obe\\cljgui\\examples\\examples.clj" {:comment 2, :code 4}]
+ "obe\\cljgui\\examples\\examples.clj"
+ {:comment 2, :code 4}
+ [:comment 2]
+ :comment
+ 2
+ [:code 4]
+ :code
+ 4
+ ["src\\spork\\data\\ctrie.clj" {:comment 21, :code 108, :blank 21}]
+ "src\\spork\\data\\ctrie.clj"
+ {:comment 21, :code 108, :blank 21}
+ [:comment 21]
+ :comment
+ 21
+ [:code 108]
+ :code
+ 108
+ [:blank 21]
+ :blank
+ 21
+ ["src\\spork\\graphics2d\\strokes.clj"
+  {:comment 30, :code 100, :blank 16}]
+ "src\\spork\\graphics2d\\strokes.clj"
+ {:comment 30, :code 100, :blank 16}
+ [:comment 30]
+ :comment
+ 30
+ [:code 100]
+ :code
+ 100
+ [:blank 16]
+ :blank
+ 16
+ ["src\\spork\\mining\\core.clj" {:comment 4, :code 32, :blank 6}]
+ "src\\spork\\mining\\core.clj"
+ {:comment 4, :code 32, :blank 6}
+ [:comment 4]
+ :comment
+ 4
+ [:code 32]
+ :code
+ 32
+ [:blank 6]
+ :blank
+ 6
+ ["src\\spork\\data\\test.clj" {:code 109, :blank 23, :comment 9}]
+ "src\\spork\\data\\test.clj"
+ {:code 109, :blank 23, :comment 9}
+ [:code 109]
+ :code
+ 109
+ [:blank 23]
+ :blank
+ 23
+ [:comment 9]
+ :comment
+ 9
+ ["src\\spork\\cljgraph\\io.clj" {:comment 3, :code 17, :blank 8}]
+ "src\\spork\\cljgraph\\io.clj"
+ {:comment 3, :code 17, :blank 8}
+ [:comment 3]
+ :comment
+ 3
+ [:code 17]
+ :code
+ 17
+ [:blank 8]
+ :blank
+ 8
+ ["obe\\clogg\\core.clj" {:comment 86, :code 124, :blank 85}]
+ "obe\\clogg\\core.clj"
+ {:comment 86, :code 124, :blank 85}
+ [:comment 86]
+ :comment
+ 86
+ [:code 124]
+ :code
+ 124
+ [:blank 85]
+ :blank
+ 85
+ ["src\\spork\\data\\protocols.clj" {:comment 1, :code 6, :blank 2}]
+ "src\\spork\\data\\protocols.clj"
+ {:comment 1, :code 6, :blank 2}
+ [:comment 1]
+ :comment
+ 1
+ [:code 6]
+ :code
+ 6
+ [:blank 2]
+ :blank
+ 2
+ ["src\\spork\\util\\stream.clj" {:comment 19, :code 118, :blank 13}]
+ "src\\spork\\util\\stream.clj"
+ {:comment 19, :code 118, :blank 13}
+ [:comment 19]
+ :comment
+ 19
+ [:code 118]
+ :code
+ 118
+ [:blank 13]
+ :blank
+ 13
+ ["src\\spork\\graphics2d\\swing.clj"
+  {:comment 113, :code 557, :blank 85}]
+ "src\\spork\\graphics2d\\swing.clj"
+ {:comment 113, :code 557, :blank 85}
+ [:comment 113]
+ :comment
+ 113
+ [:code 557]
+ :code
+ 557
+ [:blank 85]
+ :blank
+ 85
+ ["src\\spork\\util\\zipfile.clj" {:comment 11, :code 205, :blank 36}]
+ "src\\spork\\util\\zipfile.clj"
+ {:comment 11, :code 205, :blank 36}
+ [:comment 11]
+ :comment
+ 11
+ [:code 205]
+ :code
+ 205
+ [:blank 36]
+ :blank
+ 36
+ ["test\\spork\\core_test.clj" {:code 5, :blank 1}]
+ "test\\spork\\core_test.clj"
+ {:code 5, :blank 1}
+ [:code 5]
+ :code
+ 5
+ [:blank 1]
+ :blank
+ 1
+ ["obe\\cljgui\\scenegraph.clj" {:comment 143, :blank 62, :code 401}]
+ "obe\\cljgui\\scenegraph.clj"
+ {:comment 143, :blank 62, :code 401}
+ [:comment 143]
+ :comment
+ 143
+ [:blank 62]
+ :blank
+ 62
+ [:code 401]
+ :code
+ 401
+ ["obe\\cljgui\\animation.clj" {:code 239, :blank 55, :comment 37}]
+ "obe\\cljgui\\animation.clj"
+ {:code 239, :blank 55, :comment 37}
+ [:code 239]
+ :code
+ 239
+ [:blank 55]
+ :blank
+ 55
+ [:comment 37]
+ :comment
+ 37
+ ["src\\spork\\ai\\behavior.clj" {:comment 389, :blank 100, :code 431}]
+ "src\\spork\\ai\\behavior.clj"
+ {:comment 389, :blank 100, :code 431}
+ [:comment 389]
+ :comment
+ 389
+ [:blank 100]
+ :blank
+ 100
+ [:code 431]
+ :code
+ 431
+ ["src\\spork\\sim\\examples\\westworld.clj"
+  {:comment 23, :code 87, :blank 21}]
+ "src\\spork\\sim\\examples\\westworld.clj"
+ {:comment 23, :code 87, :blank 21}
+ [:comment 23]
+ :comment
+ 23
+ [:code 87]
+ :code
+ 87
+ [:blank 21]
+ :blank
+ 21
+ ["src\\spork\\entitysystem\\entitytesting.clj"
+  {:comment 4, :blank 14, :code 51}]
+ "src\\spork\\entitysystem\\entitytesting.clj"
+ {:comment 4, :blank 14, :code 51}
+ [:comment 4]
+ :comment
+ 4
+ [:blank 14]
+ :blank
+ 14
+ [:code 51]
+ :code
+ 51
+ ["obe\\cljgui\\scene\\scenegraph.clj"
+  {:comment 273, :blank 112, :code 446}]
+ "obe\\cljgui\\scene\\scenegraph.clj"
+ {:comment 273, :blank 112, :code 446}
+ [:comment 273]
+ :comment
+ 273
+ [:blank 112]
+ :blank
+ 112
+ [:code 446]
+ :code
+ 446
+ ["src\\spork\\util\\metaprogramming.clj"
+  {:comment 45, :code 263, :blank 45}]
+ "src\\spork\\util\\metaprogramming.clj"
+ {:comment 45, :code 263, :blank 45}
+ [:comment 45]
+ :comment
+ 45
+ [:code 263]
+ :code
+ 263
+ [:blank 45]
+ :blank
+ 45
+ ["src\\spork\\entitysystem\\ephemeral.clj"
+  {:comment 24, :code 89, :blank 14}]
+ "src\\spork\\entitysystem\\ephemeral.clj"
+ {:comment 24, :code 89, :blank 14}
+ [:comment 24]
+ :comment
+ 24
+ [:code 89]
+ :code
+ 89
+ [:blank 14]
+ :blank
+ 14
+ ["loop.clj" {:comment 321, :blank 151, :code 1480}]
+ "loop.clj"
+ {:comment 321, :blank 151, :code 1480}
+ [:comment 321]
+ :comment
+ 321
+ [:blank 151]
+ :blank
+ 151
+ [:code 1480]
+ :code
+ 1480
+ ["src\\spork\\data\\priorityq.clj"
+  {:comment 91, :blank 62, :code 483}]
+ "src\\spork\\data\\priorityq.clj"
+ {:comment 91, :blank 62, :code 483}
+ [:comment 91]
+ :comment
+ 91
+ [:blank 62]
+ :blank
+ 62
+ [:code 483]
+ :code
+ 483
+ ["ayuk.clj" {:code 104, :blank 24, :comment 2}]
+ "ayuk.clj"
+ {:code 104, :blank 24, :comment 2}
+ [:code 104]
+ :code
+ 104
+ [:blank 24]
+ :blank
+ 24
+ [:comment 2]
+ :comment
+ 2
+ ["src\\spork\\util\\inspection.clj"
+  {:comment 47, :code 104, :blank 21}]
+ "src\\spork\\util\\inspection.clj"
+ {:comment 47, :code 104, :blank 21}
+ [:comment 47]
+ :comment
+ 47
+ [:code 104]
+ :code
+ 104
+ [:blank 21]
+ :blank
+ 21
+ ["src\\spork\\util\\reducers.clj" {:comment 32, :code 163, :blank 16}]
+ "src\\spork\\util\\reducers.clj"
+ {:comment 32, :code 163, :blank 16}
+ [:comment 32]
+ :comment
+ 32
+ [:code 163]
+ :code
+ 163
+ [:blank 16]
+ :blank
+ 16
+ ["src\\spork\\ai\\messaging.clj" {:comment 17, :code 45, :blank 5}]
+ "src\\spork\\ai\\messaging.clj"
+ {:comment 17, :code 45, :blank 5}
+ [:comment 17]
+ :comment
+ 17
+ [:code 45]
+ :code
+ 45
+ [:blank 5]
+ :blank
+ 5
+ ["src\\spork\\sim\\backburner\\events.clj"
+  {:code 289, :blank 65, :comment 95}]
+ "src\\spork\\sim\\backburner\\events.clj"
+ {:code 289, :blank 65, :comment 95}
+ [:code 289]
+ :code
+ 289
+ [:blank 65]
+ :blank
+ 65
+ [:comment 95]
+ :comment
+ 95
+ ["src\\spork\\sketch.clj" {:comment 177, :code 1038, :blank 134}]
+ "src\\spork\\sketch.clj"
+ {:comment 177, :code 1038, :blank 134}
+ [:comment 177]
+ :comment
+ 177
+ [:code 1038]
+ :code
+ 1038
+ [:blank 134]
+ :blank
+ 134
+ ["src\\spork\\data\\sparse.clj" {:comment 79, :code 277, :blank 28}]
+ "src\\spork\\data\\sparse.clj"
+ {:comment 79, :code 277, :blank 28}
+ [:comment 79]
+ :comment
+ 79
+ [:code 277]
+ :code
+ 277
+ [:blank 28]
+ :blank
+ 28
+ ["obe\\displaced\\gridbag.clj" {:comment 27, :code 18, :blank 7}]
+ "obe\\displaced\\gridbag.clj"
+ {:comment 27, :code 18, :blank 7}
+ [:comment 27]
+ :comment
+ 27
+ [:code 18]
+ :code
+ 18
+ [:blank 7]
+ :blank
+ 7
+ ["obe\\cljgui\\components\\grid.clj"
+  {:comment 71, :blank 58, :code 322}]
+ "obe\\cljgui\\components\\grid.clj"
+ {:comment 71, :blank 58, :code 322}
+ [:comment 71]
+ :comment
+ 71
+ [:blank 58]
+ :blank
+ 58
+ [:code 322]
+ :code
+ 322
+ ["src\\spork\\util\\sampling.clj"
+  {:comment 166, :code 501, :blank 117}]
+ "src\\spork\\util\\sampling.clj"
+ {:comment 166, :code 501, :blank 117}
+ [:comment 166]
+ :comment
+ 166
+ [:code 501]
+ :code
+ 501
+ [:blank 117]
+ :blank
+ 117
+ ["src\\spork\\graphics2d\\scene.clj"
+  {:comment 79, :code 105, :blank 24}]
+ "src\\spork\\graphics2d\\scene.clj"
+ {:comment 79, :code 105, :blank 24}
+ [:comment 79]
+ :comment
+ 79
+ [:code 105]
+ :code
+ 105
+ [:blank 24]
+ :blank
+ 24
+ ["obe\\displaced\\behavior.clj" {:code 100, :blank 22, :comment 50}]
+ "obe\\displaced\\behavior.clj"
+ {:code 100, :blank 22, :comment 50}
+ [:code 100]
+ :code
+ 100
+ [:blank 22]
+ :blank
+ 22
+ [:comment 50]
+ :comment
+ 50
+ ["src\\spork\\mvc.clj" {:comment 42, :code 25, :blank 11}]
+ "src\\spork\\mvc.clj"
+ {:comment 42, :code 25, :blank 11}
+ [:comment 42]
+ :comment
+ 42
+ [:code 25]
+ :code
+ 25
+ [:blank 11]
+ :blank
+ 11
+ ["src\\spork\\cljgui\\components\\swing.clj"
+  {:code 858, :comment 198, :blank 149}]
+ "src\\spork\\cljgui\\components\\swing.clj"
+ {:code 858, :comment 198, :blank 149}
+ [:code 858]
+ :code
+ 858
+ [:comment 198]
+ :comment
+ 198
+ [:blank 149]
+ :blank
+ 149
+ ["src\\spork\\cljgui\\components\\PaintPanel.clj"
+  {:comment 19, :blank 12, :code 61}]
+ "src\\spork\\cljgui\\components\\PaintPanel.clj"
+ {:comment 19, :blank 12, :code 61}
+ [:comment 19]
+ :comment
+ 19
+ [:blank 12]
+ :blank
+ 12
+ [:code 61]
+ :code
+ 61
+ ["src\\spork\\cljgraph\\flowtests.clj" {:code 47, :blank 10}]
+ "src\\spork\\cljgraph\\flowtests.clj"
+ {:code 47, :blank 10}
+ [:code 47]
+ :code
+ 47
+ [:blank 10]
+ :blank
+ 10
+ ["src\\spork\\util\\excel\\core.clj"
+  {:comment 37, :blank 61, :code 373}]
+ "src\\spork\\util\\excel\\core.clj"
+ {:comment 37, :blank 61, :code 373}
+ [:comment 37]
+ :comment
+ 37
+ [:blank 61]
+ :blank
+ 61
+ [:code 373]
+ :code
+ 373
+ ["src\\spork\\cljgraph\\flow.clj"
+  {:comment 350, :code 887, :blank 173}]
+ "src\\spork\\cljgraph\\flow.clj"
+ {:comment 350, :code 887, :blank 173}
+ [:comment 350]
+ :comment
+ 350
+ [:code 887]
+ :code
+ 887
+ [:blank 173]
+ :blank
+ 173
+ ["src\\spork\\util\\codecount.clj"
+  {:code 124, :blank 29, :comment 28}]
+ "src\\spork\\util\\codecount.clj"
+ {:code 124, :blank 29, :comment 28}
+ [:code 124]
+ :code
+ 124
+ [:blank 29]
+ :blank
+ 29
+ [:comment 28]
+ :comment
+ 28
+ ["src\\spork\\util\\help.clj" {:comment 4, :code 187, :blank 16}]
+ "src\\spork\\util\\help.clj"
+ {:comment 4, :code 187, :blank 16}
+ [:comment 4]
+ :comment
+ 4
+ [:code 187]
+ :code
+ 187
+ [:blank 16]
+ :blank
+ 16
+ ["src\\spork\\sim\\agenda.clj" {:comment 98, :code 107, :blank 20}]
+ "src\\spork\\sim\\agenda.clj"
+ {:comment 98, :code 107, :blank 20}
+ [:comment 98]
+ :comment
+ 98
+ [:code 107]
+ :code
+ 107
+ [:blank 20]
+ :blank
+ 20
+ ["src\\spork\\sim\\backburner\\discrete.clj"
+  {:code 32, :blank 20, :comment 73}]
+ "src\\spork\\sim\\backburner\\discrete.clj"
+ {:code 32, :blank 20, :comment 73}
+ [:code 32]
+ :code
+ 32
+ [:blank 20]
+ :blank
+ 20
+ [:comment 73]
+ :comment
+ 73
+ ["src\\spork\\util\\table.clj" {:comment 138, :blank 166, :code 1351}]
+ "src\\spork\\util\\table.clj"
+ {:comment 138, :blank 166, :code 1351}
+ [:comment 138]
+ :comment
+ 138
+ [:blank 166]
+ :blank
+ 166
+ [:code 1351]
+ :code
+ 1351
+ ["src\\spork\\util\\tags.clj" {:comment 17, :blank 26, :code 148}]
+ "src\\spork\\util\\tags.clj"
+ {:comment 17, :blank 26, :code 148}
+ [:comment 17]
+ :comment
+ 17
+ [:blank 26]
+ :blank
+ 26
+ [:code 148]
+ :code
+ 148
+ ["src\\spork\\util\\array.clj" {:comment 96, :code 80, :blank 23}]
+ "src\\spork\\util\\array.clj"
+ {:comment 96, :code 80, :blank 23}
+ [:comment 96]
+ :comment
+ 96
+ [:code 80]
+ :code
+ 80
+ [:blank 23]
+ :blank
+ 23
+ ["src\\spork\\data\\tables.clj" {:comment 27, :code 57, :blank 27}]
+ "src\\spork\\data\\tables.clj"
+ {:comment 27, :code 57, :blank 27}
+ [:comment 27]
+ :comment
+ 27
+ [:code 57]
+ :code
+ 57
+ [:blank 27]
+ :blank
+ 27
+ ["src\\spork\\data\\depq.clj" {:comment 3, :code 1}]
+ "src\\spork\\data\\depq.clj"
+ {:comment 3, :code 1}
+ [:comment 3]
+ :comment
+ 3
+ [:code 1]
+ :code
+ 1
+ ["src\\spork\\util\\temporal.clj"
+  {:comment 125, :blank 47, :code 225}]
+ "src\\spork\\util\\temporal.clj"
+ {:comment 125, :blank 47, :code 225}
+ [:comment 125]
+ :comment
+ 125
+ [:blank 47]
+ :blank
+ 47
+ [:code 225]
+ :code
+ 225
+ ["obe\\geometry\\math.clj" {:comment 13, :code 18, :blank 7}]
+ "obe\\geometry\\math.clj"
+ {:comment 13, :code 18, :blank 7}
+ [:comment 13]
+ :comment
+ 13
+ [:code 18]
+ :code
+ 18
+ [:blank 7]
+ :blank
+ 7
+ ["src\\spork\\data\\lazymap.clj" {:comment 10, :code 59, :blank 5}]
+ "src\\spork\\data\\lazymap.clj"
+ {:comment 10, :code 59, :blank 5}
+ [:comment 10]
+ :comment
+ 10
+ [:code 59]
+ :code
+ 59
+ [:blank 5]
+ :blank
+ 5
+ ["src\\spork\\data\\sptree.clj" {:comment 1, :code 87, :blank 14}]
+ "src\\spork\\data\\sptree.clj"
+ {:comment 1, :code 87, :blank 14}
+ [:comment 1]
+ :comment
+ 1
+ [:code 87]
+ :code
+ 87
+ [:blank 14]
+ :blank
+ 14
+ ["obe\\cljgui\\examples\\reactive.clj"
+  {:code 24, :blank 1, :comment 3}]
+ "obe\\cljgui\\examples\\reactive.clj"
+ {:code 24, :blank 1, :comment 3}
+ [:code 24]
+ :code
+ 24
+ [:blank 1]
+ :blank
+ 1
+ [:comment 3]
+ :comment
+ 3
+ ["src\\spork\\opt\\neighborhood.clj"
+  {:comment 37, :code 43, :blank 16}]
+ "src\\spork\\opt\\neighborhood.clj"
+ {:comment 37, :code 43, :blank 16}
+ [:comment 37]
+ :comment
+ 37
+ [:code 43]
+ :code
+ 43
+ [:blank 16]
+ :blank
+ 16
+ ["src\\spork\\opt\\representation.clj"
+  {:comment 78, :code 394, :blank 61}]
+ "src\\spork\\opt\\representation.clj"
+ {:comment 78, :code 394, :blank 61}
+ [:comment 78]
+ :comment
+ 78
+ [:code 394]
+ :code
+ 394
+ [:blank 61]
+ :blank
+ 61
+ ["src\\spork\\util\\datetime.clj" {:comment 5, :blank 7, :code 36}]
+ "src\\spork\\util\\datetime.clj"
+ {:comment 5, :blank 7, :code 36}
+ [:comment 5]
+ :comment
+ 5
+ [:blank 7]
+ :blank
+ 7
+ [:code 36]
+ :code
+ 36
+ ["obe\\displaced\\demo.clj" {:code 93, :blank 28, :comment 7}]
+ "obe\\displaced\\demo.clj"
+ {:code 93, :blank 28, :comment 7}
+ [:code 93]
+ :code
+ 93
+ [:blank 28]
+ :blank
+ 28
+ [:comment 7]
+ :comment
+ 7
+ ["src\\spork\\cljgraph\\tests.clj"
+  {:comment 113, :code 355, :blank 58}]
+ "src\\spork\\cljgraph\\tests.clj"
+ {:comment 113, :code 355, :blank 58}
+ [:comment 113]
+ :comment
+ 113
+ [:code 355]
+ :code
+ 355
+ [:blank 58]
+ :blank
+ 58
+ ["src\\spork\\sketch\\activity.clj"
+  {:comment 34, :code 82, :blank 13}]
+ "src\\spork\\sketch\\activity.clj"
+ {:comment 34, :code 82, :blank 13}
+ [:comment 34]
+ :comment
+ 34
+ [:code 82]
+ :code
+ 82
+ [:blank 13]
+ :blank
+ 13
+ ["src\\spork\\events\\base.clj" {:comment 9, :code 24, :blank 5}]
+ "src\\spork\\events\\base.clj"
+ {:comment 9, :code 24, :blank 5}
+ [:comment 9]
+ :comment
+ 9
+ [:code 24]
+ :code
+ 24
+ [:blank 5]
+ :blank
+ 5
+ ["src\\spork\\data\\cell.clj" {:comment 8, :code 38, :blank 4}]
+ "src\\spork\\data\\cell.clj"
+ {:comment 8, :code 38, :blank 4}
+ [:comment 8]
+ :comment
+ 8
+ [:code 38]
+ :code
+ 38
+ [:blank 4]
+ :blank
+ 4
+ ["src\\spork\\util\\vectors.clj" {:comment 19, :blank 16, :code 106}]
+ "src\\spork\\util\\vectors.clj"
+ {:comment 19, :blank 16, :code 106}
+ [:comment 19]
+ :comment
+ 19
+ [:blank 16]
+ :blank
+ 16
+ [:code 106]
+ :code
+ 106
+ ["src\\spork\\entitysystem\\examples\\orcbattle.clj"
+  {:comment 52, :blank 51, :code 211}]
+ "src\\spork\\entitysystem\\examples\\orcbattle.clj"
+ {:comment 52, :blank 51, :code 211}
+ [:comment 52]
+ :comment
+ 52
+ [:blank 51]
+ :blank
+ 51
+ [:code 211]
+ :code
+ 211
+ ["src\\spork\\entitysystem\\examples\\orcbattleLOL.clj"
+  {:comment 64, :blank 22}]
+ "src\\spork\\entitysystem\\examples\\orcbattleLOL.clj"
+ {:comment 64, :blank 22}
+ [:comment 64]
+ :comment
+ 64
+ [:blank 22]
+ :blank
+ 22
+ ["obe\\displaced\\tst.clj" {:code 31, :blank 8, :comment 6}]
+ "obe\\displaced\\tst.clj"
+ {:code 31, :blank 8, :comment 6}
+ [:code 31]
+ :code
+ 31
+ [:blank 8]
+ :blank
+ 8
+ [:comment 6]
+ :comment
+ 6
+ ["src\\spork\\opt\\fastmultipole.clj"
+  {:comment 16, :blank 26, :code 102}]
+ "src\\spork\\opt\\fastmultipole.clj"
+ {:comment 16, :blank 26, :code 102}
+ [:comment 16]
+ :comment
+ 16
+ [:blank 26]
+ :blank
+ 26
+ [:code 102]
+ :code
+ 102
+ ["src\\spork\\util\\combinatoric.clj"
+  {:comment 239, :blank 136, :code 566}]
+ "src\\spork\\util\\combinatoric.clj"
+ {:comment 239, :blank 136, :code 566}
+ [:comment 239]
+ :comment
+ 239
+ [:blank 136]
+ :blank
+ 136
+ [:code 566]
+ :code
+ 566
+ ["src\\spork\\sim\\core.clj" {:comment 159, :blank 72, :code 348}]
+ "src\\spork\\sim\\core.clj"
+ {:comment 159, :blank 72, :code 348}
+ [:comment 159]
+ :comment
+ 159
+ [:blank 72]
+ :blank
+ 72
+ [:code 348]
+ :code
+ 348
+ ["src\\spork\\ai\\logic.clj" {:comment 26, :blank 22, :code 169}]
+ "src\\spork\\ai\\logic.clj"
+ {:comment 26, :blank 22, :code 169}
+ [:comment 26]
+ :comment
+ 26
+ [:blank 22]
+ :blank
+ 22
+ [:code 169]
+ :code
+ 169
+ ["src\\spork\\data\\fringe.clj" {:code 126, :blank 19, :comment 39}]
+ "src\\spork\\data\\fringe.clj"
+ {:code 126, :blank 19, :comment 39}
+ [:code 126]
+ :code
+ 126
+ [:blank 19]
+ :blank
+ 19
+ [:comment 39]
+ :comment
+ 39
+ ["src\\spork\\graphics2d\\stroke.clj" {:code 26, :blank 6}]
+ "src\\spork\\graphics2d\\stroke.clj"
+ {:code 26, :blank 6}
+ [:code 26]
+ :code
+ 26
+ [:blank 6]
+ :blank
+ 6
+ ["src\\spork\\util\\serial.clj" {:comment 36, :code 94, :blank 26}]
+ "src\\spork\\util\\serial.clj"
+ {:comment 36, :code 94, :blank 26}
+ [:comment 36]
+ :comment
+ 36
+ [:code 94]
+ :code
+ 94
+ [:blank 26]
+ :blank
+ 26
+ ["src\\spork\\data\\grid.clj" {:comment 13, :blank 14, :code 122}]
+ "src\\spork\\data\\grid.clj"
+ {:comment 13, :blank 14, :code 122}
+ [:comment 13]
+ :comment
+ 13
+ [:blank 14]
+ :blank
+ 14
+ [:code 122]
+ :code
+ 122
+ ["src\\spork\\util\\eager.clj" {:comment 5, :blank 7, :code 20}]
+ "src\\spork\\util\\eager.clj"
+ {:comment 5, :blank 7, :code 20}
+ [:comment 5]
+ :comment
+ 5
+ [:blank 7]
+ :blank
+ 7
+ [:code 20]
+ :code
+ 20
+ ["src\\spork\\cljgraph\\search.clj"
+  {:comment 36, :code 167, :blank 36}]
+ "src\\spork\\cljgraph\\search.clj"
+ {:comment 36, :code 167, :blank 36}
+ [:comment 36]
+ :comment
+ 36
+ [:code 167]
+ :code
+ 167
+ [:blank 36]
+ :blank
+ 36
+ ["src\\spork\\util\\interop.clj" {:comment 3, :code 20, :blank 1}]
+ "src\\spork\\util\\interop.clj"
+ {:comment 3, :code 20, :blank 1}
+ [:comment 3]
+ :comment
+ 3
+ [:code 20]
+ :code
+ 20
+ [:blank 1]
+ :blank
+ 1
+ ["src\\spork\\sim\\impure\\core.clj" {:comment 7, :code 1, :blank 1}]
+ "src\\spork\\sim\\impure\\core.clj"
+ {:comment 7, :code 1, :blank 1}
+ [:comment 7]
+ :comment
+ 7
+ [:code 1]
+ :code
+ 1
+ [:blank 1]
+ :blank
+ 1
+ ["src\\spork\\util\\vector.clj" {:comment 2, :code 37, :blank 5}]
+ "src\\spork\\util\\vector.clj"
+ {:comment 2, :code 37, :blank 5}
+ [:comment 2]
+ :comment
+ 2
+ [:code 37]
+ :code
+ 37
+ [:blank 5]
+ :blank
+ 5
+ ["src\\spork\\data\\stores\\protocols.clj"
+  {:comment 2, :code 15, :blank 2}]
+ "src\\spork\\data\\stores\\protocols.clj"
+ {:comment 2, :code 15, :blank 2}
+ [:comment 2]
+ :comment
+ 2
+ [:code 15]
+ :code
+ 15
+ [:blank 2]
+ :blank
+ 2
+ ["obe\\displaced\\gl.clj" {:code 97, :blank 16, :comment 10}]
+ "obe\\displaced\\gl.clj"
+ {:code 97, :blank 16, :comment 10}
+ [:code 97]
+ :code
+ 97
+ [:blank 16]
+ :blank
+ 16
+ [:comment 10]
+ :comment
+ 10
+ ["src\\spork\\data\\searchstate.clj"
+  {:comment 33, :code 206, :blank 28}]
+ "src\\spork\\data\\searchstate.clj"
+ {:comment 33, :code 206, :blank 28}
+ [:comment 33]
+ :comment
+ 33
+ [:code 206]
+ :code
+ 206
+ [:blank 28]
+ :blank
+ 28
+ ["obe\\cljgui\\components\\trackbar.clj"
+  {:comment 56, :blank 39, :code 88}]
+ "obe\\cljgui\\components\\trackbar.clj"
+ {:comment 56, :blank 39, :code 88}
+ [:comment 56]
+ :comment
+ 56
+ [:blank 39]
+ :blank
+ 39
+ [:code 88]
+ :code
+ 88
+ ["src\\spork\\util\\general.clj"
+  {:comment 135, :code 602, :blank 103}]
+ "src\\spork\\util\\general.clj"
+ {:comment 135, :code 602, :blank 103}
+ [:comment 135]
+ :comment
+ 135
+ [:code 602]
+ :code
+ 602
+ [:blank 103]
+ :blank
+ 103
+ ["src\\spork\\opt\\core.clj" {:comment 63, :blank 34, :code 196}]
+ "src\\spork\\opt\\core.clj"
+ {:comment 63, :blank 34, :code 196}
+ [:comment 63]
+ :comment
+ 63
+ [:blank 34]
+ :blank
+ 34
+ [:code 196]
+ :code
+ 196
+ ["src\\spork\\util\\collections.clj"
+  {:comment 48, :blank 42, :code 242}]
+ "src\\spork\\util\\collections.clj"
+ {:comment 48, :blank 42, :code 242}
+ [:comment 48]
+ :comment
+ 48
+ [:blank 42]
+ :blank
+ 42
+ [:code 242]
+ :code
+ 242
+ ["src\\spork\\entitysystem\\store.clj"
+  {:comment 465, :code 1056, :blank 165}]
+ "src\\spork\\entitysystem\\store.clj"
+ {:comment 465, :code 1056, :blank 165}
+ [:comment 465]
+ :comment
+ 465
+ [:code 1056]
+ :code
+ 1056
+ [:blank 165]
+ :blank
+ 165
+ ["src\\spork\\sim\\backburner\\deprecated.clj"
+  {:code 81, :blank 21, :comment 18}]
+ "src\\spork\\sim\\backburner\\deprecated.clj"
+ {:code 81, :blank 21, :comment 18}
+ [:code 81]
+ :code
+ 81
+ [:blank 21]
+ :blank
+ 21
+ [:comment 18]
+ :comment
+ 18
+ ["src\\spork\\cljgraph\\networksimplex.clj"
+  {:comment 283, :code 534, :blank 140}]
+ "src\\spork\\cljgraph\\networksimplex.clj"
+ {:comment 283, :code 534, :blank 140}
+ [:comment 283]
+ :comment
+ 283
+ [:code 534]
+ :code
+ 534
+ [:blank 140]
+ :blank
+ 140
+ ["src\\spork\\ai\\core.clj" {:comment 68, :code 42, :blank 23}]
+ "src\\spork\\ai\\core.clj"
+ {:comment 68, :code 42, :blank 23}
+ [:comment 68]
+ :comment
+ 68
+ [:code 42]
+ :code
+ 42
+ [:blank 23]
+ :blank
+ 23
+ ["src\\spork\\util\\xml.clj" {:comment 2, :code 32, :blank 7}]
+ "src\\spork\\util\\xml.clj"
+ {:comment 2, :code 32, :blank 7}
+ [:comment 2]
+ :comment
+ 2
+ [:code 32]
+ :code
+ 32
+ [:blank 7]
+ :blank
+ 7
+ ["src\\spork\\util\\stats.clj" {:comment 45, :blank 75, :code 418}]
+ "src\\spork\\util\\stats.clj"
+ {:comment 45, :blank 75, :code 418}
+ [:comment 45]
+ :comment
+ 45
+ [:blank 75]
+ :blank
+ 75
+ [:code 418]
+ :code
+ 418
+ ["src\\spork\\graphics2d\\debug.clj"
+  {:blank 14, :code 125, :comment 35}]
+ "src\\spork\\graphics2d\\debug.clj"
+ {:blank 14, :code 125, :comment 35}
+ [:blank 14]
+ :blank
+ 14
+ [:code 125]
+ :code
+ 125
+ [:comment 35]
+ :comment
+ 35
+ ["src\\spork\\data\\passmap.clj" {:comment 104, :code 116, :blank 25}]
+ "src\\spork\\data\\passmap.clj"
+ {:comment 104, :code 116, :blank 25}
+ [:comment 104]
+ :comment
+ 104
+ [:code 116]
+ :code
+ 116
+ [:blank 25]
+ :blank
+ 25
+ ["src\\spork\\entitysystem\\examples\\oblol.clj"
+  {:comment 82, :blank 1}]
+ "src\\spork\\entitysystem\\examples\\oblol.clj"
+ {:comment 82, :blank 1}
+ [:comment 82]
+ :comment
+ 82
+ [:blank 1]
+ :blank
+ 1
+ ["src\\spork\\util\\clipboard.clj" {:comment 5, :blank 11, :code 49}]
+ "src\\spork\\util\\clipboard.clj"
+ {:comment 5, :blank 11, :code 49}
+ [:comment 5]
+ :comment
+ 5
+ [:blank 11]
+ :blank
+ 11
+ [:code 49]
+ :code
+ 49
+ ["src\\spork\\ai\\testing.clj" {:code 243, :comment 103, :blank 48}]
+ "src\\spork\\ai\\testing.clj"
+ {:code 243, :comment 103, :blank 48}
+ [:code 243]
+ :code
+ 243
+ [:comment 103]
+ :comment
+ 103
+ [:blank 48]
+ :blank
+ 48
+ ["src\\spork\\ai\\behaviorcontext.clj"
+  {:comment 52, :blank 14, :code 91}]
+ "src\\spork\\ai\\behaviorcontext.clj"
+ {:comment 52, :blank 14, :code 91}
+ [:comment 52]
+ :comment
+ 52
+ [:blank 14]
+ :blank
+ 14
+ [:code 91]
+ :code
+ 91
+ ["src\\spork\\data\\adjacency.clj"
+  {:comment 130, :code 139, :blank 54}]
+ "src\\spork\\data\\adjacency.clj"
+ {:comment 130, :code 139, :blank 54}
+ [:comment 130]
+ :comment
+ 130
+ [:code 139]
+ :code
+ 139
+ [:blank 54]
+ :blank
+ 54
+ ["src\\spork\\documentation.clj" {:code 13, :blank 5, :comment 6}]
+ "src\\spork\\documentation.clj"
+ {:code 13, :blank 5, :comment 6}
+ [:code 13]
+ :code
+ 13
+ [:blank 5]
+ :blank
+ 5
+ [:comment 6]
+ :comment
+ 6
+ ["src\\spork\\opt\\displaced.clj" {:code 231, :blank 23, :comment 76}]
+ "src\\spork\\opt\\displaced.clj"
+ {:code 231, :blank 23, :comment 76}
+ [:code 231]
+ :code
+ 231
+ [:blank 23]
+ :blank
+ 23
+ [:comment 76]
+ :comment
+ 76
+ ["src\\spork\\data\\mutable.clj" {:comment 176, :code 452, :blank 55}]
+ "src\\spork\\data\\mutable.clj"
+ {:comment 176, :code 452, :blank 55}
+ [:comment 176]
+ :comment
+ 176
+ [:code 452]
+ :code
+ 452
+ [:blank 55]
+ :blank
+ 55
+ ["src\\spork\\cljgraph\\main.clj" {:code 74, :blank 17, :comment 7}]
+ "src\\spork\\cljgraph\\main.clj"
+ {:code 74, :blank 17, :comment 7}
+ [:code 74]
+ :code
+ 74
+ [:blank 17]
+ :blank
+ 17
+ [:comment 7]
+ :comment
+ 7
+ ["src\\spork\\data\\indexed.clj" {:comment 22, :code 44, :blank 9}]
+ "src\\spork\\data\\indexed.clj"
+ {:comment 22, :code 44, :blank 9}
+ [:comment 22]
+ :comment
+ 22
+ [:code 44]
+ :code
+ 44
+ [:blank 9]
+ :blank
+ 9
+ ["src\\spork\\util\\string.clj" {:comment 9, :code 97, :blank 7}]
+ "src\\spork\\util\\string.clj"
+ {:comment 9, :code 97, :blank 7}
+ [:comment 9]
+ :comment
+ 9
+ [:code 97]
+ :code
+ 97
+ [:blank 7]
+ :blank
+ 7
+ ["obe\\geometry\\math3d.clj" {:comment 5, :code 42, :blank 9}]
+ "obe\\geometry\\math3d.clj"
+ {:comment 5, :code 42, :blank 9}
+ [:comment 5]
+ :comment
+ 5
+ [:code 42]
+ :code
+ 42
+ [:blank 9]
+ :blank
+ 9
+ ["src\\spork\\data\\managed.clj" {:comment 121, :blank 27, :code 47}]
+ "src\\spork\\data\\managed.clj"
+ {:comment 121, :blank 27, :code 47}
+ [:comment 121]
+ :comment
+ 121
+ [:blank 27]
+ :blank
+ 27
+ [:code 47]
+ :code
+ 47
+ ["src\\spork\\cljgui\\components\\CanvasGraphics.clj"
+  {:comment 13, :code 47, :blank 12}]
+ "src\\spork\\cljgui\\components\\CanvasGraphics.clj"
+ {:comment 13, :code 47, :blank 12}
+ [:comment 13]
+ :comment
+ 13
+ [:code 47]
+ :code
+ 47
+ [:blank 12]
+ :blank
+ 12
+ ["src\\spork\\data\\indexedgraph.clj"
+  {:comment 8, :code 310, :blank 41}]
+ "src\\spork\\data\\indexedgraph.clj"
+ {:comment 8, :code 310, :blank 41}
+ [:comment 8]
+ :comment
+ 8
+ [:code 310]
+ :code
+ 310
+ [:blank 41]
+ :blank
+ 41
+ ["src\\spork\\graphics2d\\canvas.clj"
+  {:code 527, :blank 97, :comment 127}]
+ "src\\spork\\graphics2d\\canvas.clj"
+ {:code 527, :blank 97, :comment 127}
+ [:code 527]
+ :code
+ 527
+ [:blank 97]
+ :blank
+ 97
+ [:comment 127]
+ :comment
+ 127
+ ["obe\\cljgui\\activity.clj" {:comment 16, :code 78, :blank 12}]
+ "obe\\cljgui\\activity.clj"
+ {:comment 16, :code 78, :blank 12}
+ [:comment 16]
+ :comment
+ 16
+ [:code 78]
+ :code
+ 78
+ [:blank 12]
+ :blank
+ 12
+ ["src\\spork\\events\\observe.clj"
+  {:comment 83, :blank 86, :code 440}]
+ "src\\spork\\events\\observe.clj"
+ {:comment 83, :blank 86, :code 440}
+ [:comment 83]
+ :comment
+ 83
+ [:blank 86]
+ :blank
+ 86
+ [:code 440]
+ :code
+ 440
+ ["src\\spork\\util\\comparison.clj"
+  {:comment 20, :blank 13, :code 34}]
+ "src\\spork\\util\\comparison.clj"
+ {:comment 20, :blank 13, :code 34}
+ [:comment 20]
+ :comment
+ 20
+ [:blank 13]
+ :blank
+ 13
+ [:code 34]
+ :code
+ 34
+ ["src\\spork\\graphics2d\\primitive.clj"
+  {:comment 48, :code 197, :blank 36}]
+ "src\\spork\\graphics2d\\primitive.clj"
+ {:comment 48, :code 197, :blank 36}
+ [:comment 48]
+ :comment
+ 48
+ [:code 197]
+ :code
+ 197
+ [:blank 36]
+ :blank
+ 36
+ ["src\\spork\\mining\\clustering.clj"
+  {:comment 77, :code 490, :blank 60}]
+ "src\\spork\\mining\\clustering.clj"
+ {:comment 77, :code 490, :blank 60}
+ [:comment 77]
+ :comment
+ 77
+ [:code 490]
+ :code
+ 490
+ [:blank 60]
+ :blank
+ 60
+ ["src\\spork\\opt\\packing.clj" {:comment 9, :blank 9, :code 24}]
+ "src\\spork\\opt\\packing.clj"
+ {:comment 9, :blank 9, :code 24}
+ [:comment 9]
+ :comment
+ 9
+ [:blank 9]
+ :blank
+ 9
+ [:code 24]
+ :code
+ 24
+ ["src\\spork\\ai\\machine.clj" {:comment 7, :code 77, :blank 7}]
+ "src\\spork\\ai\\machine.clj"
+ {:comment 7, :code 77, :blank 7}
+ [:comment 7]
+ :comment
+ 7
+ [:code 77]
+ :code
+ 77
+ [:blank 7]
+ :blank
+ 7
+ ["blah2.clj" {:code 68, :blank 13, :comment 14}]
+ "blah2.clj"
+ {:code 68, :blank 13, :comment 14}
+ [:code 68]
+ :code
+ 68
+ [:blank 13]
+ :blank
+ 13
+ [:comment 14]
+ :comment
+ 14
+ ["src\\spork\\sim\\history.clj" {:comment 90, :code 269, :blank 39}]
+ "src\\spork\\sim\\history.clj"
+ {:comment 90, :code 269, :blank 39}
+ [:comment 90]
+ :comment
+ 90
+ [:code 269]
+ :code
+ 269
+ [:blank 39]
+ :blank
+ 39
+ ["src\\spork\\examples\\samplingvis.clj"
+  {:comment 70, :code 139, :blank 26}]
+ "src\\spork\\examples\\samplingvis.clj"
+ {:comment 70, :code 139, :blank 26}
+ [:comment 70]
+ :comment
+ 70
+ [:code 139]
+ :code
+ 139
+ [:blank 26]
+ :blank
+ 26
+ ["src\\spork\\util\\processor.clj" {:comment 24, :blank 33, :code 89}]
+ "src\\spork\\util\\processor.clj"
+ {:comment 24, :blank 33, :code 89}
+ [:comment 24]
+ :comment
+ 24
+ [:blank 33]
+ :blank
+ 33
+ [:code 89]
+ :code
+ 89
+ ["src\\spork\\data\\quadtree.clj" {:code 164, :comment 24, :blank 21}]
+ "src\\spork\\data\\quadtree.clj"
+ {:code 164, :comment 24, :blank 21}
+ [:code 164]
+ :code
+ 164
+ [:comment 24]
+ :comment
+ 24
+ [:blank 21]
+ :blank
+ 21
+ ["src\\spork\\graphics2d\\font.clj" {:comment 9, :code 47, :blank 11}]
+ "src\\spork\\graphics2d\\font.clj"
+ {:comment 9, :code 47, :blank 11}
+ [:comment 9]
+ :comment
+ 9
+ [:code 47]
+ :code
+ 47
+ [:blank 11]
+ :blank
+ 11
+ ["playground.clj" {:code 195, :blank 38, :comment 51}]
+ "playground.clj"
+ {:code 195, :blank 38, :comment 51}
+ [:code 195]
+ :code
+ 195
+ [:blank 38]
+ :blank
+ 38
+ [:comment 51]
+ :comment
+ 51
+ ["src\\spork\\sim\\test.clj" {:comment 22, :code 106, :blank 16}]
+ "src\\spork\\sim\\test.clj"
+ {:comment 22, :code 106, :blank 16}
+ [:comment 22]
+ :comment
+ 22
+ [:code 106]
+ :code
+ 106
+ [:blank 16]
+ :blank
+ 16
+ ["src\\spork\\data\\orderedmap.clj"
+  {:comment 31, :blank 16, :code 115}]
+ "src\\spork\\data\\orderedmap.clj"
+ {:comment 31, :blank 16, :code 115}
+ [:comment 31]
+ :comment
+ 31
+ [:blank 16]
+ :blank
+ 16
+ [:code 115]
+ :code
+ 115
+ ["src\\spork\\graphics2d\\image.clj"
+  {:comment 11, :code 164, :blank 13}]
+ "src\\spork\\graphics2d\\image.clj"
+ {:comment 11, :code 164, :blank 13}
+ [:comment 11]
+ :comment
+ 11
+ [:code 164]
+ :code
+ 164
+ [:blank 13]
+ :blank
+ 13
+ ["obe\\sim\\pure\\behavior.clj" {:code 237, :blank 82, :comment 361}]
+ "obe\\sim\\pure\\behavior.clj"
+ {:code 237, :blank 82, :comment 361}
+ [:code 237]
+ :code
+ 237
+ [:blank 82]
+ :blank
+ 82
+ [:comment 361]
+ :comment
+ 361
+ ["src\\spork\\util\\record.clj" {:comment 33, :code 252, :blank 37}]
+ "src\\spork\\util\\record.clj"
+ {:comment 33, :code 252, :blank 37}
+ [:comment 33]
+ :comment
+ 33
+ [:code 252]
+ :code
+ 252
+ [:blank 37]
+ :blank
+ 37
+ ["src\\spork\\util\\ranges.clj" {:comment 29, :code 93, :blank 18}]
+ "src\\spork\\util\\ranges.clj"
+ {:comment 29, :code 93, :blank 18}
+ [:comment 29]
+ :comment
+ 29
+ [:code 93]
+ :code
+ 93
+ [:blank 18]
+ :blank
+ 18
+ ["src\\spork\\data\\bitset.clj" {:comment 16, :code 4, :blank 4}]
+ "src\\spork\\data\\bitset.clj"
+ {:comment 16, :code 4, :blank 4}
+ [:comment 16]
+ :comment
+ 16
+ [:code 4]
+ :code
+ 4
+ [:blank 4]
+ :blank
+ 4
+ ["src\\spork\\events\\native.clj"
+  {:comment 168, :blank 81, :code 331}]
+ "src\\spork\\events\\native.clj"
+ {:comment 168, :blank 81, :code 331}
+ [:comment 168]
+ :comment
+ 168
+ [:blank 81]
+ :blank
+ 81
+ [:code 331]
+ :code
+ 331
+ ["src\\spork\\geometry\\shapes.clj"
+  {:comment 81, :code 170, :blank 46}]
+ "src\\spork\\geometry\\shapes.clj"
+ {:comment 81, :code 170, :blank 46}
+ [:comment 81]
+ :comment
+ 81
+ [:code 170]
+ :code
+ 170
+ [:blank 46]
+ :blank
+ 46
+ ["src\\spork\\entitysystem\\systems.clj" {:comment 167, :blank 3}]
+ "src\\spork\\entitysystem\\systems.clj"
+ {:comment 167, :blank 3}
+ [:comment 167]
+ :comment
+ 167
+ [:blank 3]
+ :blank
+ 3
+ ["src\\spork\\util\\diff.clj" {:comment 17, :code 19, :blank 1}]
+ "src\\spork\\util\\diff.clj"
+ {:comment 17, :code 19, :blank 1}
+ [:comment 17]
+ :comment
+ 17
+ [:code 19]
+ :code
+ 19
+ [:blank 1]
+ :blank
+ 1
+ ["src\\spork\\sim\\simcontext.clj"
+  {:comment 133, :blank 70, :code 434}]
+ "src\\spork\\sim\\simcontext.clj"
+ {:comment 133, :blank 70, :code 434}
+ [:comment 133]
+ :comment
+ 133
+ [:blank 70]
+ :blank
+ 70
+ [:code 434]
+ :code
+ 434
+ ["src\\spork\\sketch\\legacy.clj" {:comment 45, :code 210, :blank 23}]
+ "src\\spork\\sketch\\legacy.clj"
+ {:comment 45, :code 210, :blank 23}
+ [:comment 45]
+ :comment
+ 45
+ [:code 210]
+ :code
+ 210
+ [:blank 23]
+ :blank
+ 23
+ ["src\\spork\\protocols\\spatial.clj"
+  {:comment 60, :blank 74, :code 389}]
+ "src\\spork\\protocols\\spatial.clj"
+ {:comment 60, :blank 74, :code 389}
+ [:comment 60]
+ :comment
+ 60
+ [:blank 74]
+ :blank
+ 74
+ [:code 389]
+ :code
+ 389
+ ["src\\spork\\util\\bridging.clj" {:comment 87, :blank 35, :code 184}]
+ "src\\spork\\util\\bridging.clj"
+ {:comment 87, :blank 35, :code 184}
+ [:comment 87]
+ :comment
+ 87
+ [:blank 35]
+ :blank
+ 35
+ [:code 184]
+ :code
+ 184
+ ["src\\spork\\sim\\engine.clj" {:comment 148, :blank 34, :code 162}]
+ "src\\spork\\sim\\engine.clj"
+ {:comment 148, :blank 34, :code 162}
+ [:comment 148]
+ :comment
+ 148
+ [:blank 34]
+ :blank
+ 34
+ [:code 162]
+ :code
+ 162
+ ["obe\\cljgui\\examples\\drawing.clj"
+  {:code 64, :blank 4, :comment 1}]
+ "obe\\cljgui\\examples\\drawing.clj"
+ {:code 64, :blank 4, :comment 1}
+ [:code 64]
+ :code
+ 64
+ [:blank 4]
+ :blank
+ 4
+ [:comment 1]
+ :comment
+ 1
+ ["src\\spork\\util\\generators.clj" {:comment 5, :code 20, :blank 2}]
+ "src\\spork\\util\\generators.clj"
+ {:comment 5, :code 20, :blank 2}
+ [:comment 5]
+ :comment
+ 5
+ [:code 20]
+ :code
+ 20
+ [:blank 2]
+ :blank
+ 2
+ ["src\\spork\\util\\topotree.clj" {:comment 29, :code 111, :blank 24}]
+ "src\\spork\\util\\topotree.clj"
+ {:comment 29, :code 111, :blank 24}
+ [:comment 29]
+ :comment
+ 29
+ [:code 111]
+ :code
+ 111
+ [:blank 24]
+ :blank
+ 24
+ ["src\\spork\\opt\\annealing.clj"
+  {:comment 187, :blank 53, :code 192}]
+ "src\\spork\\opt\\annealing.clj"
+ {:comment 187, :blank 53, :code 192}
+ [:comment 187]
+ :comment
+ 187
+ [:blank 53]
+ :blank
+ 53
+ [:code 192]
+ :code
+ 192
+ ["src\\spork\\cljgraph\\blah.clj" {:code 46, :blank 4, :comment 2}]
+ "src\\spork\\cljgraph\\blah.clj"
+ {:code 46, :blank 4, :comment 2}
+ [:code 46]
+ :code
+ 46
+ [:blank 4]
+ :blank
+ 4
+ [:comment 2]
+ :comment
+ 2
+ ["src\\spork\\opt\\gaops.clj" {:comment 3, :code 3, :blank 2}]
+ "src\\spork\\opt\\gaops.clj"
+ {:comment 3, :code 3, :blank 2}
+ [:comment 3]
+ :comment
+ 3
+ [:code 3]
+ :code
+ 3
+ [:blank 2]
+ :blank
+ 2
+ ["src\\spork\\data\\simpleq.clj" {:comment 767, :blank 97, :code 350}]
+ "src\\spork\\data\\simpleq.clj"
+ {:comment 767, :blank 97, :code 350}
+ [:comment 767]
+ :comment
+ 767
+ [:blank 97]
+ :blank
+ 97
+ [:code 350]
+ :code
+ 350
+ ["obe\\sim\\pure\\scratchpad.clj" {:comment 112, :blank 38, :code 56}]
+ "obe\\sim\\pure\\scratchpad.clj"
+ {:comment 112, :blank 38, :code 56}
+ [:comment 112]
+ :comment
+ 112
+ [:blank 38]
+ :blank
+ 38
+ [:code 56]
+ :code
+ 56
+ ["obe\\geometry\\primitive.clj" {:comment 48, :code 2, :blank 4}]
+ "obe\\geometry\\primitive.clj"
+ {:comment 48, :code 2, :blank 4}
+ [:comment 48]
+ :comment
+ 48
+ [:code 2]
+ :code
+ 2
+ [:blank 4]
+ :blank
+ 4
+ ["src\\spork\\entitysystem\\diff.clj"
+  {:comment 13, :code 36, :blank 9}]
+ "src\\spork\\entitysystem\\diff.clj"
+ {:comment 13, :code 36, :blank 9}
+ [:comment 13]
+ :comment
+ 13
+ [:code 36]
+ :code
+ 36
+ [:blank 9]
+ :blank
+ 9
+ ["src\\spork\\ai\\demo.clj" {:code 178, :blank 31, :comment 157}]
+ "src\\spork\\ai\\demo.clj"
+ {:code 178, :blank 31, :comment 157}
+ [:code 178]
+ :code
+ 178
+ [:blank 31]
+ :blank
+ 31
+ [:comment 157]
+ :comment
+ 157
+ ["src\\spork\\data\\core.clj" {:comment 1, :code 1}]
+ "src\\spork\\data\\core.clj"
+ {:comment 1, :code 1}
+ [:comment 1]
+ :comment
+ 1
+ [:code 1]
+ :code
+ 1
+ ["src\\spork\\sim\\updates.clj" {:comment 71, :code 146, :blank 24}]
+ "src\\spork\\sim\\updates.clj"
+ {:comment 71, :code 146, :blank 24}
+ [:comment 71]
+ :comment
+ 71
+ [:code 146]
+ :code
+ 146
+ [:blank 24]
+ :blank
+ 24
+ ["obe\\cljgui\\examples\\flippersample.clj"
+  {:comment 45, :code 154, :blank 37}]
+ "obe\\cljgui\\examples\\flippersample.clj"
+ {:comment 45, :code 154, :blank 37}
+ [:comment 45]
+ :comment
+ 45
+ [:code 154]
+ :code
+ 154
+ [:blank 37]
+ :blank
+ 37
+ ["src\\spork\\util\\mailbox.clj" {:comment 15, :code 51, :blank 18}]
+ "src\\spork\\util\\mailbox.clj"
+ {:comment 15, :code 51, :blank 18}
+ [:comment 15]
+ :comment
+ 15
+ [:code 51]
+ :code
+ 51
+ [:blank 18]
+ :blank
+ 18
+ ["src\\spork\\opt\\dumbanneal.clj" {:comment 9, :code 61, :blank 5}]
+ "src\\spork\\opt\\dumbanneal.clj"
+ {:comment 9, :code 61, :blank 5}
+ [:comment 9]
+ :comment
+ 9
+ [:code 61]
+ :code
+ 61
+ [:blank 5]
+ :blank
+ 5
+ ["project.clj" {:code 47, :blank 1, :comment 20}]
+ "project.clj"
+ {:code 47, :blank 1, :comment 20}
+ [:code 47]
+ :code
+ 47
+ [:blank 1]
+ :blank
+ 1
+ [:comment 20]
+ :comment
+ 20
+ ["src\\spork\\data\\mpq.clj" {:comment 64, :code 226, :blank 19}]
+ "src\\spork\\data\\mpq.clj"
+ {:comment 64, :code 226, :blank 19}
+ [:comment 64]
+ :comment
+ 64
+ [:code 226]
+ :code
+ 226
+ [:blank 19]
+ :blank
+ 19
+ ["src\\spork\\data\\cow.clj" {:comment 5, :code 85, :blank 6}]
+ "src\\spork\\data\\cow.clj"
+ {:comment 5, :code 85, :blank 6}
+ [:comment 5]
+ :comment
+ 5
+ [:code 85]
+ :code
+ 85
+ [:blank 6]
+ :blank
+ 6
+ ["src\\spork\\ai\\notes.clj" {:comment 131, :code 1, :blank 24}]
+ "src\\spork\\ai\\notes.clj"
+ {:comment 131, :code 1, :blank 24}
+ [:comment 131]
+ :comment
+ 131
+ [:code 1]
+ :code
+ 1
+ [:blank 24]
+ :blank
+ 24
+ ["src\\spork\\sim\\pure\\network.clj"
+  {:comment 256, :blank 90, :code 401}]
+ "src\\spork\\sim\\pure\\network.clj"
+ {:comment 256, :blank 90, :code 401}
+ [:comment 256]
+ :comment
+ 256
+ [:blank 90]
+ :blank
+ 90
+ [:code 401]
+ :code
+ 401
+ ["src\\spork\\util\\excel\\docjure.clj"
+  {:comment 55, :blank 66, :code 330}]
+ "src\\spork\\util\\excel\\docjure.clj"
+ {:comment 55, :blank 66, :code 330}
+ [:comment 55]
+ :comment
+ 55
+ [:blank 66]
+ :blank
+ 66
+ [:code 330]
+ :code
+ 330
+ ["src\\spork\\util\\log.clj" {:comment 4, :blank 2, :code 5}]
+ "src\\spork\\util\\log.clj"
+ {:comment 4, :blank 2, :code 5}
+ [:comment 4]
+ :comment
+ 4
+ [:blank 2]
+ :blank
+ 2
+ [:code 5]
+ :code
+ 5
+ ["obe\\cljgui\\scene\\examples.clj" {:code 59, :blank 12, :comment 6}]
+ "obe\\cljgui\\scene\\examples.clj"
+ {:code 59, :blank 12, :comment 6}
+ [:code 59]
+ :code
+ 59
+ [:blank 12]
+ :blank
+ 12
+ [:comment 6]
+ :comment
+ 6
+ ["src\\spork\\async\\system.clj" {:comment 43, :blank 20, :code 183}]
+ "src\\spork\\async\\system.clj"
+ {:comment 43, :blank 20, :code 183}
+ [:comment 43]
+ :comment
+ 43
+ [:blank 20]
+ :blank
+ 20
+ [:code 183]
+ :code
+ 183
+ ["obe\\cljgui\\animation\\example.clj"
+  {:comment 41, :code 248, :blank 56}]
+ "obe\\cljgui\\animation\\example.clj"
+ {:comment 41, :code 248, :blank 56}
+ [:comment 41]
+ :comment
+ 41
+ [:code 248]
+ :code
+ 248
+ [:blank 56]
+ :blank
+ 56
+ ["src\\spork\\util\\io.clj" {:comment 46, :blank 81, :code 545}]
+ "src\\spork\\util\\io.clj"
+ {:comment 46, :blank 81, :code 545}
+ [:comment 46]
+ :comment
+ 46
+ [:blank 81]
+ :blank
+ 81
+ [:code 545]
+ :code
+ 545
+ ["src\\spork\\data\\column.clj" {:comment 13, :code 1, :blank 3}]
+ "src\\spork\\data\\column.clj"
+ {:comment 13, :code 1, :blank 3}
+ [:comment 13]
+ :comment
+ 13
+ [:code 1]
+ :code
+ 1
+ [:blank 3]
+ :blank
+ 3
+ ["src\\spork\\data\\edge.clj" {:comment 19, :code 79, :blank 18}]
+ "src\\spork\\data\\edge.clj"
+ {:comment 19, :code 79, :blank 18}
+ [:comment 19]
+ :comment
+ 19
+ [:code 79]
+ :code
+ 79
+ [:blank 18]
+ :blank
+ 18
+ ["obe\\cljgui\\examples\\flipper.clj"
+  {:code 155, :blank 36, :comment 45}]
+ "obe\\cljgui\\examples\\flipper.clj"
+ {:code 155, :blank 36, :comment 45}
+ [:code 155]
+ :code
+ 155
+ [:blank 36]
+ :blank
+ 36
+ [:comment 45]
+ :comment
+ 45
+ ["src\\spork\\data\\stores\\core.clj"
+  {:comment 52, :code 157, :blank 12}]
+ "src\\spork\\data\\stores\\core.clj"
+ {:comment 52, :code 157, :blank 12}
+ [:comment 52]
+ :comment
+ 52
+ [:code 157]
+ :code
+ 157
+ [:blank 12]
+ :blank
+ 12
+ ["obe\\displaced\\protocols.clj" {:code 23, :blank 5, :comment 20}]
+ "obe\\displaced\\protocols.clj"
+ {:code 23, :blank 5, :comment 20}
+ [:code 23]
+ :code
+ 23
+ [:blank 5]
+ :blank
+ 5
+ [:comment 20]
+ :comment
+ 20
+ ["src\\spork\\data\\associative.clj"
+  {:comment 195, :blank 80, :code 618}]
+ "src\\spork\\data\\associative.clj"
+ {:comment 195, :blank 80, :code 618}
+ [:comment 195]
+ :comment
+ 195
+ [:blank 80]
+ :blank
+ 80
+ [:code 618]
+ :code
+ 618
+ ["blah.clj" {:code 139, :blank 34, :comment 35}]
+ "blah.clj"
+ {:code 139, :blank 34, :comment 35}
+ [:code 139]
+ :code
+ 139
+ [:blank 34]
+ :blank
+ 34
+ [:comment 35]
+ :comment
+ 35
+ ["src\\spork\\sim\\data.clj" {:code 285, :blank 41, :comment 58}]
+ "src\\spork\\sim\\data.clj"
+ {:code 285, :blank 41, :comment 58}
+ [:code 285]
+ :code
+ 285
+ [:blank 41]
+ :blank
+ 41
+ [:comment 58]
+ :comment
+ 58
+ ["src\\spork\\data\\randq.clj" {:code 62, :blank 2, :comment 4}]
+ "src\\spork\\data\\randq.clj"
+ {:code 62, :blank 2, :comment 4}
+ [:code 62]
+ :code
+ 62
+ [:blank 2]
+ :blank
+ 2
+ [:comment 4]
+ :comment
+ 4
+ ["obe\\cljgui\\scene\\scene2.clj"
+  {:comment 267, :blank 147, :code 660}]
+ "obe\\cljgui\\scene\\scene2.clj"
+ {:comment 267, :blank 147, :code 660}
+ [:comment 267]
+ :comment
+ 267
+ [:blank 147]
+ :blank
+ 147
+ [:code 660]
+ :code
+ 660
+ ["src\\spork\\data\\digraph.clj" {:comment 65, :code 178, :blank 13}]
+ "src\\spork\\data\\digraph.clj"
+ {:comment 65, :code 178, :blank 13}
+ [:comment 65]
+ :comment
+ 65
+ [:code 178]
+ :code
+ 178
+ [:blank 13]
+ :blank
+ 13
+ ["obe\\slowdata.clj" {:code 206, :blank 40, :comment 44}]
+ "obe\\slowdata.clj"
+ {:code 206, :blank 40, :comment 44}
+ [:code 206]
+ :code
+ 206
+ [:blank 40]
+ :blank
+ 40
+ [:comment 44]
+ :comment
+ 44
+ ["src\\spork\\util\\vecmath.clj" {:comment 55, :blank 23, :code 110}]
+ "src\\spork\\util\\vecmath.clj"
+ {:comment 55, :blank 23, :code 110}
+ [:comment 55]
+ :comment
+ 55
+ [:blank 23]
+ :blank
+ 23
+ [:code 110]
+ :code
+ 110
+ ["src\\spork\\opt\\dumbga.clj" {:comment 44, :blank 17, :code 72}]
+ "src\\spork\\opt\\dumbga.clj"
+ {:comment 44, :blank 17, :code 72}
+ [:comment 44]
+ :comment
+ 44
+ [:blank 17]
+ :blank
+ 17
+ [:code 72]
+ :code
+ 72
+ ["src\\spork\\util\\indexed.clj" {:comment 12, :code 82, :blank 21}]
+ "src\\spork\\util\\indexed.clj"
+ {:comment 12, :code 82, :blank 21}
+ [:comment 12]
+ :comment
+ 12
+ [:code 82]
+ :code
+ 82
+ [:blank 21]
+ :blank
+ 21
+ ["src\\spork\\cljgraph\\core.clj"
+  {:comment 141, :code 592, :blank 131}]
+ "src\\spork\\cljgraph\\core.clj"
+ {:comment 141, :code 592, :blank 131}
+ [:comment 141]
+ :comment
+ 141
+ [:code 592]
+ :code
+ 592
+ [:blank 131]
+ :blank
+ 131
+ ["src\\spork\\entitysystem\\testing.clj"
+  {:code 62, :blank 13, :comment 1}]
+ "src\\spork\\entitysystem\\testing.clj"
+ {:code 62, :blank 13, :comment 1}
+ [:code 62]
+ :code
+ 62
+ [:blank 13]
+ :blank
+ 13
+ [:comment 1]
+ :comment
+ 1
+ ["obe\\cljgui\\asyncdrawing.clj" {:comment 27, :blank 42, :code 222}]
+ "obe\\cljgui\\asyncdrawing.clj"
+ {:comment 27, :blank 42, :code 222}
+ [:comment 27]
+ :comment
+ 27
+ [:blank 42]
+ :blank
+ 42
+ [:code 222]
+ :code
+ 222
+ ["src\\spork\\graphics2d\\swing\\shared.clj"
+  {:code 20, :blank 3, :comment 1}]
+ "src\\spork\\graphics2d\\swing\\shared.clj"
+ {:code 20, :blank 3, :comment 1}
+ [:code 20]
+ :code
+ 20
+ [:blank 3]
+ :blank
+ 3
+ [:comment 1]
+ :comment
+ 1
+ ["src\\spork\\util\\cellular.clj"
+  {:comment 113, :blank 49, :code 429}]
+ "src\\spork\\util\\cellular.clj"
+ {:comment 113, :blank 49, :code 429}
+ [:comment 113]
+ :comment
+ 113
+ [:blank 49]
+ :blank
+ 49
+ [:code 429]
+ :code
+ 429
+ ["src\\spork\\util\\lines.clj" {:code 585, :blank 72, :comment 78}]
+ "src\\spork\\util\\lines.clj"
+ {:code 585, :blank 72, :comment 78}
+ [:code 585]
+ :code
+ 585
+ [:blank 72]
+ :blank
+ 72
+ [:comment 78]
+ :comment
+ 78
+ ["src\\spork\\data\\persistentq.clj"
+  {:comment 91, :code 94, :blank 17}]
+ "src\\spork\\data\\persistentq.clj"
+ {:comment 91, :code 94, :blank 17}
+ [:comment 91]
+ :comment
+ 91
+ [:code 94]
+ :code
+ 94
+ [:blank 17]
+ :blank
+ 17
+ ["src\\spork\\util\\bitset.clj" {:comment 17, :code 177, :blank 47}]
+ "src\\spork\\util\\bitset.clj"
+ {:comment 17, :code 177, :blank 47}
+ [:comment 17]
+ :comment
+ 17
+ [:code 177]
+ :code
+ 177
+ [:blank 47]
+ :blank
+ 47
+ ["src\\spork\\incanter\\extensions.clj" {:comment 51, :blank 9}]
+ "src\\spork\\incanter\\extensions.clj"
+ {:comment 51, :blank 9}
+ [:comment 51]
+ :comment
+ 51
+ [:blank 9]
+ :blank
+ 9
+ (["checkouts\\proc\\src\\proc\\ccard.clj"
+   {:code 275, :blank 53, :comment 69}]
+  ["checkouts\\proc\\src\\proc\\deltat.clj" {:code 3}]
+  ["checkouts\\spork\\src\\spork\\cljgraph\\networksimplex.clj"
+   {:comment 283, :code 534, :blank 140}]
+  ["checkouts\\proc\\src\\proc\\satisfaction.clj"
+   {:blank 24, :code 164, :comment 12}]
+  ["checkouts\\spork\\obe\\cljgui\\examples\\reactive.clj"
+   {:code 24, :blank 1, :comment 3}]
+  ["checkouts\\spork\\src\\spork\\cljgraph\\jungapi.clj"
+   {:comment 86, :code 203, :blank 49}]
+  ["src\\marathon\\data\\period.clj"
+   {:comment 34, :code 39, :blank 13}]
+  ["checkouts\\spork\\src\\spork\\util\\lines.clj"
+   {:code 585, :blank 72, :comment 78}]
+  ["checkouts\\spork\\src\\spork\\util\\zip.clj"
+   {:comment 13, :blank 5, :code 81}]
+  ["src\\marathon\\fill\\filldata.clj" {:code 4, :blank 2}]
+  ["src\\marathon\\ces\\unit.clj"
+   {:comment 514, :code 385, :blank 179}]
+  ["checkouts\\spork\\src\\spork\\util\\codecount.clj"
+   {:code 124, :blank 29, :comment 28}]
+  ["checkouts\\spork\\src\\spork\\async\\system.clj"
+   {:comment 43, :blank 20, :code 183}]
+  ["checkouts\\spork\\src\\spork\\cljgui\\components\\CanvasGraphics.clj"
+   {:comment 13, :code 47, :blank 12}]
+  ["checkouts\\proc\\src\\proc\\dataset.clj"
+   {:comment 42, :code 157, :blank 17}]
+  ["src\\marathon\\analysis.clj" {:comment 226, :code 645, :blank 109}]
+  ["checkouts\\spork\\src\\spork\\events\\base.clj"
+   {:comment 9, :code 24, :blank 5}]
+  ["checkouts\\spork\\src\\spork\\documentation.clj"
+   {:code 13, :blank 5, :comment 6}]
+  ["src\\marathon\\ces\\behaviortest.clj"
+   {:comment 10, :code 164, :blank 10}]
+  ["checkouts\\proc\\src\\proc\\supply.clj"
+   {:comment 25, :code 316, :blank 34}]
+  ["checkouts\\spork\\src\\spork\\sim\\data.clj"
+   {:code 285, :blank 41, :comment 58}]
+  ["src\\marathon\\sampledata\\branches.clj" {:code 136, :blank 2}]
+  ["src\\marathon\\ces\\knowledge.clj"
+   {:comment 81, :blank 16, :code 20}]
+  ["checkouts\\spork\\src\\spork\\util\\vecmath.clj"
+   {:comment 55, :blank 23, :code 110}]
+  ["checkouts\\spork\\obe\\clogg\\core.clj"
+   {:comment 86, :code 124, :blank 85}]
+  ["src\\marathon\\run.clj" {:comment 18, :code 100, :blank 17}]
+  ["src\\marathon\\ces\\fill\\fillgraph.clj"
+   {:comment 345, :code 161, :blank 89}]
+  ["checkouts\\spork\\src\\spork\\opt\\fastmultipole.clj"
+   {:comment 16, :blank 26, :code 102}]
+  ["checkouts\\spork\\src\\spork\\graphics2d\\canvas.clj"
+   {:code 527, :blank 97, :comment 127}]
+  ["checkouts\\spork\\src\\spork\\ai\\behaviorcontext.clj"
+   {:comment 52, :blank 14, :code 91}]
+  ["script.clj" {:comment 97, :blank 61, :code 470}]
+  ["checkouts\\spork\\src\\spork\\data\\cell.clj"
+   {:comment 8, :code 38, :blank 4}]
+  ["checkouts\\spork\\src\\spork\\entitysystem\\examples\\oblol.clj"
+   {:comment 82, :blank 1}]
+  ["checkouts\\spork\\src\\spork\\util\\indexed.clj"
+   {:comment 12, :code 82, :blank 21}]
+  ["checkouts\\spork\\src\\spork\\util\\sampling.clj"
+   {:comment 166, :code 501, :blank 117}]
+  ["checkouts\\spork\\src\\spork\\data\\protocols.clj"
+   {:comment 1, :code 6, :blank 2}]
+  ["checkouts\\proc\\src\\proc\\dynamicbars.clj"
+   {:comment 5, :code 96, :blank 18}]
+  ["test\\marathon\\test\\core.clj" {:code 4, :blank 1}]
+  ["src\\marathon\\introspect\\util.clj"
+   {:comment 28, :code 233, :blank 45}]
+  ["checkouts\\proc\\src\\proc\\core.clj"
+   {:blank 227, :comment 395, :code 1152}]
+  ["src\\marathon\\visuals\\template.clj" {:code 735, :blank 9}]
+  ["checkouts\\spork\\src\\spork\\opt\\gaops.clj"
+   {:comment 3, :code 3, :blank 2}]
+  ["checkouts\\spork\\src\\spork\\util\\general.clj"
+   {:comment 135, :code 602, :blank 103}]
+  ["checkouts\\proc\\src\\proc\\bump.clj"
+   {:comment 146, :code 137, :blank 49}]
+  ["checkouts\\spork\\src\\spork\\ai\\demo.clj"
+   {:code 178, :blank 31, :comment 157}]
+  ["checkouts\\spork\\blah.clj" {:code 139, :blank 34, :comment 35}]
+  ["checkouts\\spork\\src\\spork\\util\\array.clj"
+   {:comment 96, :code 80, :blank 23}]
+  ["checkouts\\spork\\obe\\cljgui\\scene\\manager.clj"
+   {:code 15, :blank 25, :comment 85}]
+  ["src\\marathon\\ces\\deployment.clj"
+   {:comment 57, :code 90, :blank 12}]
+  ["checkouts\\spork\\obe\\geometry\\math3d.clj"
+   {:comment 5, :code 42, :blank 9}]
+  ["checkouts\\proc\\src\\proc\\lite.clj"
+   {:blank 21, :comment 15, :code 62}]
+  ["src\\marathon\\project\\views\\deployments.clj"
+   {:comment 14, :blank 29, :code 170}]
+  ["checkouts\\spork\\src\\spork\\cljgui\\components\\swing.clj"
+   {:code 858, :comment 198, :blank 149}]
+  ["src\\marathon\\analysis\\dummydata.clj" {:code 162}]
+  ["checkouts\\proc\\src\\proc\\example.clj"
+   {:comment 30, :code 114, :blank 20}]
+  ["checkouts\\spork\\src\\spork\\graphics2d\\strokes.clj"
+   {:comment 30, :code 100, :blank 16}]
+  ["checkouts\\spork\\src\\spork\\data\\adjacency.clj"
+   {:comment 130, :code 139, :blank 54}]
+  ["checkouts\\spork\\src\\spork\\sim\\backburner\\events.clj"
+   {:code 289, :blank 65, :comment 95}]
+  ["src\\marathon\\ces\\policyio.clj"
+   {:code 90, :blank 20, :comment 47}]
+  ["src\\marathon\\ces\\suppliers.clj"
+   {:comment 273, :blank 96, :code 65}]
+  ["checkouts\\spork\\src\\spork\\data\\edge.clj"
+   {:comment 19, :code 79, :blank 18}]
+  ["checkouts\\spork\\src\\spork\\util\\io.clj"
+   {:comment 46, :blank 81, :code 545}]
+  ["checkouts\\spork\\src\\spork\\ai\\notes.clj"
+   {:comment 131, :code 1, :blank 24}]
+  ["checkouts\\spork\\src\\spork\\data\\digraph.clj"
+   {:comment 65, :code 178, :blank 13}]
+  ["checkouts\\spork\\src\\spork\\cljgraph\\main.clj"
+   {:code 74, :blank 17, :comment 7}]
+  ["checkouts\\spork\\src\\spork\\protocols\\spatial.clj"
+   {:comment 60, :blank 74, :code 389}]
+  ["checkouts\\spork\\src\\spork\\data\\cow.clj"
+   {:comment 5, :code 85, :blank 6}]
+  ["checkouts\\spork\\src\\spork\\data\\sptree.clj"
+   {:comment 1, :code 87, :blank 14}]
+  ["checkouts\\spork\\src\\spork\\opt\\displaced.clj"
+   {:code 231, :blank 23, :comment 76}]
+  ["checkouts\\spork\\src\\spork\\util\\eager.clj"
+   {:comment 5, :blank 7, :code 20}]
+  ["src\\marathon\\ces\\fill\\scope.clj"
+   {:comment 50, :code 73, :blank 10}]
+  ["checkouts\\spork\\src\\spork\\util\\bitset.clj"
+   {:comment 17, :code 177, :blank 47}]
+  ["checkouts\\spork\\obe\\displaced\\tst.clj"
+   {:code 31, :blank 8, :comment 6}]
+  ["checkouts\\spork\\src\\spork\\graphics2d\\swing\\shared.clj"
+   {:code 20, :blank 3, :comment 1}]
+  ["checkouts\\spork\\obe\\cljgui\\examples\\drawing.clj"
+   {:code 64, :blank 4, :comment 1}]
+  ["src\\marathon\\ces\\query.clj"
+   {:comment 399, :code 512, :blank 167}]
+  ["checkouts\\spork\\src\\spork\\sketch\\activity.clj"
+   {:comment 34, :code 82, :blank 13}]
+  ["checkouts\\proc\\src\\proc\\interests.clj"
+   {:code 821, :blank 35, :comment 27}]
+  ["checkouts\\spork\\obe\\sim\\pure\\scratchpad.clj"
+   {:comment 112, :blank 38, :code 56}]
+  ["src\\marathon\\ces\\policyops.clj"
+   {:code 547, :comment 112, :blank 75}]
+  ["src\\marathon\\ces\\policy.clj"
+   {:comment 330, :blank 118, :code 407}]
+  ["src\\marathon\\ces\\debug.clj" {:comment 22, :code 50, :blank 14}]
+  ["checkouts\\spork\\src\\spork\\util\\numerics.clj"
+   {:comment 25, :code 195, :blank 25}]
+  ["checkouts\\proc\\src\\proc\\deployability.clj"
+   {:blank 20, :comment 24, :code 130}]
+  ["src\\marathon\\introspect\\startup.clj"
+   {:code 56, :blank 3, :comment 1}]
+  ["checkouts\\proc\\test\\proc\\demandanalysis_test.clj"
+   {:code 113, :blank 12, :comment 24}]
+  ["checkouts\\spork\\src\\spork\\opt\\annealing.clj"
+   {:comment 187, :blank 53, :code 192}]
+  ["checkouts\\spork\\src\\spork\\util\\clipboard.clj"
+   {:comment 5, :blank 11, :code 49}]
+  ["checkouts\\spork\\src\\spork\\data\\core.clj"
+   {:comment 1, :code 1}]
+  ["checkouts\\proc\\src\\proc\\risk.clj"
+   {:comment 23, :code 434, :blank 58}]
+  ["checkouts\\proc\\src\\proc\\sporkpatches.clj"
+   {:comment 254, :code 160, :blank 45}]
+  ["checkouts\\spork\\src\\spork\\util\\temporal.clj"
+   {:comment 125, :blank 47, :code 225}]
+  ["checkouts\\spork\\src\\spork\\util\\topotree.clj"
+   {:comment 29, :code 111, :blank 24}]
+  ["checkouts\\spork\\src\\spork\\sim\\backburner\\discrete.clj"
+   {:code 32, :blank 20, :comment 73}]
+  ["checkouts\\spork\\src\\spork\\data\\stores\\core.clj"
+   {:comment 52, :code 157, :blank 12}]
+  ["checkouts\\proc\\src\\proc\\stash.clj"
+   {:comment 15, :code 68, :blank 4}]
+  ["checkouts\\spork\\src\\spork\\data\\simpleq.clj"
+   {:comment 767, :blank 97, :code 350}]
+  ["checkouts\\spork\\src\\spork\\cljgraph\\core.clj"
+   {:comment 141, :code 592, :blank 131}]
+  ["checkouts\\spork\\src\\spork\\entitysystem\\store.clj"
+   {:comment 465, :code 1056, :blank 165}]
+  ["checkouts\\proc\\src\\proc\\constants.clj"
+   {:comment 7, :code 6, :blank 2}]
+  ["checkouts\\spork\\obe\\geometry\\math.clj"
+   {:comment 13, :code 18, :blank 7}]
+  ["checkouts\\spork\\project.clj" {:code 47, :blank 1, :comment 20}]
+  ["checkouts\\proc\\src\\proc\\clipboard.clj"
+   {:code 33, :comment 10, :blank 7}]
+  ["checkouts\\spork\\src\\spork\\util\\bridging.clj"
+   {:comment 87, :blank 35, :code 184}]
+  ["checkouts\\spork\\obe\\sim\\pure\\behavior.clj"
+   {:code 237, :blank 82, :comment 361}]
+  ["checkouts\\spork\\obe\\cljgui\\scenegraph.clj"
+   {:comment 143, :blank 62, :code 401}]
+  ["checkouts\\proc\\src\\proc\\patches.clj"
+   {:comment 36, :code 172, :blank 30}]
+  ["src\\marathon\\visuals\\core.clj"
+   {:code 2, :blank 26, :comment 85}]
+  ["checkouts\\spork\\src\\spork\\sim\\updates.clj"
+   {:comment 71, :code 146, :blank 24}]
+  ["checkouts\\spork\\src\\spork\\util\\xml.clj"
+   {:comment 2, :code 32, :blank 7}]
+  ["checkouts\\spork\\src\\spork\\util\\mailbox.clj"
+   {:comment 15, :code 51, :blank 18}]
+  ["checkouts\\spork\\obe\\cljgui\\animation\\example.clj"
+   {:comment 41, :code 248, :blank 56}]
+  ["checkouts\\spork\\src\\spork\\data\\searchstate.clj"
+   {:comment 33, :code 206, :blank 28}]
+  ["src\\marathon\\data\\store.clj"
+   {:comment 218, :code 439, :blank 81}]
+  ["checkouts\\spork\\src\\spork\\util\\diff.clj"
+   {:comment 17, :code 19, :blank 1}]
+  ["src\\marathon\\processing\\pre.clj"
+   {:comment 7, :blank 9, :code 27}]
+  ["checkouts\\spork\\src\\spork\\entitysystem\\diff.clj"
+   {:comment 13, :code 36, :blank 9}]
+  ["checkouts\\spork\\src\\spork\\entitysystem\\ephemeral.clj"
+   {:comment 24, :code 89, :blank 14}]
+  ["checkouts\\spork\\src\\spork\\events\\observe.clj"
+   {:comment 83, :blank 86, :code 440}]
+  ["src\\marathon\\ces\\setup.clj" {:comment 55, :code 112, :blank 34}]
+  ["src\\marathon\\sampledata\\srm.clj"
+   {:comment 7, :code 359, :blank 7}]
+  ["checkouts\\spork\\src\\spork\\data\\indexedgraph.clj"
+   {:comment 8, :code 310, :blank 41}]
+  ["checkouts\\spork\\obe\\cljgui\\examples\\flipper.clj"
+   {:code 155, :blank 36, :comment 45}]
+  ["checkouts\\spork\\src\\spork\\data\\fringe.clj"
+   {:code 126, :blank 19, :comment 39}]
+  ["checkouts\\spork\\src\\spork\\cljgraph\\tests.clj"
+   {:comment 113, :code 355, :blank 58}]
+  ["checkouts\\spork\\src\\spork\\graphics2d\\debug.clj"
+   {:blank 14, :code 125, :comment 35}]
+  ["checkouts\\spork\\src\\spork\\entitysystem\\entitytesting.clj"
+   {:comment 4, :blank 14, :code 51}]
+  ["src\\marathon\\project.clj" {:comment 47, :code 186, :blank 34}]
+  ["checkouts\\proc\\src\\proc\\tests.clj"
+   {:code 143, :blank 35, :comment 44}]
+  ["checkouts\\spork\\src\\spork\\entitysystem\\examples\\orcbattleLOL.clj"
+   {:comment 64, :blank 22}]
+  ["checkouts\\spork\\src\\spork\\ai\\behavior.clj"
+   {:comment 389, :blank 100, :code 431}]
+  ["checkouts\\spork\\orgtest.clj" {:code 35, :blank 10, :comment 4}]
+  ["checkouts\\spork\\src\\spork\\sketch.clj"
+   {:comment 177, :code 1038, :blank 134}]
+  ["checkouts\\spork\\src\\spork\\util\\stream.clj"
+   {:comment 19, :code 118, :blank 13}]
+  ["src\\marathon\\data\\protocols.clj"
+   {:comment 125, :code 298, :blank 46}]
+  ["checkouts\\proc\\src\\proc\\ranking.clj"
+   {:code 60, :blank 7, :comment 2}]
+  ["checkouts\\spork\\obe\\displaced\\gridbag.clj"
+   {:comment 27, :code 18, :blank 7}]
+  ["checkouts\\spork\\src\\spork\\entitysystem\\examples\\orcbattle.clj"
+   {:comment 52, :blank 51, :code 211}]
+  ["checkouts\\spork\\src\\spork\\util\\table.clj"
+   {:comment 138, :blank 166, :code 1351}]
+  ["checkouts\\spork\\src\\spork\\util\\processor.clj"
+   {:comment 24, :blank 33, :code 89}]
+  ["checkouts\\spork\\src\\spork\\ai\\logic.clj"
+   {:comment 26, :blank 22, :code 169}]
+  ["checkouts\\spork\\src\\spork\\opt\\dumbga.clj"
+   {:comment 44, :blank 17, :code 72}]
+  ["checkouts\\spork\\src\\spork\\util\\datetime.clj"
+   {:comment 5, :blank 7, :code 36}]
+  ["src\\marathon\\sampledata\\project\\mproj.clj"
+   {:comment 3, :code 13}]
+  ["checkouts\\spork\\src\\spork\\util\\metaprogramming.clj"
+   {:comment 45, :code 263, :blank 45}]
+  ["checkouts\\proc\\project.clj" {:blank 1, :code 22, :comment 9}]
+  ["src\\marathon\\core.clj" {:code 357, :blank 55, :comment 44}]
+  ["checkouts\\spork\\src\\spork\\data\\grid.clj"
+   {:comment 13, :blank 14, :code 122}]
+  ["checkouts\\spork\\src\\spork\\opt\\optimization.clj"
+   {:comment 18, :code 78, :blank 19}]
+  ["checkouts\\spork\\src\\spork\\sim\\history.clj"
+   {:comment 90, :code 269, :blank 39}]
+  ["checkouts\\spork\\src\\spork\\incanter\\extensions.clj"
+   {:comment 51, :blank 9}]
+  ["src\\marathon\\data\\cycle.clj" {:comment 26, :code 83, :blank 9}]
+  ["src\\marathon\\documentation.clj"
+   {:comment 60, :blank 30, :code 65}]
+  ["checkouts\\spork\\src\\spork\\cljgraph\\flowtests.clj"
+   {:code 47, :blank 10}]
+  ["src\\marathon\\analysis\\requirements.clj"
+   {:comment 727, :code 744, :blank 206}]
+  ["src\\marathon\\serial.clj" {:comment 32, :code 94, :blank 28}]
+  ["obe\\output\\outputstore.clj" {:comment 9, :code 20, :blank 2}]
+  ["checkouts\\spork\\src\\spork\\data\\tables.clj"
+   {:comment 27, :code 57, :blank 27}]
+  ["checkouts\\spork\\src\\spork\\util\\ranges.clj"
+   {:comment 29, :code 93, :blank 18}]
+  ["src\\marathon\\visuals\\patches.clj"
+   {:comment 105, :code 325, :blank 58}]
+  ["src\\marathon\\project\\linked.clj"
+   {:comment 33, :code 51, :blank 7}]
+  ["checkouts\\spork\\src\\spork\\geometry\\shapes.clj"
+   {:comment 81, :code 170, :blank 46}]
+  ["src\\marathon\\visuals\\styling.clj"
+   {:comment 3, :code 71, :blank 7}]
+  ["checkouts\\spork\\src\\spork\\data\\persistentq.clj"
+   {:comment 91, :code 94, :blank 17}]
+  ["checkouts\\spork\\src\\spork\\util\\comparison.clj"
+   {:comment 20, :blank 13, :code 34}]
+  ["checkouts\\spork\\src\\spork\\sim\\impure\\core.clj"
+   {:comment 7, :code 1, :blank 1}]
+  ["src\\marathon\\considerations.clj"
+   {:comment 282, :code 53, :blank 48}]
+  ["checkouts\\spork\\obe\\displaced\\behavior.clj"
+   {:code 100, :blank 22, :comment 50}]
+  ["checkouts\\spork\\src\\spork\\cljgraph\\flow.clj"
+   {:comment 350, :code 887, :blank 173}]
+  ["checkouts\\spork\\src\\spork\\mining\\core.clj"
+   {:comment 4, :code 32, :blank 6}]
+  ["checkouts\\spork\\src\\spork\\entitysystem\\systems.clj"
+   {:comment 167, :blank 3}]
+  ["checkouts\\spork\\src\\spork\\graphics2d\\swing.clj"
+   {:comment 113, :code 557, :blank 85}]
+  ["src\\marathon\\ces\\simlib.clj" {:comment 2, :code 1}]
+  ["src\\marathon\\ces\\demand.clj"
+   {:comment 413, :code 501, :blank 133}]
+  ["src\\marathon\\demo.clj" {:comment 9, :code 58, :blank 10}]
+  ["checkouts\\spork\\src\\spork\\data\\mpq.clj"
+   {:comment 64, :code 226, :blank 19}]
+  ["checkouts\\spork\\src\\spork\\data\\column.clj"
+   {:comment 13, :code 1, :blank 3}]
+  ["checkouts\\proc\\test\\proc\\core_test.clj" {:code 6, :blank 1}]
+  ["src\\marathon\\omtest.clj" {:code 10, :blank 3}]
+  ["vnv.clj" {:comment 37, :blank 8, :code 584}]
+  ["checkouts\\proc\\src\\proc\\demandanalysis.clj"
+   {:blank 103, :comment 101, :code 788}]
+  ["checkouts\\spork\\src\\spork\\graphics2d\\stroke.clj"
+   {:code 26, :blank 6}]
+  ["src\\marathon\\observers.clj" {:comment 321, :code 318, :blank 87}]
+  ["checkouts\\spork\\src\\spork\\data\\indexed.clj"
+   {:comment 22, :code 44, :blank 9}]
+  ["checkouts\\spork\\src\\spork\\sim\\backburner\\deprecated.clj"
+   {:code 81, :blank 21, :comment 18}]
+  ["src\\marathon\\ces\\behavior.clj"
+   {:comment 963, :code 1407, :blank 262}]
+  ["checkouts\\spork\\src\\spork\\data\\quadtree.clj"
+   {:code 164, :comment 24, :blank 21}]
+  ["checkouts\\spork\\obe\\geometry\\primitive.clj"
+   {:comment 48, :code 2, :blank 4}]
+  ["checkouts\\spork\\src\\spork\\util\\help.clj"
+   {:comment 4, :code 187, :blank 16}]
+  ["src\\marathon\\processing\\sampledata.clj"
+   {:code 1304, :blank 4, :comment 3}]
+  ["checkouts\\spork\\obe\\displaced\\gl.clj"
+   {:code 97, :blank 16, :comment 10}]
+  ["src\\marathon\\ces\\testing.clj"
+   {:comment 335, :code 609, :blank 162}]
+  ["checkouts\\proc\\src\\proc\\util.clj"
+   {:comment 82, :code 484, :blank 94}]
+  ["src\\marathon\\prelude.clj" {:comment 64, :code 1, :blank 10}]
+  ["src\\marathon\\ces\\core.clj"
+   {:comment 339, :blank 119, :code 431}]
+  ["checkouts\\spork\\src\\spork\\util\\log.clj"
+   {:comment 4, :blank 2, :code 5}]
+  ["checkouts\\spork\\src\\spork\\trends.clj"
+   {:comment 41, :code 155, :blank 26}]
+  ["checkouts\\spork\\src\\spork\\util\\serial.clj"
+   {:comment 36, :code 94, :blank 26}]
+  ["checkouts\\spork\\src\\spork\\mining\\clustering.clj"
+   {:comment 77, :code 490, :blank 60}]
+  ["checkouts\\spork\\ayuk.clj" {:code 104, :blank 24, :comment 2}]
+  ["checkouts\\spork\\test\\spork\\core_test.clj" {:code 5, :blank 1}]
+  ["checkouts\\spork\\src\\spork\\entitysystem\\testing.clj"
+   {:code 62, :blank 13, :comment 1}]
+  ["checkouts\\spork\\src\\spork\\util\\parsing.clj"
+   {:comment 25, :code 188, :blank 23}]
+  ["checkouts\\spork\\src\\spork\\util\\inspection.clj"
+   {:comment 47, :code 104, :blank 21}]
+  ["checkouts\\spork\\src\\spork\\ai\\machine.clj"
+   {:comment 7, :code 77, :blank 7}]
+  ["checkouts\\spork\\obe\\cljgui\\examples\\flippersample.clj"
+   {:comment 45, :code 154, :blank 37}]
+  ["checkouts\\spork\\src\\spork\\ai\\testing.clj"
+   {:code 243, :comment 103, :blank 48}]
+  ["src\\marathon\\sampledata\\core.clj" {:code 29, :blank 4}]
+  ["src\\marathon\\ces\\obe.clj" {:comment 18, :code 64, :blank 15}]
+  ["checkouts\\spork\\src\\spork\\sim\\core.clj"
+   {:comment 159, :blank 72, :code 348}]
+  ["checkouts\\spork\\src\\spork\\graphics2d\\font.clj"
+   {:comment 9, :code 47, :blank 11}]
+  ["checkouts\\spork\\src\\spork\\cljgraph\\search.clj"
+   {:comment 36, :code 167, :blank 36}]
+  ["checkouts\\spork\\src\\spork\\data\\priorityq.clj"
+   {:comment 91, :blank 62, :code 483}]
+  ["scraps.clj" {:code 33, :blank 8, :comment 4}]
+  ["checkouts\\spork\\src\\spork\\data\\orderedmap.clj"
+   {:comment 31, :blank 16, :code 115}]
+  ["checkouts\\proc\\src\\proc\\eutil.clj"
+   {:comment 7, :code 53, :blank 9}]
+  ["checkouts\\spork\\src\\spork\\data\\associative.clj"
+   {:comment 195, :blank 80, :code 618}]
+  ["checkouts\\spork\\src\\spork\\opt\\representation.clj"
+   {:comment 78, :code 394, :blank 61}]
+  ["checkouts\\proc\\src\\proc\\core_test.clj" {:code 6, :blank 1}]
+  ["checkouts\\proc\\src\\proc\\sufficiency.clj"
+   {:code 61, :blank 17, :comment 71}]
+  ["src\\marathon\\ces\\util.clj" {:comment 1}]
+  ["src\\marathon\\policy\\policydata.clj"
+   {:comment 21, :code 150, :blank 6}]
+  ["src\\marathon\\vnv.clj" {:comment 40, :code 427, :blank 39}]
+  ["checkouts\\spork\\src\\spork\\util\\reducers.clj"
+   {:comment 32, :code 163, :blank 16}]
+  ["checkouts\\spork\\src\\spork\\data\\test.clj"
+   {:code 109, :blank 23, :comment 9}]
+  ["src\\marathon\\project\\excel.clj"
+   {:comment 56, :code 169, :blank 26}]
+  ["checkouts\\spork\\src\\spork\\graphics2d\\image.clj"
+   {:comment 11, :code 164, :blank 13}]
+  ["src\\marathon\\ces\\entityfactory.clj"
+   {:blank 128, :comment 360, :code 603}]
+  ["src\\marathon\\demand\\demanddata.clj"
+   {:comment 45, :code 54, :blank 22}]
+  ["obe\\gui.clj" {:comment 5, :code 41, :blank 10}]
+  ["checkouts\\spork\\obe\\cljgui\\asyncdrawing.clj"
+   {:comment 27, :blank 42, :code 222}]
+  ["checkouts\\spork\\src\\spork\\opt\\dumbanneal.clj"
+   {:comment 9, :code 61, :blank 5}]
+  ["checkouts\\spork\\src\\spork\\sim\\examples\\westworld.clj"
+   {:comment 23, :code 87, :blank 21}]
+  ["checkouts\\spork\\src\\spork\\util\\vector.clj"
+   {:comment 2, :code 37, :blank 5}]
+  ["checkouts\\spork\\obe\\cljgui\\activity.clj"
+   {:comment 16, :code 78, :blank 12}]
+  ["obe\\forgereader.clj" {:comment 25, :code 173, :blank 19}]
+  ["checkouts\\spork\\src\\spork\\data\\passmap.clj"
+   {:comment 104, :code 116, :blank 25}]
+  ["checkouts\\spork\\obe\\cljgui\\scene\\scene2.clj"
+   {:comment 267, :blank 147, :code 660}]
+  ["checkouts\\spork\\src\\spork\\util\\interop.clj"
+   {:comment 3, :code 20, :blank 1}]
+  ["checkouts\\spork\\src\\spork\\util\\combinatoric.clj"
+   {:comment 239, :blank 136, :code 566}]
+  ["checkouts\\spork\\src\\spork\\graphics2d\\primitive.clj"
+   {:comment 48, :code 197, :blank 36}]
+  ["checkouts\\spork\\src\\spork\\sim\\pure\\test.clj"
+   {:code 128, :blank 21, :comment 19}]
+  ["checkouts\\spork\\src\\spork\\data\\depq.clj"
+   {:comment 3, :code 1}]
+  ["src\\marathon\\project\\views\\core.clj"
+   {:comment 2, :code 12, :blank 5}]
+  ["checkouts\\spork\\src\\spork\\ai\\messaging.clj"
+   {:comment 17, :code 45, :blank 5}]
+  ["checkouts\\spork\\src\\spork\\sim\\simcontext.clj"
+   {:comment 133, :blank 70, :code 434}]
+  ["checkouts\\spork\\blah2.clj" {:code 68, :blank 13, :comment 14}]
+  ["checkouts\\spork\\src\\spork\\util\\zipfile.clj"
+   {:comment 11, :code 205, :blank 36}]
+  ["src\\marathon\\supply\\unitdata.clj"
+   {:code 133, :comment 149, :blank 68}]
+  ["checkouts\\spork\\src\\spork\\sketch\\legacy.clj"
+   {:comment 45, :code 210, :blank 23}]
+  ["src\\marathon\\ces\\fill.clj"
+   {:comment 597, :blank 115, :code 215}]
+  ["checkouts\\spork\\obe\\cljgui\\scene\\core.clj"
+   {:comment 207, :code 295, :blank 92}]
+  ["checkouts\\spork\\src\\spork\\data\\mutable.clj"
+   {:comment 176, :code 452, :blank 55}]
+  ["checkouts\\spork\\obe\\cljgui\\components\\grid.clj"
+   {:comment 71, :blank 58, :code 322}]
+  ["checkouts\\spork\\src\\spork\\graphics2d\\scene.clj"
+   {:comment 79, :code 105, :blank 24}]
+  ["checkouts\\spork\\src\\spork\\cljgraph\\blah.clj"
+   {:code 46, :blank 4, :comment 2}]
+  ["checkouts\\spork\\src\\spork\\data\\managed.clj"
+   {:comment 121, :blank 27, :code 47}]
+  ["src\\marathon\\ces\\legacy.clj"
+   {:comment 1424, :code 1, :blank 82}]
+  ["obe\\surgereader.clj" {:code 18, :blank 2}]
+  ["checkouts\\spork\\obe\\displaced\\protocols.clj"
+   {:code 23, :blank 5, :comment 20}]
+  ["project.clj" {:code 41, :blank 1, :comment 6}]
+  ["checkouts\\spork\\src\\spork\\util\\excel\\docjure.clj"
+   {:comment 55, :blank 66, :code 330}]
+  ["checkouts\\spork\\src\\spork\\data\\stores\\protocols.clj"
+   {:comment 2, :code 15, :blank 2}]
+  ["src\\marathon\\project\\tab.clj" {:comment 6, :code 20, :blank 2}]
+  ["checkouts\\spork\\src\\spork\\util\\collections.clj"
+   {:comment 48, :blank 42, :code 242}]
+  ["checkouts\\spork\\src\\spork\\sim\\engine.clj"
+   {:comment 148, :blank 34, :code 162}]
+  ["checkouts\\proc\\src\\proc\\lifecycles.clj"
+   {:blank 6, :comment 6, :code 82}]
+  ["checkouts\\spork\\obe\\cljgui\\components\\trackbar.clj"
+   {:comment 56, :blank 39, :code 88}]
+  ["checkouts\\spork\\playground.clj"
+   {:code 195, :blank 38, :comment 51}]
+  ["checkouts\\spork\\src\\spork\\util\\record.clj"
+   {:comment 33, :code 252, :blank 37}]
+  ["checkouts\\spork\\src\\spork\\data\\sparse.clj"
+   {:comment 79, :code 277, :blank 28}]
+  ["checkouts\\spork\\src\\spork\\util\\string.clj"
+   {:comment 9, :code 97, :blank 7}]
+  ["checkouts\\spork\\src\\spork\\cljgraph\\io.clj"
+   {:comment 3, :code 17, :blank 8}]
+  ["checkouts\\spork\\obe\\cljgui\\animation.clj"
+   {:code 239, :blank 55, :comment 37}]
+  ["checkouts\\proc\\src\\proc\\stacked.clj"
+   {:comment 315, :code 722, :blank 153}]
+  ["src\\marathon\\assessment.clj" {:comment 102, :code 47, :blank 35}]
+  ["checkouts\\spork\\obe\\cljgui\\scene\\scenegraph.clj"
+   {:comment 273, :blank 112, :code 446}]
+  ["checkouts\\spork\\src\\spork\\data\\bitset.clj"
+   {:comment 16, :code 4, :blank 4}]
+  ["checkouts\\spork\\src\\spork\\sim\\test.clj"
+   {:comment 22, :code 106, :blank 16}]
+  ["src\\marathon\\ces\\sampledata.clj"
+   {:code 1090, :blank 36, :comment 61}]
+  ["src\\marathon\\ces\\fill\\demand.clj"
+   {:comment 97, :blank 23, :code 101}]
+  ["checkouts\\spork\\src\\spork\\cljgui\\components\\PaintPanel.clj"
+   {:comment 19, :blank 12, :code 61}]
+  ["checkouts\\spork\\src\\spork\\util\\excel\\core.clj"
+   {:comment 37, :blank 61, :code 373}]
+  ["checkouts\\spork\\obe\\cljgui\\scene\\examples.clj"
+   {:code 59, :blank 12, :comment 6}]
+  ["checkouts\\spork\\src\\spork\\data\\lazymap.clj"
+   {:comment 10, :code 59, :blank 5}]
+  ["checkouts\\spork\\obe\\cljgui\\examples\\examples.clj"
+   {:comment 2, :code 4}]
+  ["checkouts\\spork\\obe\\displaced\\demo.clj"
+   {:code 93, :blank 28, :comment 7}]
+  ["blah.clj" {:code 10, :blank 5, :comment 14}]
+  ["src\\marathon\\ces\\engine.clj"
+   {:comment 147, :blank 34, :code 176}]
+  ["checkouts\\spork\\src\\spork\\events\\native.clj"
+   {:comment 168, :blank 81, :code 331}]
+  ["checkouts\\spork\\src\\spork\\opt\\neighborhood.clj"
+   {:comment 37, :code 43, :blank 16}]
+  ["checkouts\\spork\\src\\spork\\protocols\\core.clj"
+   {:comment 50, :blank 48, :code 213}]
+  ["checkouts\\spork\\src\\spork\\data\\randq.clj"
+   {:code 62, :blank 2, :comment 4}]
+  ["checkouts\\proc\\src\\proc\\powerpoint.clj"
+   {:comment 50, :code 200, :blank 41}]
+  ["checkouts\\spork\\src\\spork\\util\\stats.clj"
+   {:comment 45, :blank 75, :code 418}]
+  ["checkouts\\spork\\src\\spork\\util\\generators.clj"
+   {:comment 5, :code 20, :blank 2}]
+  ["src\\marathon\\processing\\highwater.clj"
+   {:comment 20, :code 109, :blank 13}]
+  ["checkouts\\spork\\obe\\slowdata.clj"
+   {:code 206, :blank 40, :comment 44}]
+  ["checkouts\\spork\\src\\spork\\sim\\agenda.clj"
+   {:comment 98, :code 107, :blank 20}]
+  ["checkouts\\spork\\src\\spork\\examples\\samplingvis.clj"
+   {:comment 70, :code 139, :blank 26}]
+  ["src\\marathon\\ces\\supply.clj"
+   {:comment 212, :code 425, :blank 92}]
+  ["checkouts\\spork\\src\\spork\\data\\ctrie.clj"
+   {:comment 21, :code 108, :blank 21}]
+  ["checkouts\\spork\\loop.clj" {:comment 321, :blank 151, :code 1480}]
+  ["checkouts\\proc\\src\\proc\\schemas.clj"
+   {:code 201, :blank 18, :comment 9}]
+  ["checkouts\\spork\\src\\spork\\sim\\pure\\network.clj"
+   {:comment 256, :blank 90, :code 401}]
+  ["checkouts\\proc\\src\\proc\\fillsfiles.clj"
+   {:blank 17, :comment 13, :code 113}]
+  ["checkouts\\spork\\src\\spork\\mvc.clj"
+   {:comment 42, :code 25, :blank 11}]
+  ["src\\marathon\\main.clj" {:comment 18, :code 15, :blank 1}]
+  ["src\\marathon\\processing\\post.clj"
+   {:comment 58, :code 136, :blank 29}]
+  ["checkouts\\spork\\src\\spork\\opt\\packing.clj"
+   {:comment 9, :blank 9, :code 24}]
+  ["checkouts\\proc\\src\\proc\\charts.clj"
+   {:code 254, :blank 45, :comment 6}]
+  ["checkouts\\spork\\src\\spork\\opt\\core.clj"
+   {:comment 63, :blank 34, :code 196}]
+  ["checkouts\\proc\\src\\proc\\stats.clj"
+   {:blank 40, :code 146, :comment 28}]
+  ["checkouts\\spork\\src\\spork\\util\\cellular.clj"
+   {:comment 113, :blank 49, :code 429}]
+  ["src\\marathon\\sampledata\\synthetic.clj"
+   {:comment 22, :code 11, :blank 8}]
+  ["checkouts\\spork\\src\\spork\\util\\tags.clj"
+   {:comment 17, :blank 26, :code 148}]
+  ["checkouts\\spork\\src\\spork\\util\\vectors.clj"
+   {:comment 19, :blank 16, :code 106}]
+  ["checkouts\\spork\\src\\spork\\ai\\core.clj"
+   {:comment 68, :code 42, :blank 23}]
+  ["checkouts\\spork\\src\\spork\\cljgraph\\arrayflow.clj"
+   {:comment 55, :code 401, :blank 56}])
+ ["checkouts\\proc\\src\\proc\\ccard.clj"
+  {:code 275, :blank 53, :comment 69}]
+ "checkouts\\proc\\src\\proc\\ccard.clj"
+ {:code 275, :blank 53, :comment 69}
+ [:code 275]
+ :code
+ 275
+ [:blank 53]
+ :blank
+ 53
+ [:comment 69]
+ :comment
+ 69
+ ["checkouts\\proc\\src\\proc\\deltat.clj" {:code 3}]
+ "checkouts\\proc\\src\\proc\\deltat.clj"
+ {:code 3}
+ [:code 3]
+ :code
+ 3
+ ["checkouts\\spork\\src\\spork\\cljgraph\\networksimplex.clj"
+  {:comment 283, :code 534, :blank 140}]
+ "checkouts\\spork\\src\\spork\\cljgraph\\networksimplex.clj"
+ {:comment 283, :code 534, :blank 140}
+ [:comment 283]
+ :comment
+ 283
+ [:code 534]
+ :code
+ 534
+ [:blank 140]
+ :blank
+ 140
+ ["checkouts\\proc\\src\\proc\\satisfaction.clj"
+  {:blank 24, :code 164, :comment 12}]
+ "checkouts\\proc\\src\\proc\\satisfaction.clj"
+ {:blank 24, :code 164, :comment 12}
+ [:blank 24]
+ :blank
+ 24
+ [:code 164]
+ :code
+ 164
+ [:comment 12]
+ :comment
+ 12
+ ["checkouts\\spork\\obe\\cljgui\\examples\\reactive.clj"
+  {:code 24, :blank 1, :comment 3}]
+ "checkouts\\spork\\obe\\cljgui\\examples\\reactive.clj"
+ {:code 24, :blank 1, :comment 3}
+ [:code 24]
+ :code
+ 24
+ [:blank 1]
+ :blank
+ 1
+ [:comment 3]
+ :comment
+ 3
+ ["checkouts\\spork\\src\\spork\\cljgraph\\jungapi.clj"
+  {:comment 86, :code 203, :blank 49}]
+ "checkouts\\spork\\src\\spork\\cljgraph\\jungapi.clj"
+ {:comment 86, :code 203, :blank 49}
+ [:comment 86]
+ :comment
+ 86
+ [:code 203]
+ :code
+ 203
+ [:blank 49]
+ :blank
+ 49
+ ["src\\marathon\\data\\period.clj" {:comment 34, :code 39, :blank 13}]
+ "src\\marathon\\data\\period.clj"
+ {:comment 34, :code 39, :blank 13}
+ [:comment 34]
+ :comment
+ 34
+ [:code 39]
+ :code
+ 39
+ [:blank 13]
+ :blank
+ 13
+ ["checkouts\\spork\\src\\spork\\util\\lines.clj"
+  {:code 585, :blank 72, :comment 78}]
+ "checkouts\\spork\\src\\spork\\util\\lines.clj"
+ {:code 585, :blank 72, :comment 78}
+ [:code 585]
+ :code
+ 585
+ [:blank 72]
+ :blank
+ 72
+ [:comment 78]
+ :comment
+ 78
+ ["checkouts\\spork\\src\\spork\\util\\zip.clj"
+  {:comment 13, :blank 5, :code 81}]
+ "checkouts\\spork\\src\\spork\\util\\zip.clj"
+ {:comment 13, :blank 5, :code 81}
+ [:comment 13]
+ :comment
+ 13
+ [:blank 5]
+ :blank
+ 5
+ [:code 81]
+ :code
+ 81
+ ["src\\marathon\\fill\\filldata.clj" {:code 4, :blank 2}]
+ "src\\marathon\\fill\\filldata.clj"
+ {:code 4, :blank 2}
+ [:code 4]
+ :code
+ 4
+ [:blank 2]
+ :blank
+ 2
+ ["src\\marathon\\ces\\unit.clj" {:comment 514, :code 385, :blank 179}]
+ "src\\marathon\\ces\\unit.clj"
+ {:comment 514, :code 385, :blank 179}
+ [:comment 514]
+ :comment
+ 514
+ [:code 385]
+ :code
+ 385
+ [:blank 179]
+ :blank
+ 179
+ ["checkouts\\spork\\src\\spork\\util\\codecount.clj"
+  {:code 124, :blank 29, :comment 28}]
+ "checkouts\\spork\\src\\spork\\util\\codecount.clj"
+ {:code 124, :blank 29, :comment 28}
+ [:code 124]
+ :code
+ 124
+ [:blank 29]
+ :blank
+ 29
+ [:comment 28]
+ :comment
+ 28
+ ["checkouts\\spork\\src\\spork\\async\\system.clj"
+  {:comment 43, :blank 20, :code 183}]
+ "checkouts\\spork\\src\\spork\\async\\system.clj"
+ {:comment 43, :blank 20, :code 183}
+ [:comment 43]
+ :comment
+ 43
+ [:blank 20]
+ :blank
+ 20
+ [:code 183]
+ :code
+ 183
+ ["checkouts\\spork\\src\\spork\\cljgui\\components\\CanvasGraphics.clj"
+  {:comment 13, :code 47, :blank 12}]
+ "checkouts\\spork\\src\\spork\\cljgui\\components\\CanvasGraphics.clj"
+ {:comment 13, :code 47, :blank 12}
+ [:comment 13]
+ :comment
+ 13
+ [:code 47]
+ :code
+ 47
+ [:blank 12]
+ :blank
+ 12
+ ["checkouts\\proc\\src\\proc\\dataset.clj"
+  {:comment 42, :code 157, :blank 17}]
+ "checkouts\\proc\\src\\proc\\dataset.clj"
+ {:comment 42, :code 157, :blank 17}
+ [:comment 42]
+ :comment
+ 42
+ [:code 157]
+ :code
+ 157
+ [:blank 17]
+ :blank
+ 17
+ ["src\\marathon\\analysis.clj" {:comment 226, :code 645, :blank 109}]
+ "src\\marathon\\analysis.clj"
+ {:comment 226, :code 645, :blank 109}
+ [:comment 226]
+ :comment
+ 226
+ [:code 645]
+ :code
+ 645
+ [:blank 109]
+ :blank
+ 109
+ ["checkouts\\spork\\src\\spork\\events\\base.clj"
+  {:comment 9, :code 24, :blank 5}]
+ "checkouts\\spork\\src\\spork\\events\\base.clj"
+ {:comment 9, :code 24, :blank 5}
+ [:comment 9]
+ :comment
+ 9
+ [:code 24]
+ :code
+ 24
+ [:blank 5]
+ :blank
+ 5
+ ["checkouts\\spork\\src\\spork\\documentation.clj"
+  {:code 13, :blank 5, :comment 6}]
+ "checkouts\\spork\\src\\spork\\documentation.clj"
+ {:code 13, :blank 5, :comment 6}
+ [:code 13]
+ :code
+ 13
+ [:blank 5]
+ :blank
+ 5
+ [:comment 6]
+ :comment
+ 6
+ ["src\\marathon\\ces\\behaviortest.clj"
+  {:comment 10, :code 164, :blank 10}]
+ "src\\marathon\\ces\\behaviortest.clj"
+ {:comment 10, :code 164, :blank 10}
+ [:comment 10]
+ :comment
+ 10
+ [:code 164]
+ :code
+ 164
+ [:blank 10]
+ :blank
+ 10
+ ["checkouts\\proc\\src\\proc\\supply.clj"
+  {:comment 25, :code 316, :blank 34}]
+ "checkouts\\proc\\src\\proc\\supply.clj"
+ {:comment 25, :code 316, :blank 34}
+ [:comment 25]
+ :comment
+ 25
+ [:code 316]
+ :code
+ 316
+ [:blank 34]
+ :blank
+ 34
+ ["checkouts\\spork\\src\\spork\\sim\\data.clj"
+  {:code 285, :blank 41, :comment 58}]
+ "checkouts\\spork\\src\\spork\\sim\\data.clj"
+ {:code 285, :blank 41, :comment 58}
+ [:code 285]
+ :code
+ 285
+ [:blank 41]
+ :blank
+ 41
+ [:comment 58]
+ :comment
+ 58
+ ["src\\marathon\\sampledata\\branches.clj" {:code 136, :blank 2}]
+ "src\\marathon\\sampledata\\branches.clj"
+ {:code 136, :blank 2}
+ [:code 136]
+ :code
+ 136
+ [:blank 2]
+ :blank
+ 2
+ ["src\\marathon\\ces\\knowledge.clj"
+  {:comment 81, :blank 16, :code 20}]
+ "src\\marathon\\ces\\knowledge.clj"
+ {:comment 81, :blank 16, :code 20}
+ [:comment 81]
+ :comment
+ 81
+ [:blank 16]
+ :blank
+ 16
+ [:code 20]
+ :code
+ 20
+ ["checkouts\\spork\\src\\spork\\util\\vecmath.clj"
+  {:comment 55, :blank 23, :code 110}]
+ "checkouts\\spork\\src\\spork\\util\\vecmath.clj"
+ {:comment 55, :blank 23, :code 110}
+ [:comment 55]
+ :comment
+ 55
+ [:blank 23]
+ :blank
+ 23
+ [:code 110]
+ :code
+ 110
+ ["checkouts\\spork\\obe\\clogg\\core.clj"
+  {:comment 86, :code 124, :blank 85}]
+ "checkouts\\spork\\obe\\clogg\\core.clj"
+ {:comment 86, :code 124, :blank 85}
+ [:comment 86]
+ :comment
+ 86
+ [:code 124]
+ :code
+ 124
+ [:blank 85]
+ :blank
+ 85
+ ["src\\marathon\\run.clj" {:comment 18, :code 100, :blank 17}]
+ "src\\marathon\\run.clj"
+ {:comment 18, :code 100, :blank 17}
+ [:comment 18]
+ :comment
+ 18
+ [:code 100]
+ :code
+ 100
+ [:blank 17]
+ :blank
+ 17
+ ["src\\marathon\\ces\\fill\\fillgraph.clj"
+  {:comment 345, :code 161, :blank 89}]
+ "src\\marathon\\ces\\fill\\fillgraph.clj"
+ {:comment 345, :code 161, :blank 89}
+ [:comment 345]
+ :comment
+ 345
+ [:code 161]
+ :code
+ 161
+ [:blank 89]
+ :blank
+ 89
+ ["checkouts\\spork\\src\\spork\\opt\\fastmultipole.clj"
+  {:comment 16, :blank 26, :code 102}]
+ "checkouts\\spork\\src\\spork\\opt\\fastmultipole.clj"
+ {:comment 16, :blank 26, :code 102}
+ [:comment 16]
+ :comment
+ 16
+ [:blank 26]
+ :blank
+ 26
+ [:code 102]
+ :code
+ 102
+ ["checkouts\\spork\\src\\spork\\graphics2d\\canvas.clj"
+  {:code 527, :blank 97, :comment 127}]
+ "checkouts\\spork\\src\\spork\\graphics2d\\canvas.clj"
+ {:code 527, :blank 97, :comment 127}
+ [:code 527]
+ :code
+ 527
+ [:blank 97]
+ :blank
+ 97
+ [:comment 127]
+ :comment
+ 127
+ ["checkouts\\spork\\src\\spork\\ai\\behaviorcontext.clj"
+  {:comment 52, :blank 14, :code 91}]
+ "checkouts\\spork\\src\\spork\\ai\\behaviorcontext.clj"
+ {:comment 52, :blank 14, :code 91}
+ [:comment 52]
+ :comment
+ 52
+ [:blank 14]
+ :blank
+ 14
+ [:code 91]
+ :code
+ 91
+ ["script.clj" {:comment 97, :blank 61, :code 470}]
+ "script.clj"
+ {:comment 97, :blank 61, :code 470}
+ [:comment 97]
+ :comment
+ 97
+ [:blank 61]
+ :blank
+ 61
+ [:code 470]
+ :code
+ 470
+ ["checkouts\\spork\\src\\spork\\data\\cell.clj"
+  {:comment 8, :code 38, :blank 4}]
+ "checkouts\\spork\\src\\spork\\data\\cell.clj"
+ {:comment 8, :code 38, :blank 4}
+ [:comment 8]
+ :comment
+ 8
+ [:code 38]
+ :code
+ 38
+ [:blank 4]
+ :blank
+ 4
+ ["checkouts\\spork\\src\\spork\\entitysystem\\examples\\oblol.clj"
+  {:comment 82, :blank 1}]
+ "checkouts\\spork\\src\\spork\\entitysystem\\examples\\oblol.clj"
+ {:comment 82, :blank 1}
+ [:comment 82]
+ :comment
+ 82
+ [:blank 1]
+ :blank
+ 1
+ ["checkouts\\spork\\src\\spork\\util\\indexed.clj"
+  {:comment 12, :code 82, :blank 21}]
+ "checkouts\\spork\\src\\spork\\util\\indexed.clj"
+ {:comment 12, :code 82, :blank 21}
+ [:comment 12]
+ :comment
+ 12
+ [:code 82]
+ :code
+ 82
+ [:blank 21]
+ :blank
+ 21
+ ["checkouts\\spork\\src\\spork\\util\\sampling.clj"
+  {:comment 166, :code 501, :blank 117}]
+ "checkouts\\spork\\src\\spork\\util\\sampling.clj"
+ {:comment 166, :code 501, :blank 117}
+ [:comment 166]
+ :comment
+ 166
+ [:code 501]
+ :code
+ 501
+ [:blank 117]
+ :blank
+ 117
+ ["checkouts\\spork\\src\\spork\\data\\protocols.clj"
+  {:comment 1, :code 6, :blank 2}]
+ "checkouts\\spork\\src\\spork\\data\\protocols.clj"
+ {:comment 1, :code 6, :blank 2}
+ [:comment 1]
+ :comment
+ 1
+ [:code 6]
+ :code
+ 6
+ [:blank 2]
+ :blank
+ 2
+ ["checkouts\\proc\\src\\proc\\dynamicbars.clj"
+  {:comment 5, :code 96, :blank 18}]
+ "checkouts\\proc\\src\\proc\\dynamicbars.clj"
+ {:comment 5, :code 96, :blank 18}
+ [:comment 5]
+ :comment
+ 5
+ [:code 96]
+ :code
+ 96
+ [:blank 18]
+ :blank
+ 18
+ ["test\\marathon\\test\\core.clj" {:code 4, :blank 1}]
+ "test\\marathon\\test\\core.clj"
+ {:code 4, :blank 1}
+ [:code 4]
+ :code
+ 4
+ [:blank 1]
+ :blank
+ 1
+ ["src\\marathon\\introspect\\util.clj"
+  {:comment 28, :code 233, :blank 45}]
+ "src\\marathon\\introspect\\util.clj"
+ {:comment 28, :code 233, :blank 45}
+ [:comment 28]
+ :comment
+ 28
+ [:code 233]
+ :code
+ 233
+ [:blank 45]
+ :blank
+ 45
+ ["checkouts\\proc\\src\\proc\\core.clj"
+  {:blank 227, :comment 395, :code 1152}]
+ "checkouts\\proc\\src\\proc\\core.clj"
+ {:blank 227, :comment 395, :code 1152}
+ [:blank 227]
+ :blank
+ 227
+ [:comment 395]
+ :comment
+ 395
+ [:code 1152]
+ :code
+ 1152
+ ["src\\marathon\\visuals\\template.clj" {:code 735, :blank 9}]
+ "src\\marathon\\visuals\\template.clj"
+ {:code 735, :blank 9}
+ [:code 735]
+ :code
+ 735
+ [:blank 9]
+ :blank
+ 9
+ ["checkouts\\spork\\src\\spork\\opt\\gaops.clj"
+  {:comment 3, :code 3, :blank 2}]
+ "checkouts\\spork\\src\\spork\\opt\\gaops.clj"
+ {:comment 3, :code 3, :blank 2}
+ [:comment 3]
+ :comment
+ 3
+ [:code 3]
+ :code
+ 3
+ [:blank 2]
+ :blank
+ 2
+ ["checkouts\\spork\\src\\spork\\util\\general.clj"
+  {:comment 135, :code 602, :blank 103}]
+ "checkouts\\spork\\src\\spork\\util\\general.clj"
+ {:comment 135, :code 602, :blank 103}
+ [:comment 135]
+ :comment
+ 135
+ [:code 602]
+ :code
+ 602
+ [:blank 103]
+ :blank
+ 103
+ ["checkouts\\proc\\src\\proc\\bump.clj"
+  {:comment 146, :code 137, :blank 49}]
+ "checkouts\\proc\\src\\proc\\bump.clj"
+ {:comment 146, :code 137, :blank 49}
+ [:comment 146]
+ :comment
+ 146
+ [:code 137]
+ :code
+ 137
+ [:blank 49]
+ :blank
+ 49
+ ["checkouts\\spork\\src\\spork\\ai\\demo.clj"
+  {:code 178, :blank 31, :comment 157}]
+ "checkouts\\spork\\src\\spork\\ai\\demo.clj"
+ {:code 178, :blank 31, :comment 157}
+ [:code 178]
+ :code
+ 178
+ [:blank 31]
+ :blank
+ 31
+ [:comment 157]
+ :comment
+ 157
+ ["checkouts\\spork\\blah.clj" {:code 139, :blank 34, :comment 35}]
+ "checkouts\\spork\\blah.clj"
+ {:code 139, :blank 34, :comment 35}
+ [:code 139]
+ :code
+ 139
+ [:blank 34]
+ :blank
+ 34
+ [:comment 35]
+ :comment
+ 35
+ ["checkouts\\spork\\src\\spork\\util\\array.clj"
+  {:comment 96, :code 80, :blank 23}]
+ "checkouts\\spork\\src\\spork\\util\\array.clj"
+ {:comment 96, :code 80, :blank 23}
+ [:comment 96]
+ :comment
+ 96
+ [:code 80]
+ :code
+ 80
+ [:blank 23]
+ :blank
+ 23
+ ["checkouts\\spork\\obe\\cljgui\\scene\\manager.clj"
+  {:code 15, :blank 25, :comment 85}]
+ "checkouts\\spork\\obe\\cljgui\\scene\\manager.clj"
+ {:code 15, :blank 25, :comment 85}
+ [:code 15]
+ :code
+ 15
+ [:blank 25]
+ :blank
+ 25
+ [:comment 85]
+ :comment
+ 85
+ ["src\\marathon\\ces\\deployment.clj"
+  {:comment 57, :code 90, :blank 12}]
+ "src\\marathon\\ces\\deployment.clj"
+ {:comment 57, :code 90, :blank 12}
+ [:comment 57]
+ :comment
+ 57
+ [:code 90]
+ :code
+ 90
+ [:blank 12]
+ :blank
+ 12
+ ["checkouts\\spork\\obe\\geometry\\math3d.clj"
+  {:comment 5, :code 42, :blank 9}]
+ "checkouts\\spork\\obe\\geometry\\math3d.clj"
+ {:comment 5, :code 42, :blank 9}
+ [:comment 5]
+ :comment
+ 5
+ [:code 42]
+ :code
+ 42
+ [:blank 9]
+ :blank
+ 9
+ ["checkouts\\proc\\src\\proc\\lite.clj"
+  {:blank 21, :comment 15, :code 62}]
+ "checkouts\\proc\\src\\proc\\lite.clj"
+ {:blank 21, :comment 15, :code 62}
+ [:blank 21]
+ :blank
+ 21
+ [:comment 15]
+ :comment
+ 15
+ [:code 62]
+ :code
+ 62
+ ["src\\marathon\\project\\views\\deployments.clj"
+  {:comment 14, :blank 29, :code 170}]
+ "src\\marathon\\project\\views\\deployments.clj"
+ {:comment 14, :blank 29, :code 170}
+ [:comment 14]
+ :comment
+ 14
+ [:blank 29]
+ :blank
+ 29
+ [:code 170]
+ :code
+ 170
+ ["checkouts\\spork\\src\\spork\\cljgui\\components\\swing.clj"
+  {:code 858, :comment 198, :blank 149}]
+ "checkouts\\spork\\src\\spork\\cljgui\\components\\swing.clj"
+ {:code 858, :comment 198, :blank 149}
+ [:code 858]
+ :code
+ 858
+ [:comment 198]
+ :comment
+ 198
+ [:blank 149]
+ :blank
+ 149
+ ["src\\marathon\\analysis\\dummydata.clj" {:code 162}]
+ "src\\marathon\\analysis\\dummydata.clj"
+ {:code 162}
+ [:code 162]
+ :code
+ 162
+ ["checkouts\\proc\\src\\proc\\example.clj"
+  {:comment 30, :code 114, :blank 20}]
+ "checkouts\\proc\\src\\proc\\example.clj"
+ {:comment 30, :code 114, :blank 20}
+ [:comment 30]
+ :comment
+ 30
+ [:code 114]
+ :code
+ 114
+ [:blank 20]
+ :blank
+ 20
+ ["checkouts\\spork\\src\\spork\\graphics2d\\strokes.clj"
+  {:comment 30, :code 100, :blank 16}]
+ "checkouts\\spork\\src\\spork\\graphics2d\\strokes.clj"
+ {:comment 30, :code 100, :blank 16}
+ [:comment 30]
+ :comment
+ 30
+ [:code 100]
+ :code
+ 100
+ [:blank 16]
+ :blank
+ 16
+ ["checkouts\\spork\\src\\spork\\data\\adjacency.clj"
+  {:comment 130, :code 139, :blank 54}]
+ "checkouts\\spork\\src\\spork\\data\\adjacency.clj"
+ {:comment 130, :code 139, :blank 54}
+ [:comment 130]
+ :comment
+ 130
+ [:code 139]
+ :code
+ 139
+ [:blank 54]
+ :blank
+ 54
+ ["checkouts\\spork\\src\\spork\\sim\\backburner\\events.clj"
+  {:code 289, :blank 65, :comment 95}]
+ "checkouts\\spork\\src\\spork\\sim\\backburner\\events.clj"
+ {:code 289, :blank 65, :comment 95}
+ [:code 289]
+ :code
+ 289
+ [:blank 65]
+ :blank
+ 65
+ [:comment 95]
+ :comment
+ 95
+ ["src\\marathon\\ces\\policyio.clj"
+  {:code 90, :blank 20, :comment 47}]
+ "src\\marathon\\ces\\policyio.clj"
+ {:code 90, :blank 20, :comment 47}
+ [:code 90]
+ :code
+ 90
+ [:blank 20]
+ :blank
+ 20
+ [:comment 47]
+ :comment
+ 47
+ ["src\\marathon\\ces\\suppliers.clj"
+  {:comment 273, :blank 96, :code 65}]
+ "src\\marathon\\ces\\suppliers.clj"
+ {:comment 273, :blank 96, :code 65}
+ [:comment 273]
+ :comment
+ 273
+ [:blank 96]
+ :blank
+ 96
+ [:code 65]
+ :code
+ 65
+ ["checkouts\\spork\\src\\spork\\data\\edge.clj"
+  {:comment 19, :code 79, :blank 18}]
+ "checkouts\\spork\\src\\spork\\data\\edge.clj"
+ {:comment 19, :code 79, :blank 18}
+ [:comment 19]
+ :comment
+ 19
+ [:code 79]
+ :code
+ 79
+ [:blank 18]
+ :blank
+ 18
+ ["checkouts\\spork\\src\\spork\\util\\io.clj"
+  {:comment 46, :blank 81, :code 545}]
+ "checkouts\\spork\\src\\spork\\util\\io.clj"
+ {:comment 46, :blank 81, :code 545}
+ [:comment 46]
+ :comment
+ 46
+ [:blank 81]
+ :blank
+ 81
+ [:code 545]
+ :code
+ 545
+ ["checkouts\\spork\\src\\spork\\ai\\notes.clj"
+  {:comment 131, :code 1, :blank 24}]
+ "checkouts\\spork\\src\\spork\\ai\\notes.clj"
+ {:comment 131, :code 1, :blank 24}
+ [:comment 131]
+ :comment
+ 131
+ [:code 1]
+ :code
+ 1
+ [:blank 24]
+ :blank
+ 24
+ ["checkouts\\spork\\src\\spork\\data\\digraph.clj"
+  {:comment 65, :code 178, :blank 13}]
+ "checkouts\\spork\\src\\spork\\data\\digraph.clj"
+ {:comment 65, :code 178, :blank 13}
+ [:comment 65]
+ :comment
+ 65
+ [:code 178]
+ :code
+ 178
+ [:blank 13]
+ :blank
+ 13
+ ["checkouts\\spork\\src\\spork\\cljgraph\\main.clj"
+  {:code 74, :blank 17, :comment 7}]
+ "checkouts\\spork\\src\\spork\\cljgraph\\main.clj"
+ {:code 74, :blank 17, :comment 7}
+ [:code 74]
+ :code
+ 74
+ [:blank 17]
+ :blank
+ 17
+ [:comment 7]
+ :comment
+ 7
+ ["checkouts\\spork\\src\\spork\\protocols\\spatial.clj"
+  {:comment 60, :blank 74, :code 389}]
+ "checkouts\\spork\\src\\spork\\protocols\\spatial.clj"
+ {:comment 60, :blank 74, :code 389}
+ [:comment 60]
+ :comment
+ 60
+ [:blank 74]
+ :blank
+ 74
+ [:code 389]
+ :code
+ 389
+ ["checkouts\\spork\\src\\spork\\data\\cow.clj"
+  {:comment 5, :code 85, :blank 6}]
+ "checkouts\\spork\\src\\spork\\data\\cow.clj"
+ {:comment 5, :code 85, :blank 6}
+ [:comment 5]
+ :comment
+ 5
+ [:code 85]
+ :code
+ 85
+ [:blank 6]
+ :blank
+ 6
+ ["checkouts\\spork\\src\\spork\\data\\sptree.clj"
+  {:comment 1, :code 87, :blank 14}]
+ "checkouts\\spork\\src\\spork\\data\\sptree.clj"
+ {:comment 1, :code 87, :blank 14}
+ [:comment 1]
+ :comment
+ 1
+ [:code 87]
+ :code
+ 87
+ [:blank 14]
+ :blank
+ 14
+ ["checkouts\\spork\\src\\spork\\opt\\displaced.clj"
+  {:code 231, :blank 23, :comment 76}]
+ "checkouts\\spork\\src\\spork\\opt\\displaced.clj"
+ {:code 231, :blank 23, :comment 76}
+ [:code 231]
+ :code
+ 231
+ [:blank 23]
+ :blank
+ 23
+ [:comment 76]
+ :comment
+ 76
+ ["checkouts\\spork\\src\\spork\\util\\eager.clj"
+  {:comment 5, :blank 7, :code 20}]
+ "checkouts\\spork\\src\\spork\\util\\eager.clj"
+ {:comment 5, :blank 7, :code 20}
+ [:comment 5]
+ :comment
+ 5
+ [:blank 7]
+ :blank
+ 7
+ [:code 20]
+ :code
+ 20
+ ["src\\marathon\\ces\\fill\\scope.clj"
+  {:comment 50, :code 73, :blank 10}]
+ "src\\marathon\\ces\\fill\\scope.clj"
+ {:comment 50, :code 73, :blank 10}
+ [:comment 50]
+ :comment
+ 50
+ [:code 73]
+ :code
+ 73
+ [:blank 10]
+ :blank
+ 10
+ ["checkouts\\spork\\src\\spork\\util\\bitset.clj"
+  {:comment 17, :code 177, :blank 47}]
+ "checkouts\\spork\\src\\spork\\util\\bitset.clj"
+ {:comment 17, :code 177, :blank 47}
+ [:comment 17]
+ :comment
+ 17
+ [:code 177]
+ :code
+ 177
+ [:blank 47]
+ :blank
+ 47
+ ["checkouts\\spork\\obe\\displaced\\tst.clj"
+  {:code 31, :blank 8, :comment 6}]
+ "checkouts\\spork\\obe\\displaced\\tst.clj"
+ {:code 31, :blank 8, :comment 6}
+ [:code 31]
+ :code
+ 31
+ [:blank 8]
+ :blank
+ 8
+ [:comment 6]
+ :comment
+ 6
+ ["checkouts\\spork\\src\\spork\\graphics2d\\swing\\shared.clj"
+  {:code 20, :blank 3, :comment 1}]
+ "checkouts\\spork\\src\\spork\\graphics2d\\swing\\shared.clj"
+ {:code 20, :blank 3, :comment 1}
+ [:code 20]
+ :code
+ 20
+ [:blank 3]
+ :blank
+ 3
+ [:comment 1]
+ :comment
+ 1
+ ["checkouts\\spork\\obe\\cljgui\\examples\\drawing.clj"
+  {:code 64, :blank 4, :comment 1}]
+ "checkouts\\spork\\obe\\cljgui\\examples\\drawing.clj"
+ {:code 64, :blank 4, :comment 1}
+ [:code 64]
+ :code
+ 64
+ [:blank 4]
+ :blank
+ 4
+ [:comment 1]
+ :comment
+ 1
+ ["src\\marathon\\ces\\query.clj"
+  {:comment 399, :code 512, :blank 167}]
+ "src\\marathon\\ces\\query.clj"
+ {:comment 399, :code 512, :blank 167}
+ [:comment 399]
+ :comment
+ 399
+ [:code 512]
+ :code
+ 512
+ [:blank 167]
+ :blank
+ 167
+ ["checkouts\\spork\\src\\spork\\sketch\\activity.clj"
+  {:comment 34, :code 82, :blank 13}]
+ "checkouts\\spork\\src\\spork\\sketch\\activity.clj"
+ {:comment 34, :code 82, :blank 13}
+ [:comment 34]
+ :comment
+ 34
+ [:code 82]
+ :code
+ 82
+ [:blank 13]
+ :blank
+ 13
+ ["checkouts\\proc\\src\\proc\\interests.clj"
+  {:code 821, :blank 35, :comment 27}]
+ "checkouts\\proc\\src\\proc\\interests.clj"
+ {:code 821, :blank 35, :comment 27}
+ [:code 821]
+ :code
+ 821
+ [:blank 35]
+ :blank
+ 35
+ [:comment 27]
+ :comment
+ 27
+ ["checkouts\\spork\\obe\\sim\\pure\\scratchpad.clj"
+  {:comment 112, :blank 38, :code 56}]
+ "checkouts\\spork\\obe\\sim\\pure\\scratchpad.clj"
+ {:comment 112, :blank 38, :code 56}
+ [:comment 112]
+ :comment
+ 112
+ [:blank 38]
+ :blank
+ 38
+ [:code 56]
+ :code
+ 56
+ ["src\\marathon\\ces\\policyops.clj"
+  {:code 547, :comment 112, :blank 75}]
+ "src\\marathon\\ces\\policyops.clj"
+ {:code 547, :comment 112, :blank 75}
+ [:code 547]
+ :code
+ 547
+ [:comment 112]
+ :comment
+ 112
+ [:blank 75]
+ :blank
+ 75
+ ["src\\marathon\\ces\\policy.clj"
+  {:comment 330, :blank 118, :code 407}]
+ "src\\marathon\\ces\\policy.clj"
+ {:comment 330, :blank 118, :code 407}
+ [:comment 330]
+ :comment
+ 330
+ [:blank 118]
+ :blank
+ 118
+ [:code 407]
+ :code
+ 407
+ ["src\\marathon\\ces\\debug.clj" {:comment 22, :code 50, :blank 14}]
+ "src\\marathon\\ces\\debug.clj"
+ {:comment 22, :code 50, :blank 14}
+ [:comment 22]
+ :comment
+ 22
+ [:code 50]
+ :code
+ 50
+ [:blank 14]
+ :blank
+ 14
+ ["checkouts\\spork\\src\\spork\\util\\numerics.clj"
+  {:comment 25, :code 195, :blank 25}]
+ "checkouts\\spork\\src\\spork\\util\\numerics.clj"
+ {:comment 25, :code 195, :blank 25}
+ [:comment 25]
+ :comment
+ 25
+ [:code 195]
+ :code
+ 195
+ [:blank 25]
+ :blank
+ 25
+ ["checkouts\\proc\\src\\proc\\deployability.clj"
+  {:blank 20, :comment 24, :code 130}]
+ "checkouts\\proc\\src\\proc\\deployability.clj"
+ {:blank 20, :comment 24, :code 130}
+ [:blank 20]
+ :blank
+ 20
+ [:comment 24]
+ :comment
+ 24
+ [:code 130]
+ :code
+ 130
+ ["src\\marathon\\introspect\\startup.clj"
+  {:code 56, :blank 3, :comment 1}]
+ "src\\marathon\\introspect\\startup.clj"
+ {:code 56, :blank 3, :comment 1}
+ [:code 56]
+ :code
+ 56
+ [:blank 3]
+ :blank
+ 3
+ [:comment 1]
+ :comment
+ 1
+ ["checkouts\\proc\\test\\proc\\demandanalysis_test.clj"
+  {:code 113, :blank 12, :comment 24}]
+ "checkouts\\proc\\test\\proc\\demandanalysis_test.clj"
+ {:code 113, :blank 12, :comment 24}
+ [:code 113]
+ :code
+ 113
+ [:blank 12]
+ :blank
+ 12
+ [:comment 24]
+ :comment
+ 24
+ ["checkouts\\spork\\src\\spork\\opt\\annealing.clj"
+  {:comment 187, :blank 53, :code 192}]
+ "checkouts\\spork\\src\\spork\\opt\\annealing.clj"
+ {:comment 187, :blank 53, :code 192}
+ [:comment 187]
+ :comment
+ 187
+ [:blank 53]
+ :blank
+ 53
+ [:code 192]
+ :code
+ 192
+ ["checkouts\\spork\\src\\spork\\util\\clipboard.clj"
+  {:comment 5, :blank 11, :code 49}]
+ "checkouts\\spork\\src\\spork\\util\\clipboard.clj"
+ {:comment 5, :blank 11, :code 49}
+ [:comment 5]
+ :comment
+ 5
+ [:blank 11]
+ :blank
+ 11
+ [:code 49]
+ :code
+ 49
+ ["checkouts\\spork\\src\\spork\\data\\core.clj" {:comment 1, :code 1}]
+ "checkouts\\spork\\src\\spork\\data\\core.clj"
+ {:comment 1, :code 1}
+ [:comment 1]
+ :comment
+ 1
+ [:code 1]
+ :code
+ 1
+ ["checkouts\\proc\\src\\proc\\risk.clj"
+  {:comment 23, :code 434, :blank 58}]
+ "checkouts\\proc\\src\\proc\\risk.clj"
+ {:comment 23, :code 434, :blank 58}
+ [:comment 23]
+ :comment
+ 23
+ [:code 434]
+ :code
+ 434
+ [:blank 58]
+ :blank
+ 58
+ ["checkouts\\proc\\src\\proc\\sporkpatches.clj"
+  {:comment 254, :code 160, :blank 45}]
+ "checkouts\\proc\\src\\proc\\sporkpatches.clj"
+ {:comment 254, :code 160, :blank 45}
+ [:comment 254]
+ :comment
+ 254
+ [:code 160]
+ :code
+ 160
+ [:blank 45]
+ :blank
+ 45
+ ["checkouts\\spork\\src\\spork\\util\\temporal.clj"
+  {:comment 125, :blank 47, :code 225}]
+ "checkouts\\spork\\src\\spork\\util\\temporal.clj"
+ {:comment 125, :blank 47, :code 225}
+ [:comment 125]
+ :comment
+ 125
+ [:blank 47]
+ :blank
+ 47
+ [:code 225]
+ :code
+ 225
+ ["checkouts\\spork\\src\\spork\\util\\topotree.clj"
+  {:comment 29, :code 111, :blank 24}]
+ "checkouts\\spork\\src\\spork\\util\\topotree.clj"
+ {:comment 29, :code 111, :blank 24}
+ [:comment 29]
+ :comment
+ 29
+ [:code 111]
+ :code
+ 111
+ [:blank 24]
+ :blank
+ 24
+ ["checkouts\\spork\\src\\spork\\sim\\backburner\\discrete.clj"
+  {:code 32, :blank 20, :comment 73}]
+ "checkouts\\spork\\src\\spork\\sim\\backburner\\discrete.clj"
+ {:code 32, :blank 20, :comment 73}
+ [:code 32]
+ :code
+ 32
+ [:blank 20]
+ :blank
+ 20
+ [:comment 73]
+ :comment
+ 73
+ ["checkouts\\spork\\src\\spork\\data\\stores\\core.clj"
+  {:comment 52, :code 157, :blank 12}]
+ "checkouts\\spork\\src\\spork\\data\\stores\\core.clj"
+ {:comment 52, :code 157, :blank 12}
+ [:comment 52]
+ :comment
+ 52
+ [:code 157]
+ :code
+ 157
+ [:blank 12]
+ :blank
+ 12
+ ["checkouts\\proc\\src\\proc\\stash.clj"
+  {:comment 15, :code 68, :blank 4}]
+ "checkouts\\proc\\src\\proc\\stash.clj"
+ {:comment 15, :code 68, :blank 4}
+ [:comment 15]
+ :comment
+ 15
+ [:code 68]
+ :code
+ 68
+ [:blank 4]
+ :blank
+ 4
+ ["checkouts\\spork\\src\\spork\\data\\simpleq.clj"
+  {:comment 767, :blank 97, :code 350}]
+ "checkouts\\spork\\src\\spork\\data\\simpleq.clj"
+ {:comment 767, :blank 97, :code 350}
+ [:comment 767]
+ :comment
+ 767
+ [:blank 97]
+ :blank
+ 97
+ [:code 350]
+ :code
+ 350
+ ["checkouts\\spork\\src\\spork\\cljgraph\\core.clj"
+  {:comment 141, :code 592, :blank 131}]
+ "checkouts\\spork\\src\\spork\\cljgraph\\core.clj"
+ {:comment 141, :code 592, :blank 131}
+ [:comment 141]
+ :comment
+ 141
+ [:code 592]
+ :code
+ 592
+ [:blank 131]
+ :blank
+ 131
+ ["checkouts\\spork\\src\\spork\\entitysystem\\store.clj"
+  {:comment 465, :code 1056, :blank 165}]
+ "checkouts\\spork\\src\\spork\\entitysystem\\store.clj"
+ {:comment 465, :code 1056, :blank 165}
+ [:comment 465]
+ :comment
+ 465
+ [:code 1056]
+ :code
+ 1056
+ [:blank 165]
+ :blank
+ 165
+ ["checkouts\\proc\\src\\proc\\constants.clj"
+  {:comment 7, :code 6, :blank 2}]
+ "checkouts\\proc\\src\\proc\\constants.clj"
+ {:comment 7, :code 6, :blank 2}
+ [:comment 7]
+ :comment
+ 7
+ [:code 6]
+ :code
+ 6
+ [:blank 2]
+ :blank
+ 2
+ ["checkouts\\spork\\obe\\geometry\\math.clj"
+  {:comment 13, :code 18, :blank 7}]
+ "checkouts\\spork\\obe\\geometry\\math.clj"
+ {:comment 13, :code 18, :blank 7}
+ [:comment 13]
+ :comment
+ 13
+ [:code 18]
+ :code
+ 18
+ [:blank 7]
+ :blank
+ 7
+ ["checkouts\\spork\\project.clj" {:code 47, :blank 1, :comment 20}]
+ "checkouts\\spork\\project.clj"
+ {:code 47, :blank 1, :comment 20}
+ [:code 47]
+ :code
+ 47
+ [:blank 1]
+ :blank
+ 1
+ [:comment 20]
+ :comment
+ 20
+ ["checkouts\\proc\\src\\proc\\clipboard.clj"
+  {:code 33, :comment 10, :blank 7}]
+ "checkouts\\proc\\src\\proc\\clipboard.clj"
+ {:code 33, :comment 10, :blank 7}
+ [:code 33]
+ :code
+ 33
+ [:comment 10]
+ :comment
+ 10
+ [:blank 7]
+ :blank
+ 7
+ ["checkouts\\spork\\src\\spork\\util\\bridging.clj"
+  {:comment 87, :blank 35, :code 184}]
+ "checkouts\\spork\\src\\spork\\util\\bridging.clj"
+ {:comment 87, :blank 35, :code 184}
+ [:comment 87]
+ :comment
+ 87
+ [:blank 35]
+ :blank
+ 35
+ [:code 184]
+ :code
+ 184
+ ["checkouts\\spork\\obe\\sim\\pure\\behavior.clj"
+  {:code 237, :blank 82, :comment 361}]
+ "checkouts\\spork\\obe\\sim\\pure\\behavior.clj"
+ {:code 237, :blank 82, :comment 361}
+ [:code 237]
+ :code
+ 237
+ [:blank 82]
+ :blank
+ 82
+ [:comment 361]
+ :comment
+ 361
+ ["checkouts\\spork\\obe\\cljgui\\scenegraph.clj"
+  {:comment 143, :blank 62, :code 401}]
+ "checkouts\\spork\\obe\\cljgui\\scenegraph.clj"
+ {:comment 143, :blank 62, :code 401}
+ [:comment 143]
+ :comment
+ 143
+ [:blank 62]
+ :blank
+ 62
+ [:code 401]
+ :code
+ 401
+ ["checkouts\\proc\\src\\proc\\patches.clj"
+  {:comment 36, :code 172, :blank 30}]
+ "checkouts\\proc\\src\\proc\\patches.clj"
+ {:comment 36, :code 172, :blank 30}
+ [:comment 36]
+ :comment
+ 36
+ [:code 172]
+ :code
+ 172
+ [:blank 30]
+ :blank
+ 30
+ ["src\\marathon\\visuals\\core.clj" {:code 2, :blank 26, :comment 85}]
+ "src\\marathon\\visuals\\core.clj"
+ {:code 2, :blank 26, :comment 85}
+ [:code 2]
+ :code
+ 2
+ [:blank 26]
+ :blank
+ 26
+ [:comment 85]
+ :comment
+ 85
+ ["checkouts\\spork\\src\\spork\\sim\\updates.clj"
+  {:comment 71, :code 146, :blank 24}]
+ "checkouts\\spork\\src\\spork\\sim\\updates.clj"
+ {:comment 71, :code 146, :blank 24}
+ [:comment 71]
+ :comment
+ 71
+ [:code 146]
+ :code
+ 146
+ [:blank 24]
+ :blank
+ 24
+ ["checkouts\\spork\\src\\spork\\util\\xml.clj"
+  {:comment 2, :code 32, :blank 7}]
+ "checkouts\\spork\\src\\spork\\util\\xml.clj"
+ {:comment 2, :code 32, :blank 7}
+ [:comment 2]
+ :comment
+ 2
+ [:code 32]
+ :code
+ 32
+ [:blank 7]
+ :blank
+ 7
+ ["checkouts\\spork\\src\\spork\\util\\mailbox.clj"
+  {:comment 15, :code 51, :blank 18}]
+ "checkouts\\spork\\src\\spork\\util\\mailbox.clj"
+ {:comment 15, :code 51, :blank 18}
+ [:comment 15]
+ :comment
+ 15
+ [:code 51]
+ :code
+ 51
+ [:blank 18]
+ :blank
+ 18
+ ["checkouts\\spork\\obe\\cljgui\\animation\\example.clj"
+  {:comment 41, :code 248, :blank 56}]
+ "checkouts\\spork\\obe\\cljgui\\animation\\example.clj"
+ {:comment 41, :code 248, :blank 56}
+ [:comment 41]
+ :comment
+ 41
+ [:code 248]
+ :code
+ 248
+ [:blank 56]
+ :blank
+ 56
+ ["checkouts\\spork\\src\\spork\\data\\searchstate.clj"
+  {:comment 33, :code 206, :blank 28}]
+ "checkouts\\spork\\src\\spork\\data\\searchstate.clj"
+ {:comment 33, :code 206, :blank 28}
+ [:comment 33]
+ :comment
+ 33
+ [:code 206]
+ :code
+ 206
+ [:blank 28]
+ :blank
+ 28
+ ["src\\marathon\\data\\store.clj"
+  {:comment 218, :code 439, :blank 81}]
+ "src\\marathon\\data\\store.clj"
+ {:comment 218, :code 439, :blank 81}
+ [:comment 218]
+ :comment
+ 218
+ [:code 439]
+ :code
+ 439
+ [:blank 81]
+ :blank
+ 81
+ ["checkouts\\spork\\src\\spork\\util\\diff.clj"
+  {:comment 17, :code 19, :blank 1}]
+ "checkouts\\spork\\src\\spork\\util\\diff.clj"
+ {:comment 17, :code 19, :blank 1}
+ [:comment 17]
+ :comment
+ 17
+ [:code 19]
+ :code
+ 19
+ [:blank 1]
+ :blank
+ 1
+ ["src\\marathon\\processing\\pre.clj"
+  {:comment 7, :blank 9, :code 27}]
+ "src\\marathon\\processing\\pre.clj"
+ {:comment 7, :blank 9, :code 27}
+ [:comment 7]
+ :comment
+ 7
+ [:blank 9]
+ :blank
+ 9
+ [:code 27]
+ :code
+ 27
+ ["checkouts\\spork\\src\\spork\\entitysystem\\diff.clj"
+  {:comment 13, :code 36, :blank 9}]
+ "checkouts\\spork\\src\\spork\\entitysystem\\diff.clj"
+ {:comment 13, :code 36, :blank 9}
+ [:comment 13]
+ :comment
+ 13
+ [:code 36]
+ :code
+ 36
+ [:blank 9]
+ :blank
+ 9
+ ["checkouts\\spork\\src\\spork\\entitysystem\\ephemeral.clj"
+  {:comment 24, :code 89, :blank 14}]
+ "checkouts\\spork\\src\\spork\\entitysystem\\ephemeral.clj"
+ {:comment 24, :code 89, :blank 14}
+ [:comment 24]
+ :comment
+ 24
+ [:code 89]
+ :code
+ 89
+ [:blank 14]
+ :blank
+ 14
+ ["checkouts\\spork\\src\\spork\\events\\observe.clj"
+  {:comment 83, :blank 86, :code 440}]
+ "checkouts\\spork\\src\\spork\\events\\observe.clj"
+ {:comment 83, :blank 86, :code 440}
+ [:comment 83]
+ :comment
+ 83
+ [:blank 86]
+ :blank
+ 86
+ [:code 440]
+ :code
+ 440
+ ["src\\marathon\\ces\\setup.clj" {:comment 55, :code 112, :blank 34}]
+ "src\\marathon\\ces\\setup.clj"
+ {:comment 55, :code 112, :blank 34}
+ [:comment 55]
+ :comment
+ 55
+ [:code 112]
+ :code
+ 112
+ [:blank 34]
+ :blank
+ 34
+ ["src\\marathon\\sampledata\\srm.clj"
+  {:comment 7, :code 359, :blank 7}]
+ "src\\marathon\\sampledata\\srm.clj"
+ {:comment 7, :code 359, :blank 7}
+ [:comment 7]
+ :comment
+ 7
+ [:code 359]
+ :code
+ 359
+ [:blank 7]
+ :blank
+ 7
+ ["checkouts\\spork\\src\\spork\\data\\indexedgraph.clj"
+  {:comment 8, :code 310, :blank 41}]
+ "checkouts\\spork\\src\\spork\\data\\indexedgraph.clj"
+ {:comment 8, :code 310, :blank 41}
+ [:comment 8]
+ :comment
+ 8
+ [:code 310]
+ :code
+ 310
+ [:blank 41]
+ :blank
+ 41
+ ["checkouts\\spork\\obe\\cljgui\\examples\\flipper.clj"
+  {:code 155, :blank 36, :comment 45}]
+ "checkouts\\spork\\obe\\cljgui\\examples\\flipper.clj"
+ {:code 155, :blank 36, :comment 45}
+ [:code 155]
+ :code
+ 155
+ [:blank 36]
+ :blank
+ 36
+ [:comment 45]
+ :comment
+ 45
+ ["checkouts\\spork\\src\\spork\\data\\fringe.clj"
+  {:code 126, :blank 19, :comment 39}]
+ "checkouts\\spork\\src\\spork\\data\\fringe.clj"
+ {:code 126, :blank 19, :comment 39}
+ [:code 126]
+ :code
+ 126
+ [:blank 19]
+ :blank
+ 19
+ [:comment 39]
+ :comment
+ 39
+ ["checkouts\\spork\\src\\spork\\cljgraph\\tests.clj"
+  {:comment 113, :code 355, :blank 58}]
+ "checkouts\\spork\\src\\spork\\cljgraph\\tests.clj"
+ {:comment 113, :code 355, :blank 58}
+ [:comment 113]
+ :comment
+ 113
+ [:code 355]
+ :code
+ 355
+ [:blank 58]
+ :blank
+ 58
+ ["checkouts\\spork\\src\\spork\\graphics2d\\debug.clj"
+  {:blank 14, :code 125, :comment 35}]
+ "checkouts\\spork\\src\\spork\\graphics2d\\debug.clj"
+ {:blank 14, :code 125, :comment 35}
+ [:blank 14]
+ :blank
+ 14
+ [:code 125]
+ :code
+ 125
+ [:comment 35]
+ :comment
+ 35
+ ["checkouts\\spork\\src\\spork\\entitysystem\\entitytesting.clj"
+  {:comment 4, :blank 14, :code 51}]
+ "checkouts\\spork\\src\\spork\\entitysystem\\entitytesting.clj"
+ {:comment 4, :blank 14, :code 51}
+ [:comment 4]
+ :comment
+ 4
+ [:blank 14]
+ :blank
+ 14
+ [:code 51]
+ :code
+ 51
+ ["src\\marathon\\project.clj" {:comment 47, :code 186, :blank 34}]
+ "src\\marathon\\project.clj"
+ {:comment 47, :code 186, :blank 34}
+ [:comment 47]
+ :comment
+ 47
+ [:code 186]
+ :code
+ 186
+ [:blank 34]
+ :blank
+ 34
+ ["checkouts\\proc\\src\\proc\\tests.clj"
+  {:code 143, :blank 35, :comment 44}]
+ "checkouts\\proc\\src\\proc\\tests.clj"
+ {:code 143, :blank 35, :comment 44}
+ [:code 143]
+ :code
+ 143
+ [:blank 35]
+ :blank
+ 35
+ [:comment 44]
+ :comment
+ 44
+ ["checkouts\\spork\\src\\spork\\entitysystem\\examples\\orcbattleLOL.clj"
+  {:comment 64, :blank 22}]
+ "checkouts\\spork\\src\\spork\\entitysystem\\examples\\orcbattleLOL.clj"
+ {:comment 64, :blank 22}
+ [:comment 64]
+ :comment
+ 64
+ [:blank 22]
+ :blank
+ 22
+ ["checkouts\\spork\\src\\spork\\ai\\behavior.clj"
+  {:comment 389, :blank 100, :code 431}]
+ "checkouts\\spork\\src\\spork\\ai\\behavior.clj"
+ {:comment 389, :blank 100, :code 431}
+ [:comment 389]
+ :comment
+ 389
+ [:blank 100]
+ :blank
+ 100
+ [:code 431]
+ :code
+ 431
+ ["checkouts\\spork\\orgtest.clj" {:code 35, :blank 10, :comment 4}]
+ "checkouts\\spork\\orgtest.clj"
+ {:code 35, :blank 10, :comment 4}
+ [:code 35]
+ :code
+ 35
+ [:blank 10]
+ :blank
+ 10
+ [:comment 4]
+ :comment
+ 4
+ ["checkouts\\spork\\src\\spork\\sketch.clj"
+  {:comment 177, :code 1038, :blank 134}]
+ "checkouts\\spork\\src\\spork\\sketch.clj"
+ {:comment 177, :code 1038, :blank 134}
+ [:comment 177]
+ :comment
+ 177
+ [:code 1038]
+ :code
+ 1038
+ [:blank 134]
+ :blank
+ 134
+ ["checkouts\\spork\\src\\spork\\util\\stream.clj"
+  {:comment 19, :code 118, :blank 13}]
+ "checkouts\\spork\\src\\spork\\util\\stream.clj"
+ {:comment 19, :code 118, :blank 13}
+ [:comment 19]
+ :comment
+ 19
+ [:code 118]
+ :code
+ 118
+ [:blank 13]
+ :blank
+ 13
+ ["src\\marathon\\data\\protocols.clj"
+  {:comment 125, :code 298, :blank 46}]
+ "src\\marathon\\data\\protocols.clj"
+ {:comment 125, :code 298, :blank 46}
+ [:comment 125]
+ :comment
+ 125
+ [:code 298]
+ :code
+ 298
+ [:blank 46]
+ :blank
+ 46
+ ["checkouts\\proc\\src\\proc\\ranking.clj"
+  {:code 60, :blank 7, :comment 2}]
+ "checkouts\\proc\\src\\proc\\ranking.clj"
+ {:code 60, :blank 7, :comment 2}
+ [:code 60]
+ :code
+ 60
+ [:blank 7]
+ :blank
+ 7
+ [:comment 2]
+ :comment
+ 2
+ ["checkouts\\spork\\obe\\displaced\\gridbag.clj"
+  {:comment 27, :code 18, :blank 7}]
+ "checkouts\\spork\\obe\\displaced\\gridbag.clj"
+ {:comment 27, :code 18, :blank 7}
+ [:comment 27]
+ :comment
+ 27
+ [:code 18]
+ :code
+ 18
+ [:blank 7]
+ :blank
+ 7
+ ["checkouts\\spork\\src\\spork\\entitysystem\\examples\\orcbattle.clj"
+  {:comment 52, :blank 51, :code 211}]
+ "checkouts\\spork\\src\\spork\\entitysystem\\examples\\orcbattle.clj"
+ {:comment 52, :blank 51, :code 211}
+ [:comment 52]
+ :comment
+ 52
+ [:blank 51]
+ :blank
+ 51
+ [:code 211]
+ :code
+ 211
+ ["checkouts\\spork\\src\\spork\\util\\table.clj"
+  {:comment 138, :blank 166, :code 1351}]
+ "checkouts\\spork\\src\\spork\\util\\table.clj"
+ {:comment 138, :blank 166, :code 1351}
+ [:comment 138]
+ :comment
+ 138
+ [:blank 166]
+ :blank
+ 166
+ [:code 1351]
+ :code
+ 1351
+ ["checkouts\\spork\\src\\spork\\util\\processor.clj"
+  {:comment 24, :blank 33, :code 89}]
+ "checkouts\\spork\\src\\spork\\util\\processor.clj"
+ {:comment 24, :blank 33, :code 89}
+ [:comment 24]
+ :comment
+ 24
+ [:blank 33]
+ :blank
+ 33
+ [:code 89]
+ :code
+ 89
+ ["checkouts\\spork\\src\\spork\\ai\\logic.clj"
+  {:comment 26, :blank 22, :code 169}]
+ "checkouts\\spork\\src\\spork\\ai\\logic.clj"
+ {:comment 26, :blank 22, :code 169}
+ [:comment 26]
+ :comment
+ 26
+ [:blank 22]
+ :blank
+ 22
+ [:code 169]
+ :code
+ 169
+ ["checkouts\\spork\\src\\spork\\opt\\dumbga.clj"
+  {:comment 44, :blank 17, :code 72}]
+ "checkouts\\spork\\src\\spork\\opt\\dumbga.clj"
+ {:comment 44, :blank 17, :code 72}
+ [:comment 44]
+ :comment
+ 44
+ [:blank 17]
+ :blank
+ 17
+ [:code 72]
+ :code
+ 72
+ ["checkouts\\spork\\src\\spork\\util\\datetime.clj"
+  {:comment 5, :blank 7, :code 36}]
+ "checkouts\\spork\\src\\spork\\util\\datetime.clj"
+ {:comment 5, :blank 7, :code 36}
+ [:comment 5]
+ :comment
+ 5
+ [:blank 7]
+ :blank
+ 7
+ [:code 36]
+ :code
+ 36
+ ["src\\marathon\\sampledata\\project\\mproj.clj"
+  {:comment 3, :code 13}]
+ "src\\marathon\\sampledata\\project\\mproj.clj"
+ {:comment 3, :code 13}
+ [:comment 3]
+ :comment
+ 3
+ [:code 13]
+ :code
+ 13
+ ["checkouts\\spork\\src\\spork\\util\\metaprogramming.clj"
+  {:comment 45, :code 263, :blank 45}]
+ "checkouts\\spork\\src\\spork\\util\\metaprogramming.clj"
+ {:comment 45, :code 263, :blank 45}
+ [:comment 45]
+ :comment
+ 45
+ [:code 263]
+ :code
+ 263
+ [:blank 45]
+ :blank
+ 45
+ ["checkouts\\proc\\project.clj" {:blank 1, :code 22, :comment 9}]
+ "checkouts\\proc\\project.clj"
+ {:blank 1, :code 22, :comment 9}
+ [:blank 1]
+ :blank
+ 1
+ [:code 22]
+ :code
+ 22
+ [:comment 9]
+ :comment
+ 9
+ ["src\\marathon\\core.clj" {:code 357, :blank 55, :comment 44}]
+ "src\\marathon\\core.clj"
+ {:code 357, :blank 55, :comment 44}
+ [:code 357]
+ :code
+ 357
+ [:blank 55]
+ :blank
+ 55
+ [:comment 44]
+ :comment
+ 44
+ ["checkouts\\spork\\src\\spork\\data\\grid.clj"
+  {:comment 13, :blank 14, :code 122}]
+ "checkouts\\spork\\src\\spork\\data\\grid.clj"
+ {:comment 13, :blank 14, :code 122}
+ [:comment 13]
+ :comment
+ 13
+ [:blank 14]
+ :blank
+ 14
+ [:code 122]
+ :code
+ 122
+ ["checkouts\\spork\\src\\spork\\opt\\optimization.clj"
+  {:comment 18, :code 78, :blank 19}]
+ "checkouts\\spork\\src\\spork\\opt\\optimization.clj"
+ {:comment 18, :code 78, :blank 19}
+ [:comment 18]
+ :comment
+ 18
+ [:code 78]
+ :code
+ 78
+ [:blank 19]
+ :blank
+ 19
+ ["checkouts\\spork\\src\\spork\\sim\\history.clj"
+  {:comment 90, :code 269, :blank 39}]
+ "checkouts\\spork\\src\\spork\\sim\\history.clj"
+ {:comment 90, :code 269, :blank 39}
+ [:comment 90]
+ :comment
+ 90
+ [:code 269]
+ :code
+ 269
+ [:blank 39]
+ :blank
+ 39
+ ["checkouts\\spork\\src\\spork\\incanter\\extensions.clj"
+  {:comment 51, :blank 9}]
+ "checkouts\\spork\\src\\spork\\incanter\\extensions.clj"
+ {:comment 51, :blank 9}
+ [:comment 51]
+ :comment
+ 51
+ [:blank 9]
+ :blank
+ 9
+ ["src\\marathon\\data\\cycle.clj" {:comment 26, :code 83, :blank 9}]
+ "src\\marathon\\data\\cycle.clj"
+ {:comment 26, :code 83, :blank 9}
+ [:comment 26]
+ :comment
+ 26
+ [:code 83]
+ :code
+ 83
+ [:blank 9]
+ :blank
+ 9
+ ["src\\marathon\\documentation.clj"
+  {:comment 60, :blank 30, :code 65}]
+ "src\\marathon\\documentation.clj"
+ {:comment 60, :blank 30, :code 65}
+ [:comment 60]
+ :comment
+ 60
+ [:blank 30]
+ :blank
+ 30
+ [:code 65]
+ :code
+ 65
+ ["checkouts\\spork\\src\\spork\\cljgraph\\flowtests.clj"
+  {:code 47, :blank 10}]
+ "checkouts\\spork\\src\\spork\\cljgraph\\flowtests.clj"
+ {:code 47, :blank 10}
+ [:code 47]
+ :code
+ 47
+ [:blank 10]
+ :blank
+ 10
+ ["src\\marathon\\analysis\\requirements.clj"
+  {:comment 727, :code 744, :blank 206}]
+ "src\\marathon\\analysis\\requirements.clj"
+ {:comment 727, :code 744, :blank 206}
+ [:comment 727]
+ :comment
+ 727
+ [:code 744]
+ :code
+ 744
+ [:blank 206]
+ :blank
+ 206
+ ["src\\marathon\\serial.clj" {:comment 32, :code 94, :blank 28}]
+ "src\\marathon\\serial.clj"
+ {:comment 32, :code 94, :blank 28}
+ [:comment 32]
+ :comment
+ 32
+ [:code 94]
+ :code
+ 94
+ [:blank 28]
+ :blank
+ 28
+ ["obe\\output\\outputstore.clj" {:comment 9, :code 20, :blank 2}]
+ "obe\\output\\outputstore.clj"
+ {:comment 9, :code 20, :blank 2}
+ [:comment 9]
+ :comment
+ 9
+ [:code 20]
+ :code
+ 20
+ [:blank 2]
+ :blank
+ 2
+ ["checkouts\\spork\\src\\spork\\data\\tables.clj"
+  {:comment 27, :code 57, :blank 27}]
+ "checkouts\\spork\\src\\spork\\data\\tables.clj"
+ {:comment 27, :code 57, :blank 27}
+ [:comment 27]
+ :comment
+ 27
+ [:code 57]
+ :code
+ 57
+ [:blank 27]
+ :blank
+ 27
+ ["checkouts\\spork\\src\\spork\\util\\ranges.clj"
+  {:comment 29, :code 93, :blank 18}]
+ "checkouts\\spork\\src\\spork\\util\\ranges.clj"
+ {:comment 29, :code 93, :blank 18}
+ [:comment 29]
+ :comment
+ 29
+ [:code 93]
+ :code
+ 93
+ [:blank 18]
+ :blank
+ 18
+ ["src\\marathon\\visuals\\patches.clj"
+  {:comment 105, :code 325, :blank 58}]
+ "src\\marathon\\visuals\\patches.clj"
+ {:comment 105, :code 325, :blank 58}
+ [:comment 105]
+ :comment
+ 105
+ [:code 325]
+ :code
+ 325
+ [:blank 58]
+ :blank
+ 58
+ ["src\\marathon\\project\\linked.clj"
+  {:comment 33, :code 51, :blank 7}]
+ "src\\marathon\\project\\linked.clj"
+ {:comment 33, :code 51, :blank 7}
+ [:comment 33]
+ :comment
+ 33
+ [:code 51]
+ :code
+ 51
+ [:blank 7]
+ :blank
+ 7
+ ["checkouts\\spork\\src\\spork\\geometry\\shapes.clj"
+  {:comment 81, :code 170, :blank 46}]
+ "checkouts\\spork\\src\\spork\\geometry\\shapes.clj"
+ {:comment 81, :code 170, :blank 46}
+ [:comment 81]
+ :comment
+ 81
+ [:code 170]
+ :code
+ 170
+ [:blank 46]
+ :blank
+ 46
+ ["src\\marathon\\visuals\\styling.clj"
+  {:comment 3, :code 71, :blank 7}]
+ "src\\marathon\\visuals\\styling.clj"
+ {:comment 3, :code 71, :blank 7}
+ [:comment 3]
+ :comment
+ 3
+ [:code 71]
+ :code
+ 71
+ [:blank 7]
+ :blank
+ 7
+ ["checkouts\\spork\\src\\spork\\data\\persistentq.clj"
+  {:comment 91, :code 94, :blank 17}]
+ "checkouts\\spork\\src\\spork\\data\\persistentq.clj"
+ {:comment 91, :code 94, :blank 17}
+ [:comment 91]
+ :comment
+ 91
+ [:code 94]
+ :code
+ 94
+ [:blank 17]
+ :blank
+ 17
+ ["checkouts\\spork\\src\\spork\\util\\comparison.clj"
+  {:comment 20, :blank 13, :code 34}]
+ "checkouts\\spork\\src\\spork\\util\\comparison.clj"
+ {:comment 20, :blank 13, :code 34}
+ [:comment 20]
+ :comment
+ 20
+ [:blank 13]
+ :blank
+ 13
+ [:code 34]
+ :code
+ 34
+ ["checkouts\\spork\\src\\spork\\sim\\impure\\core.clj"
+  {:comment 7, :code 1, :blank 1}]
+ "checkouts\\spork\\src\\spork\\sim\\impure\\core.clj"
+ {:comment 7, :code 1, :blank 1}
+ [:comment 7]
+ :comment
+ 7
+ [:code 1]
+ :code
+ 1
+ [:blank 1]
+ :blank
+ 1
+ ["src\\marathon\\considerations.clj"
+  {:comment 282, :code 53, :blank 48}]
+ "src\\marathon\\considerations.clj"
+ {:comment 282, :code 53, :blank 48}
+ [:comment 282]
+ :comment
+ 282
+ [:code 53]
+ :code
+ 53
+ [:blank 48]
+ :blank
+ 48
+ ["checkouts\\spork\\obe\\displaced\\behavior.clj"
+  {:code 100, :blank 22, :comment 50}]
+ "checkouts\\spork\\obe\\displaced\\behavior.clj"
+ {:code 100, :blank 22, :comment 50}
+ [:code 100]
+ :code
+ 100
+ [:blank 22]
+ :blank
+ 22
+ [:comment 50]
+ :comment
+ 50
+ ["checkouts\\spork\\src\\spork\\cljgraph\\flow.clj"
+  {:comment 350, :code 887, :blank 173}]
+ "checkouts\\spork\\src\\spork\\cljgraph\\flow.clj"
+ {:comment 350, :code 887, :blank 173}
+ [:comment 350]
+ :comment
+ 350
+ [:code 887]
+ :code
+ 887
+ [:blank 173]
+ :blank
+ 173
+ ["checkouts\\spork\\src\\spork\\mining\\core.clj"
+  {:comment 4, :code 32, :blank 6}]
+ "checkouts\\spork\\src\\spork\\mining\\core.clj"
+ {:comment 4, :code 32, :blank 6}
+ [:comment 4]
+ :comment
+ 4
+ [:code 32]
+ :code
+ 32
+ [:blank 6]
+ :blank
+ 6
+ ["checkouts\\spork\\src\\spork\\entitysystem\\systems.clj"
+  {:comment 167, :blank 3}]
+ "checkouts\\spork\\src\\spork\\entitysystem\\systems.clj"
+ {:comment 167, :blank 3}
+ [:comment 167]
+ :comment
+ 167
+ [:blank 3]
+ :blank
+ 3
+ ["checkouts\\spork\\src\\spork\\graphics2d\\swing.clj"
+  {:comment 113, :code 557, :blank 85}]
+ "checkouts\\spork\\src\\spork\\graphics2d\\swing.clj"
+ {:comment 113, :code 557, :blank 85}
+ [:comment 113]
+ :comment
+ 113
+ [:code 557]
+ :code
+ 557
+ [:blank 85]
+ :blank
+ 85
+ ["src\\marathon\\ces\\simlib.clj" {:comment 2, :code 1}]
+ "src\\marathon\\ces\\simlib.clj"
+ {:comment 2, :code 1}
+ [:comment 2]
+ :comment
+ 2
+ [:code 1]
+ :code
+ 1
+ ["src\\marathon\\ces\\demand.clj"
+  {:comment 413, :code 501, :blank 133}]
+ "src\\marathon\\ces\\demand.clj"
+ {:comment 413, :code 501, :blank 133}
+ [:comment 413]
+ :comment
+ 413
+ [:code 501]
+ :code
+ 501
+ [:blank 133]
+ :blank
+ 133
+ ["src\\marathon\\demo.clj" {:comment 9, :code 58, :blank 10}]
+ "src\\marathon\\demo.clj"
+ {:comment 9, :code 58, :blank 10}
+ [:comment 9]
+ :comment
+ 9
+ [:code 58]
+ :code
+ 58
+ [:blank 10]
+ :blank
+ 10
+ ["checkouts\\spork\\src\\spork\\data\\mpq.clj"
+  {:comment 64, :code 226, :blank 19}]
+ "checkouts\\spork\\src\\spork\\data\\mpq.clj"
+ {:comment 64, :code 226, :blank 19}
+ [:comment 64]
+ :comment
+ 64
+ [:code 226]
+ :code
+ 226
+ [:blank 19]
+ :blank
+ 19
+ ["checkouts\\spork\\src\\spork\\data\\column.clj"
+  {:comment 13, :code 1, :blank 3}]
+ "checkouts\\spork\\src\\spork\\data\\column.clj"
+ {:comment 13, :code 1, :blank 3}
+ [:comment 13]
+ :comment
+ 13
+ [:code 1]
+ :code
+ 1
+ [:blank 3]
+ :blank
+ 3
+ ["checkouts\\proc\\test\\proc\\core_test.clj" {:code 6, :blank 1}]
+ "checkouts\\proc\\test\\proc\\core_test.clj"
+ {:code 6, :blank 1}
+ [:code 6]
+ :code
+ 6
+ [:blank 1]
+ :blank
+ 1
+ ["src\\marathon\\omtest.clj" {:code 10, :blank 3}]
+ "src\\marathon\\omtest.clj"
+ {:code 10, :blank 3}
+ [:code 10]
+ :code
+ 10
+ [:blank 3]
+ :blank
+ 3
+ ["vnv.clj" {:comment 37, :blank 8, :code 584}]
+ "vnv.clj"
+ {:comment 37, :blank 8, :code 584}
+ [:comment 37]
+ :comment
+ 37
+ [:blank 8]
+ :blank
+ 8
+ [:code 584]
+ :code
+ 584
+ ["checkouts\\proc\\src\\proc\\demandanalysis.clj"
+  {:blank 103, :comment 101, :code 788}]
+ "checkouts\\proc\\src\\proc\\demandanalysis.clj"
+ {:blank 103, :comment 101, :code 788}
+ [:blank 103]
+ :blank
+ 103
+ [:comment 101]
+ :comment
+ 101
+ [:code 788]
+ :code
+ 788
+ ["checkouts\\spork\\src\\spork\\graphics2d\\stroke.clj"
+  {:code 26, :blank 6}]
+ "checkouts\\spork\\src\\spork\\graphics2d\\stroke.clj"
+ {:code 26, :blank 6}
+ [:code 26]
+ :code
+ 26
+ [:blank 6]
+ :blank
+ 6
+ ["src\\marathon\\observers.clj" {:comment 321, :code 318, :blank 87}]
+ "src\\marathon\\observers.clj"
+ {:comment 321, :code 318, :blank 87}
+ [:comment 321]
+ :comment
+ 321
+ [:code 318]
+ :code
+ 318
+ [:blank 87]
+ :blank
+ 87
+ ["checkouts\\spork\\src\\spork\\data\\indexed.clj"
+  {:comment 22, :code 44, :blank 9}]
+ "checkouts\\spork\\src\\spork\\data\\indexed.clj"
+ {:comment 22, :code 44, :blank 9}
+ [:comment 22]
+ :comment
+ 22
+ [:code 44]
+ :code
+ 44
+ [:blank 9]
+ :blank
+ 9
+ ["checkouts\\spork\\src\\spork\\sim\\backburner\\deprecated.clj"
+  {:code 81, :blank 21, :comment 18}]
+ "checkouts\\spork\\src\\spork\\sim\\backburner\\deprecated.clj"
+ {:code 81, :blank 21, :comment 18}
+ [:code 81]
+ :code
+ 81
+ [:blank 21]
+ :blank
+ 21
+ [:comment 18]
+ :comment
+ 18
+ ["src\\marathon\\ces\\behavior.clj"
+  {:comment 963, :code 1407, :blank 262}]
+ "src\\marathon\\ces\\behavior.clj"
+ {:comment 963, :code 1407, :blank 262}
+ [:comment 963]
+ :comment
+ 963
+ [:code 1407]
+ :code
+ 1407
+ [:blank 262]
+ :blank
+ 262
+ ["checkouts\\spork\\src\\spork\\data\\quadtree.clj"
+  {:code 164, :comment 24, :blank 21}]
+ "checkouts\\spork\\src\\spork\\data\\quadtree.clj"
+ {:code 164, :comment 24, :blank 21}
+ [:code 164]
+ :code
+ 164
+ [:comment 24]
+ :comment
+ 24
+ [:blank 21]
+ :blank
+ 21
+ ["checkouts\\spork\\obe\\geometry\\primitive.clj"
+  {:comment 48, :code 2, :blank 4}]
+ "checkouts\\spork\\obe\\geometry\\primitive.clj"
+ {:comment 48, :code 2, :blank 4}
+ [:comment 48]
+ :comment
+ 48
+ [:code 2]
+ :code
+ 2
+ [:blank 4]
+ :blank
+ 4
+ ["checkouts\\spork\\src\\spork\\util\\help.clj"
+  {:comment 4, :code 187, :blank 16}]
+ "checkouts\\spork\\src\\spork\\util\\help.clj"
+ {:comment 4, :code 187, :blank 16}
+ [:comment 4]
+ :comment
+ 4
+ [:code 187]
+ :code
+ 187
+ [:blank 16]
+ :blank
+ 16
+ ["src\\marathon\\processing\\sampledata.clj"
+  {:code 1304, :blank 4, :comment 3}]
+ "src\\marathon\\processing\\sampledata.clj"
+ {:code 1304, :blank 4, :comment 3}
+ [:code 1304]
+ :code
+ 1304
+ [:blank 4]
+ :blank
+ 4
+ [:comment 3]
+ :comment
+ 3
+ ["checkouts\\spork\\obe\\displaced\\gl.clj"
+  {:code 97, :blank 16, :comment 10}]
+ "checkouts\\spork\\obe\\displaced\\gl.clj"
+ {:code 97, :blank 16, :comment 10}
+ [:code 97]
+ :code
+ 97
+ [:blank 16]
+ :blank
+ 16
+ [:comment 10]
+ :comment
+ 10
+ ["src\\marathon\\ces\\testing.clj"
+  {:comment 335, :code 609, :blank 162}]
+ "src\\marathon\\ces\\testing.clj"
+ {:comment 335, :code 609, :blank 162}
+ [:comment 335]
+ :comment
+ 335
+ [:code 609]
+ :code
+ 609
+ [:blank 162]
+ :blank
+ 162
+ ["checkouts\\proc\\src\\proc\\util.clj"
+  {:comment 82, :code 484, :blank 94}]
+ "checkouts\\proc\\src\\proc\\util.clj"
+ {:comment 82, :code 484, :blank 94}
+ [:comment 82]
+ :comment
+ 82
+ [:code 484]
+ :code
+ 484
+ [:blank 94]
+ :blank
+ 94
+ ["src\\marathon\\prelude.clj" {:comment 64, :code 1, :blank 10}]
+ "src\\marathon\\prelude.clj"
+ {:comment 64, :code 1, :blank 10}
+ [:comment 64]
+ :comment
+ 64
+ [:code 1]
+ :code
+ 1
+ [:blank 10]
+ :blank
+ 10
+ ["src\\marathon\\ces\\core.clj" {:comment 339, :blank 119, :code 431}]
+ "src\\marathon\\ces\\core.clj"
+ {:comment 339, :blank 119, :code 431}
+ [:comment 339]
+ :comment
+ 339
+ [:blank 119]
+ :blank
+ 119
+ [:code 431]
+ :code
+ 431
+ ["checkouts\\spork\\src\\spork\\util\\log.clj"
+  {:comment 4, :blank 2, :code 5}]
+ "checkouts\\spork\\src\\spork\\util\\log.clj"
+ {:comment 4, :blank 2, :code 5}
+ [:comment 4]
+ :comment
+ 4
+ [:blank 2]
+ :blank
+ 2
+ [:code 5]
+ :code
+ 5
+ ["checkouts\\spork\\src\\spork\\trends.clj"
+  {:comment 41, :code 155, :blank 26}]
+ "checkouts\\spork\\src\\spork\\trends.clj"
+ {:comment 41, :code 155, :blank 26}
+ [:comment 41]
+ :comment
+ 41
+ [:code 155]
+ :code
+ 155
+ [:blank 26]
+ :blank
+ 26
+ ["checkouts\\spork\\src\\spork\\util\\serial.clj"
+  {:comment 36, :code 94, :blank 26}]
+ "checkouts\\spork\\src\\spork\\util\\serial.clj"
+ {:comment 36, :code 94, :blank 26}
+ [:comment 36]
+ :comment
+ 36
+ [:code 94]
+ :code
+ 94
+ [:blank 26]
+ :blank
+ 26
+ ["checkouts\\spork\\src\\spork\\mining\\clustering.clj"
+  {:comment 77, :code 490, :blank 60}]
+ "checkouts\\spork\\src\\spork\\mining\\clustering.clj"
+ {:comment 77, :code 490, :blank 60}
+ [:comment 77]
+ :comment
+ 77
+ [:code 490]
+ :code
+ 490
+ [:blank 60]
+ :blank
+ 60
+ ["checkouts\\spork\\ayuk.clj" {:code 104, :blank 24, :comment 2}]
+ "checkouts\\spork\\ayuk.clj"
+ {:code 104, :blank 24, :comment 2}
+ [:code 104]
+ :code
+ 104
+ [:blank 24]
+ :blank
+ 24
+ [:comment 2]
+ :comment
+ 2
+ ["checkouts\\spork\\test\\spork\\core_test.clj" {:code 5, :blank 1}]
+ "checkouts\\spork\\test\\spork\\core_test.clj"
+ {:code 5, :blank 1}
+ [:code 5]
+ :code
+ 5
+ [:blank 1]
+ :blank
+ 1
+ ["checkouts\\spork\\src\\spork\\entitysystem\\testing.clj"
+  {:code 62, :blank 13, :comment 1}]
+ "checkouts\\spork\\src\\spork\\entitysystem\\testing.clj"
+ {:code 62, :blank 13, :comment 1}
+ [:code 62]
+ :code
+ 62
+ [:blank 13]
+ :blank
+ 13
+ [:comment 1]
+ :comment
+ 1
+ ["checkouts\\spork\\src\\spork\\util\\parsing.clj"
+  {:comment 25, :code 188, :blank 23}]
+ "checkouts\\spork\\src\\spork\\util\\parsing.clj"
+ {:comment 25, :code 188, :blank 23}
+ [:comment 25]
+ :comment
+ 25
+ [:code 188]
+ :code
+ 188
+ [:blank 23]
+ :blank
+ 23
+ ["checkouts\\spork\\src\\spork\\util\\inspection.clj"
+  {:comment 47, :code 104, :blank 21}]
+ "checkouts\\spork\\src\\spork\\util\\inspection.clj"
+ {:comment 47, :code 104, :blank 21}
+ [:comment 47]
+ :comment
+ 47
+ [:code 104]
+ :code
+ 104
+ [:blank 21]
+ :blank
+ 21
+ ["checkouts\\spork\\src\\spork\\ai\\machine.clj"
+  {:comment 7, :code 77, :blank 7}]
+ "checkouts\\spork\\src\\spork\\ai\\machine.clj"
+ {:comment 7, :code 77, :blank 7}
+ [:comment 7]
+ :comment
+ 7
+ [:code 77]
+ :code
+ 77
+ [:blank 7]
+ :blank
+ 7
+ ["checkouts\\spork\\obe\\cljgui\\examples\\flippersample.clj"
+  {:comment 45, :code 154, :blank 37}]
+ "checkouts\\spork\\obe\\cljgui\\examples\\flippersample.clj"
+ {:comment 45, :code 154, :blank 37}
+ [:comment 45]
+ :comment
+ 45
+ [:code 154]
+ :code
+ 154
+ [:blank 37]
+ :blank
+ 37
+ ["checkouts\\spork\\src\\spork\\ai\\testing.clj"
+  {:code 243, :comment 103, :blank 48}]
+ "checkouts\\spork\\src\\spork\\ai\\testing.clj"
+ {:code 243, :comment 103, :blank 48}
+ [:code 243]
+ :code
+ 243
+ [:comment 103]
+ :comment
+ 103
+ [:blank 48]
+ :blank
+ 48
+ ["src\\marathon\\sampledata\\core.clj" {:code 29, :blank 4}]
+ "src\\marathon\\sampledata\\core.clj"
+ {:code 29, :blank 4}
+ [:code 29]
+ :code
+ 29
+ [:blank 4]
+ :blank
+ 4
+ ["src\\marathon\\ces\\obe.clj" {:comment 18, :code 64, :blank 15}]
+ "src\\marathon\\ces\\obe.clj"
+ {:comment 18, :code 64, :blank 15}
+ [:comment 18]
+ :comment
+ 18
+ [:code 64]
+ :code
+ 64
+ [:blank 15]
+ :blank
+ 15
+ ["checkouts\\spork\\src\\spork\\sim\\core.clj"
+  {:comment 159, :blank 72, :code 348}]
+ "checkouts\\spork\\src\\spork\\sim\\core.clj"
+ {:comment 159, :blank 72, :code 348}
+ [:comment 159]
+ :comment
+ 159
+ [:blank 72]
+ :blank
+ 72
+ [:code 348]
+ :code
+ 348
+ ["checkouts\\spork\\src\\spork\\graphics2d\\font.clj"
+  {:comment 9, :code 47, :blank 11}]
+ "checkouts\\spork\\src\\spork\\graphics2d\\font.clj"
+ {:comment 9, :code 47, :blank 11}
+ [:comment 9]
+ :comment
+ 9
+ [:code 47]
+ :code
+ 47
+ [:blank 11]
+ :blank
+ 11
+ ["checkouts\\spork\\src\\spork\\cljgraph\\search.clj"
+  {:comment 36, :code 167, :blank 36}]
+ "checkouts\\spork\\src\\spork\\cljgraph\\search.clj"
+ {:comment 36, :code 167, :blank 36}
+ [:comment 36]
+ :comment
+ 36
+ [:code 167]
+ :code
+ 167
+ [:blank 36]
+ :blank
+ 36
+ ["checkouts\\spork\\src\\spork\\data\\priorityq.clj"
+  {:comment 91, :blank 62, :code 483}]
+ "checkouts\\spork\\src\\spork\\data\\priorityq.clj"
+ {:comment 91, :blank 62, :code 483}
+ [:comment 91]
+ :comment
+ 91
+ [:blank 62]
+ :blank
+ 62
+ [:code 483]
+ :code
+ 483
+ ["scraps.clj" {:code 33, :blank 8, :comment 4}]
+ "scraps.clj"
+ {:code 33, :blank 8, :comment 4}
+ [:code 33]
+ :code
+ 33
+ [:blank 8]
+ :blank
+ 8
+ [:comment 4]
+ :comment
+ 4
+ ["checkouts\\spork\\src\\spork\\data\\orderedmap.clj"
+  {:comment 31, :blank 16, :code 115}]
+ "checkouts\\spork\\src\\spork\\data\\orderedmap.clj"
+ {:comment 31, :blank 16, :code 115}
+ [:comment 31]
+ :comment
+ 31
+ [:blank 16]
+ :blank
+ 16
+ [:code 115]
+ :code
+ 115
+ ["checkouts\\proc\\src\\proc\\eutil.clj"
+  {:comment 7, :code 53, :blank 9}]
+ "checkouts\\proc\\src\\proc\\eutil.clj"
+ {:comment 7, :code 53, :blank 9}
+ [:comment 7]
+ :comment
+ 7
+ [:code 53]
+ :code
+ 53
+ [:blank 9]
+ :blank
+ 9
+ ["checkouts\\spork\\src\\spork\\data\\associative.clj"
+  {:comment 195, :blank 80, :code 618}]
+ "checkouts\\spork\\src\\spork\\data\\associative.clj"
+ {:comment 195, :blank 80, :code 618}
+ [:comment 195]
+ :comment
+ 195
+ [:blank 80]
+ :blank
+ 80
+ [:code 618]
+ :code
+ 618
+ ["checkouts\\spork\\src\\spork\\opt\\representation.clj"
+  {:comment 78, :code 394, :blank 61}]
+ "checkouts\\spork\\src\\spork\\opt\\representation.clj"
+ {:comment 78, :code 394, :blank 61}
+ [:comment 78]
+ :comment
+ 78
+ [:code 394]
+ :code
+ 394
+ [:blank 61]
+ :blank
+ 61
+ ["checkouts\\proc\\src\\proc\\core_test.clj" {:code 6, :blank 1}]
+ "checkouts\\proc\\src\\proc\\core_test.clj"
+ {:code 6, :blank 1}
+ [:code 6]
+ :code
+ 6
+ [:blank 1]
+ :blank
+ 1
+ ["checkouts\\proc\\src\\proc\\sufficiency.clj"
+  {:code 61, :blank 17, :comment 71}]
+ "checkouts\\proc\\src\\proc\\sufficiency.clj"
+ {:code 61, :blank 17, :comment 71}
+ [:code 61]
+ :code
+ 61
+ [:blank 17]
+ :blank
+ 17
+ [:comment 71]
+ :comment
+ 71
+ ["src\\marathon\\ces\\util.clj" {:comment 1}]
+ "src\\marathon\\ces\\util.clj"
+ {:comment 1}
+ [:comment 1]
+ :comment
+ 1
+ ["src\\marathon\\policy\\policydata.clj"
+  {:comment 21, :code 150, :blank 6}]
+ "src\\marathon\\policy\\policydata.clj"
+ {:comment 21, :code 150, :blank 6}
+ [:comment 21]
+ :comment
+ 21
+ [:code 150]
+ :code
+ 150
+ [:blank 6]
+ :blank
+ 6
+ ["src\\marathon\\vnv.clj" {:comment 40, :code 427, :blank 39}]
+ "src\\marathon\\vnv.clj"
+ {:comment 40, :code 427, :blank 39}
+ [:comment 40]
+ :comment
+ 40
+ [:code 427]
+ :code
+ 427
+ [:blank 39]
+ :blank
+ 39
+ ["checkouts\\spork\\src\\spork\\util\\reducers.clj"
+  {:comment 32, :code 163, :blank 16}]
+ "checkouts\\spork\\src\\spork\\util\\reducers.clj"
+ {:comment 32, :code 163, :blank 16}
+ [:comment 32]
+ :comment
+ 32
+ [:code 163]
+ :code
+ 163
+ [:blank 16]
+ :blank
+ 16
+ ["checkouts\\spork\\src\\spork\\data\\test.clj"
+  {:code 109, :blank 23, :comment 9}]
+ "checkouts\\spork\\src\\spork\\data\\test.clj"
+ {:code 109, :blank 23, :comment 9}
+ [:code 109]
+ :code
+ 109
+ [:blank 23]
+ :blank
+ 23
+ [:comment 9]
+ :comment
+ 9
+ ["src\\marathon\\project\\excel.clj"
+  {:comment 56, :code 169, :blank 26}]
+ "src\\marathon\\project\\excel.clj"
+ {:comment 56, :code 169, :blank 26}
+ [:comment 56]
+ :comment
+ 56
+ [:code 169]
+ :code
+ 169
+ [:blank 26]
+ :blank
+ 26
+ ["checkouts\\spork\\src\\spork\\graphics2d\\image.clj"
+  {:comment 11, :code 164, :blank 13}]
+ "checkouts\\spork\\src\\spork\\graphics2d\\image.clj"
+ {:comment 11, :code 164, :blank 13}
+ [:comment 11]
+ :comment
+ 11
+ [:code 164]
+ :code
+ 164
+ [:blank 13]
+ :blank
+ 13
+ ["src\\marathon\\ces\\entityfactory.clj"
+  {:blank 128, :comment 360, :code 603}]
+ "src\\marathon\\ces\\entityfactory.clj"
+ {:blank 128, :comment 360, :code 603}
+ [:blank 128]
+ :blank
+ 128
+ [:comment 360]
+ :comment
+ 360
+ [:code 603]
+ :code
+ 603
+ ["src\\marathon\\demand\\demanddata.clj"
+  {:comment 45, :code 54, :blank 22}]
+ "src\\marathon\\demand\\demanddata.clj"
+ {:comment 45, :code 54, :blank 22}
+ [:comment 45]
+ :comment
+ 45
+ [:code 54]
+ :code
+ 54
+ [:blank 22]
+ :blank
+ 22
+ ["obe\\gui.clj" {:comment 5, :code 41, :blank 10}]
+ "obe\\gui.clj"
+ {:comment 5, :code 41, :blank 10}
+ [:comment 5]
+ :comment
+ 5
+ [:code 41]
+ :code
+ 41
+ [:blank 10]
+ :blank
+ 10
+ ["checkouts\\spork\\obe\\cljgui\\asyncdrawing.clj"
+  {:comment 27, :blank 42, :code 222}]
+ "checkouts\\spork\\obe\\cljgui\\asyncdrawing.clj"
+ {:comment 27, :blank 42, :code 222}
+ [:comment 27]
+ :comment
+ 27
+ [:blank 42]
+ :blank
+ 42
+ [:code 222]
+ :code
+ 222
+ ["checkouts\\spork\\src\\spork\\opt\\dumbanneal.clj"
+  {:comment 9, :code 61, :blank 5}]
+ "checkouts\\spork\\src\\spork\\opt\\dumbanneal.clj"
+ {:comment 9, :code 61, :blank 5}
+ [:comment 9]
+ :comment
+ 9
+ [:code 61]
+ :code
+ 61
+ [:blank 5]
+ :blank
+ 5
+ ["checkouts\\spork\\src\\spork\\sim\\examples\\westworld.clj"
+  {:comment 23, :code 87, :blank 21}]
+ "checkouts\\spork\\src\\spork\\sim\\examples\\westworld.clj"
+ {:comment 23, :code 87, :blank 21}
+ [:comment 23]
+ :comment
+ 23
+ [:code 87]
+ :code
+ 87
+ [:blank 21]
+ :blank
+ 21
+ ["checkouts\\spork\\src\\spork\\util\\vector.clj"
+  {:comment 2, :code 37, :blank 5}]
+ "checkouts\\spork\\src\\spork\\util\\vector.clj"
+ {:comment 2, :code 37, :blank 5}
+ [:comment 2]
+ :comment
+ 2
+ [:code 37]
+ :code
+ 37
+ [:blank 5]
+ :blank
+ 5
+ ["checkouts\\spork\\obe\\cljgui\\activity.clj"
+  {:comment 16, :code 78, :blank 12}]
+ "checkouts\\spork\\obe\\cljgui\\activity.clj"
+ {:comment 16, :code 78, :blank 12}
+ [:comment 16]
+ :comment
+ 16
+ [:code 78]
+ :code
+ 78
+ [:blank 12]
+ :blank
+ 12
+ ["obe\\forgereader.clj" {:comment 25, :code 173, :blank 19}]
+ "obe\\forgereader.clj"
+ {:comment 25, :code 173, :blank 19}
+ [:comment 25]
+ :comment
+ 25
+ [:code 173]
+ :code
+ 173
+ [:blank 19]
+ :blank
+ 19
+ ["checkouts\\spork\\src\\spork\\data\\passmap.clj"
+  {:comment 104, :code 116, :blank 25}]
+ "checkouts\\spork\\src\\spork\\data\\passmap.clj"
+ {:comment 104, :code 116, :blank 25}
+ [:comment 104]
+ :comment
+ 104
+ [:code 116]
+ :code
+ 116
+ [:blank 25]
+ :blank
+ 25
+ ["checkouts\\spork\\obe\\cljgui\\scene\\scene2.clj"
+  {:comment 267, :blank 147, :code 660}]
+ "checkouts\\spork\\obe\\cljgui\\scene\\scene2.clj"
+ {:comment 267, :blank 147, :code 660}
+ [:comment 267]
+ :comment
+ 267
+ [:blank 147]
+ :blank
+ 147
+ [:code 660]
+ :code
+ 660
+ ["checkouts\\spork\\src\\spork\\util\\interop.clj"
+  {:comment 3, :code 20, :blank 1}]
+ "checkouts\\spork\\src\\spork\\util\\interop.clj"
+ {:comment 3, :code 20, :blank 1}
+ [:comment 3]
+ :comment
+ 3
+ [:code 20]
+ :code
+ 20
+ [:blank 1]
+ :blank
+ 1
+ ["checkouts\\spork\\src\\spork\\util\\combinatoric.clj"
+  {:comment 239, :blank 136, :code 566}]
+ "checkouts\\spork\\src\\spork\\util\\combinatoric.clj"
+ {:comment 239, :blank 136, :code 566}
+ [:comment 239]
+ :comment
+ 239
+ [:blank 136]
+ :blank
+ 136
+ [:code 566]
+ :code
+ 566
+ ["checkouts\\spork\\src\\spork\\graphics2d\\primitive.clj"
+  {:comment 48, :code 197, :blank 36}]
+ "checkouts\\spork\\src\\spork\\graphics2d\\primitive.clj"
+ {:comment 48, :code 197, :blank 36}
+ [:comment 48]
+ :comment
+ 48
+ [:code 197]
+ :code
+ 197
+ [:blank 36]
+ :blank
+ 36
+ ["checkouts\\spork\\src\\spork\\sim\\pure\\test.clj"
+  {:code 128, :blank 21, :comment 19}]
+ "checkouts\\spork\\src\\spork\\sim\\pure\\test.clj"
+ {:code 128, :blank 21, :comment 19}
+ [:code 128]
+ :code
+ 128
+ [:blank 21]
+ :blank
+ 21
+ [:comment 19]
+ :comment
+ 19
+ ["checkouts\\spork\\src\\spork\\data\\depq.clj" {:comment 3, :code 1}]
+ "checkouts\\spork\\src\\spork\\data\\depq.clj"
+ {:comment 3, :code 1}
+ [:comment 3]
+ :comment
+ 3
+ [:code 1]
+ :code
+ 1
+ ["src\\marathon\\project\\views\\core.clj"
+  {:comment 2, :code 12, :blank 5}]
+ "src\\marathon\\project\\views\\core.clj"
+ {:comment 2, :code 12, :blank 5}
+ [:comment 2]
+ :comment
+ 2
+ [:code 12]
+ :code
+ 12
+ [:blank 5]
+ :blank
+ 5
+ ["checkouts\\spork\\src\\spork\\ai\\messaging.clj"
+  {:comment 17, :code 45, :blank 5}]
+ "checkouts\\spork\\src\\spork\\ai\\messaging.clj"
+ {:comment 17, :code 45, :blank 5}
+ [:comment 17]
+ :comment
+ 17
+ [:code 45]
+ :code
+ 45
+ [:blank 5]
+ :blank
+ 5
+ ["checkouts\\spork\\src\\spork\\sim\\simcontext.clj"
+  {:comment 133, :blank 70, :code 434}]
+ "checkouts\\spork\\src\\spork\\sim\\simcontext.clj"
+ {:comment 133, :blank 70, :code 434}
+ [:comment 133]
+ :comment
+ 133
+ [:blank 70]
+ :blank
+ 70
+ [:code 434]
+ :code
+ 434
+ ["checkouts\\spork\\blah2.clj" {:code 68, :blank 13, :comment 14}]
+ "checkouts\\spork\\blah2.clj"
+ {:code 68, :blank 13, :comment 14}
+ [:code 68]
+ :code
+ 68
+ [:blank 13]
+ :blank
+ 13
+ [:comment 14]
+ :comment
+ 14
+ ["checkouts\\spork\\src\\spork\\util\\zipfile.clj"
+  {:comment 11, :code 205, :blank 36}]
+ "checkouts\\spork\\src\\spork\\util\\zipfile.clj"
+ {:comment 11, :code 205, :blank 36}
+ [:comment 11]
+ :comment
+ 11
+ [:code 205]
+ :code
+ 205
+ [:blank 36]
+ :blank
+ 36
+ ["src\\marathon\\supply\\unitdata.clj"
+  {:code 133, :comment 149, :blank 68}]
+ "src\\marathon\\supply\\unitdata.clj"
+ {:code 133, :comment 149, :blank 68}
+ [:code 133]
+ :code
+ 133
+ [:comment 149]
+ :comment
+ 149
+ [:blank 68]
+ :blank
+ 68
+ ["checkouts\\spork\\src\\spork\\sketch\\legacy.clj"
+  {:comment 45, :code 210, :blank 23}]
+ "checkouts\\spork\\src\\spork\\sketch\\legacy.clj"
+ {:comment 45, :code 210, :blank 23}
+ [:comment 45]
+ :comment
+ 45
+ [:code 210]
+ :code
+ 210
+ [:blank 23]
+ :blank
+ 23
+ ["src\\marathon\\ces\\fill.clj" {:comment 597, :blank 115, :code 215}]
+ "src\\marathon\\ces\\fill.clj"
+ {:comment 597, :blank 115, :code 215}
+ [:comment 597]
+ :comment
+ 597
+ [:blank 115]
+ :blank
+ 115
+ [:code 215]
+ :code
+ 215
+ ["checkouts\\spork\\obe\\cljgui\\scene\\core.clj"
+  {:comment 207, :code 295, :blank 92}]
+ "checkouts\\spork\\obe\\cljgui\\scene\\core.clj"
+ {:comment 207, :code 295, :blank 92}
+ [:comment 207]
+ :comment
+ 207
+ [:code 295]
+ :code
+ 295
+ [:blank 92]
+ :blank
+ 92
+ ["checkouts\\spork\\src\\spork\\data\\mutable.clj"
+  {:comment 176, :code 452, :blank 55}]
+ "checkouts\\spork\\src\\spork\\data\\mutable.clj"
+ {:comment 176, :code 452, :blank 55}
+ [:comment 176]
+ :comment
+ 176
+ [:code 452]
+ :code
+ 452
+ [:blank 55]
+ :blank
+ 55
+ ["checkouts\\spork\\obe\\cljgui\\components\\grid.clj"
+  {:comment 71, :blank 58, :code 322}]
+ "checkouts\\spork\\obe\\cljgui\\components\\grid.clj"
+ {:comment 71, :blank 58, :code 322}
+ [:comment 71]
+ :comment
+ 71
+ [:blank 58]
+ :blank
+ 58
+ [:code 322]
+ :code
+ 322
+ ["checkouts\\spork\\src\\spork\\graphics2d\\scene.clj"
+  {:comment 79, :code 105, :blank 24}]
+ "checkouts\\spork\\src\\spork\\graphics2d\\scene.clj"
+ {:comment 79, :code 105, :blank 24}
+ [:comment 79]
+ :comment
+ 79
+ [:code 105]
+ :code
+ 105
+ [:blank 24]
+ :blank
+ 24
+ ["checkouts\\spork\\src\\spork\\cljgraph\\blah.clj"
+  {:code 46, :blank 4, :comment 2}]
+ "checkouts\\spork\\src\\spork\\cljgraph\\blah.clj"
+ {:code 46, :blank 4, :comment 2}
+ [:code 46]
+ :code
+ 46
+ [:blank 4]
+ :blank
+ 4
+ [:comment 2]
+ :comment
+ 2
+ ["checkouts\\spork\\src\\spork\\data\\managed.clj"
+  {:comment 121, :blank 27, :code 47}]
+ "checkouts\\spork\\src\\spork\\data\\managed.clj"
+ {:comment 121, :blank 27, :code 47}
+ [:comment 121]
+ :comment
+ 121
+ [:blank 27]
+ :blank
+ 27
+ [:code 47]
+ :code
+ 47
+ ["src\\marathon\\ces\\legacy.clj" {:comment 1424, :code 1, :blank 82}]
+ "src\\marathon\\ces\\legacy.clj"
+ {:comment 1424, :code 1, :blank 82}
+ [:comment 1424]
+ :comment
+ 1424
+ [:code 1]
+ :code
+ 1
+ [:blank 82]
+ :blank
+ 82
+ ["obe\\surgereader.clj" {:code 18, :blank 2}]
+ "obe\\surgereader.clj"
+ {:code 18, :blank 2}
+ [:code 18]
+ :code
+ 18
+ [:blank 2]
+ :blank
+ 2
+ ["checkouts\\spork\\obe\\displaced\\protocols.clj"
+  {:code 23, :blank 5, :comment 20}]
+ "checkouts\\spork\\obe\\displaced\\protocols.clj"
+ {:code 23, :blank 5, :comment 20}
+ [:code 23]
+ :code
+ 23
+ [:blank 5]
+ :blank
+ 5
+ [:comment 20]
+ :comment
+ 20
+ ["project.clj" {:code 41, :blank 1, :comment 6}]
+ "project.clj"
+ {:code 41, :blank 1, :comment 6}
+ [:code 41]
+ :code
+ 41
+ [:blank 1]
+ :blank
+ 1
+ [:comment 6]
+ :comment
+ 6
+ ["checkouts\\spork\\src\\spork\\util\\excel\\docjure.clj"
+  {:comment 55, :blank 66, :code 330}]
+ "checkouts\\spork\\src\\spork\\util\\excel\\docjure.clj"
+ {:comment 55, :blank 66, :code 330}
+ [:comment 55]
+ :comment
+ 55
+ [:blank 66]
+ :blank
+ 66
+ [:code 330]
+ :code
+ 330
+ ["checkouts\\spork\\src\\spork\\data\\stores\\protocols.clj"
+  {:comment 2, :code 15, :blank 2}]
+ "checkouts\\spork\\src\\spork\\data\\stores\\protocols.clj"
+ {:comment 2, :code 15, :blank 2}
+ [:comment 2]
+ :comment
+ 2
+ [:code 15]
+ :code
+ 15
+ [:blank 2]
+ :blank
+ 2
+ ["src\\marathon\\project\\tab.clj" {:comment 6, :code 20, :blank 2}]
+ "src\\marathon\\project\\tab.clj"
+ {:comment 6, :code 20, :blank 2}
+ [:comment 6]
+ :comment
+ 6
+ [:code 20]
+ :code
+ 20
+ [:blank 2]
+ :blank
+ 2
+ ["checkouts\\spork\\src\\spork\\util\\collections.clj"
+  {:comment 48, :blank 42, :code 242}]
+ "checkouts\\spork\\src\\spork\\util\\collections.clj"
+ {:comment 48, :blank 42, :code 242}
+ [:comment 48]
+ :comment
+ 48
+ [:blank 42]
+ :blank
+ 42
+ [:code 242]
+ :code
+ 242
+ ["checkouts\\spork\\src\\spork\\sim\\engine.clj"
+  {:comment 148, :blank 34, :code 162}]
+ "checkouts\\spork\\src\\spork\\sim\\engine.clj"
+ {:comment 148, :blank 34, :code 162}
+ [:comment 148]
+ :comment
+ 148
+ [:blank 34]
+ :blank
+ 34
+ [:code 162]
+ :code
+ 162
+ ["checkouts\\proc\\src\\proc\\lifecycles.clj"
+  {:blank 6, :comment 6, :code 82}]
+ "checkouts\\proc\\src\\proc\\lifecycles.clj"
+ {:blank 6, :comment 6, :code 82}
+ [:blank 6]
+ :blank
+ 6
+ [:comment 6]
+ :comment
+ 6
+ [:code 82]
+ :code
+ 82
+ ["checkouts\\spork\\obe\\cljgui\\components\\trackbar.clj"
+  {:comment 56, :blank 39, :code 88}]
+ "checkouts\\spork\\obe\\cljgui\\components\\trackbar.clj"
+ {:comment 56, :blank 39, :code 88}
+ [:comment 56]
+ :comment
+ 56
+ [:blank 39]
+ :blank
+ 39
+ [:code 88]
+ :code
+ 88
+ ["checkouts\\spork\\playground.clj"
+  {:code 195, :blank 38, :comment 51}]
+ "checkouts\\spork\\playground.clj"
+ {:code 195, :blank 38, :comment 51}
+ [:code 195]
+ :code
+ 195
+ [:blank 38]
+ :blank
+ 38
+ [:comment 51]
+ :comment
+ 51
+ ["checkouts\\spork\\src\\spork\\util\\record.clj"
+  {:comment 33, :code 252, :blank 37}]
+ "checkouts\\spork\\src\\spork\\util\\record.clj"
+ {:comment 33, :code 252, :blank 37}
+ [:comment 33]
+ :comment
+ 33
+ [:code 252]
+ :code
+ 252
+ [:blank 37]
+ :blank
+ 37
+ ["checkouts\\spork\\src\\spork\\data\\sparse.clj"
+  {:comment 79, :code 277, :blank 28}]
+ "checkouts\\spork\\src\\spork\\data\\sparse.clj"
+ {:comment 79, :code 277, :blank 28}
+ [:comment 79]
+ :comment
+ 79
+ [:code 277]
+ :code
+ 277
+ [:blank 28]
+ :blank
+ 28
+ ["checkouts\\spork\\src\\spork\\util\\string.clj"
+  {:comment 9, :code 97, :blank 7}]
+ "checkouts\\spork\\src\\spork\\util\\string.clj"
+ {:comment 9, :code 97, :blank 7}
+ [:comment 9]
+ :comment
+ 9
+ [:code 97]
+ :code
+ 97
+ [:blank 7]
+ :blank
+ 7
+ ["checkouts\\spork\\src\\spork\\cljgraph\\io.clj"
+  {:comment 3, :code 17, :blank 8}]
+ "checkouts\\spork\\src\\spork\\cljgraph\\io.clj"
+ {:comment 3, :code 17, :blank 8}
+ [:comment 3]
+ :comment
+ 3
+ [:code 17]
+ :code
+ 17
+ [:blank 8]
+ :blank
+ 8
+ ["checkouts\\spork\\obe\\cljgui\\animation.clj"
+  {:code 239, :blank 55, :comment 37}]
+ "checkouts\\spork\\obe\\cljgui\\animation.clj"
+ {:code 239, :blank 55, :comment 37}
+ [:code 239]
+ :code
+ 239
+ [:blank 55]
+ :blank
+ 55
+ [:comment 37]
+ :comment
+ 37
+ ["checkouts\\proc\\src\\proc\\stacked.clj"
+  {:comment 315, :code 722, :blank 153}]
+ "checkouts\\proc\\src\\proc\\stacked.clj"
+ {:comment 315, :code 722, :blank 153}
+ [:comment 315]
+ :comment
+ 315
+ [:code 722]
+ :code
+ 722
+ [:blank 153]
+ :blank
+ 153
+ ["src\\marathon\\assessment.clj" {:comment 102, :code 47, :blank 35}]
+ "src\\marathon\\assessment.clj"
+ {:comment 102, :code 47, :blank 35}
+ [:comment 102]
+ :comment
+ 102
+ [:code 47]
+ :code
+ 47
+ [:blank 35]
+ :blank
+ 35
+ ["checkouts\\spork\\obe\\cljgui\\scene\\scenegraph.clj"
+  {:comment 273, :blank 112, :code 446}]
+ "checkouts\\spork\\obe\\cljgui\\scene\\scenegraph.clj"
+ {:comment 273, :blank 112, :code 446}
+ [:comment 273]
+ :comment
+ 273
+ [:blank 112]
+ :blank
+ 112
+ [:code 446]
+ :code
+ 446
+ ["checkouts\\spork\\src\\spork\\data\\bitset.clj"
+  {:comment 16, :code 4, :blank 4}]
+ "checkouts\\spork\\src\\spork\\data\\bitset.clj"
+ {:comment 16, :code 4, :blank 4}
+ [:comment 16]
+ :comment
+ 16
+ [:code 4]
+ :code
+ 4
+ [:blank 4]
+ :blank
+ 4
+ ["checkouts\\spork\\src\\spork\\sim\\test.clj"
+  {:comment 22, :code 106, :blank 16}]
+ "checkouts\\spork\\src\\spork\\sim\\test.clj"
+ {:comment 22, :code 106, :blank 16}
+ [:comment 22]
+ :comment
+ 22
+ [:code 106]
+ :code
+ 106
+ [:blank 16]
+ :blank
+ 16
+ ["src\\marathon\\ces\\sampledata.clj"
+  {:code 1090, :blank 36, :comment 61}]
+ "src\\marathon\\ces\\sampledata.clj"
+ {:code 1090, :blank 36, :comment 61}
+ [:code 1090]
+ :code
+ 1090
+ [:blank 36]
+ :blank
+ 36
+ [:comment 61]
+ :comment
+ 61
+ ["src\\marathon\\ces\\fill\\demand.clj"
+  {:comment 97, :blank 23, :code 101}]
+ "src\\marathon\\ces\\fill\\demand.clj"
+ {:comment 97, :blank 23, :code 101}
+ [:comment 97]
+ :comment
+ 97
+ [:blank 23]
+ :blank
+ 23
+ [:code 101]
+ :code
+ 101
+ ["checkouts\\spork\\src\\spork\\cljgui\\components\\PaintPanel.clj"
+  {:comment 19, :blank 12, :code 61}]
+ "checkouts\\spork\\src\\spork\\cljgui\\components\\PaintPanel.clj"
+ {:comment 19, :blank 12, :code 61}
+ [:comment 19]
+ :comment
+ 19
+ [:blank 12]
+ :blank
+ 12
+ [:code 61]
+ :code
+ 61
+ ["checkouts\\spork\\src\\spork\\util\\excel\\core.clj"
+  {:comment 37, :blank 61, :code 373}]
+ "checkouts\\spork\\src\\spork\\util\\excel\\core.clj"
+ {:comment 37, :blank 61, :code 373}
+ [:comment 37]
+ :comment
+ 37
+ [:blank 61]
+ :blank
+ 61
+ [:code 373]
+ :code
+ 373
+ ["checkouts\\spork\\obe\\cljgui\\scene\\examples.clj"
+  {:code 59, :blank 12, :comment 6}]
+ "checkouts\\spork\\obe\\cljgui\\scene\\examples.clj"
+ {:code 59, :blank 12, :comment 6}
+ [:code 59]
+ :code
+ 59
+ [:blank 12]
+ :blank
+ 12
+ [:comment 6]
+ :comment
+ 6
+ ["checkouts\\spork\\src\\spork\\data\\lazymap.clj"
+  {:comment 10, :code 59, :blank 5}]
+ "checkouts\\spork\\src\\spork\\data\\lazymap.clj"
+ {:comment 10, :code 59, :blank 5}
+ [:comment 10]
+ :comment
+ 10
+ [:code 59]
+ :code
+ 59
+ [:blank 5]
+ :blank
+ 5
+ ["checkouts\\spork\\obe\\cljgui\\examples\\examples.clj"
+  {:comment 2, :code 4}]
+ "checkouts\\spork\\obe\\cljgui\\examples\\examples.clj"
+ {:comment 2, :code 4}
+ [:comment 2]
+ :comment
+ 2
+ [:code 4]
+ :code
+ 4
+ ["checkouts\\spork\\obe\\displaced\\demo.clj"
+  {:code 93, :blank 28, :comment 7}]
+ "checkouts\\spork\\obe\\displaced\\demo.clj"
+ {:code 93, :blank 28, :comment 7}
+ [:code 93]
+ :code
+ 93
+ [:blank 28]
+ :blank
+ 28
+ [:comment 7]
+ :comment
+ 7
+ ["blah.clj" {:code 10, :blank 5, :comment 14}]
+ "blah.clj"
+ {:code 10, :blank 5, :comment 14}
+ [:code 10]
+ :code
+ 10
+ [:blank 5]
+ :blank
+ 5
+ [:comment 14]
+ :comment
+ 14
+ ["src\\marathon\\ces\\engine.clj"
+  {:comment 147, :blank 34, :code 176}]
+ "src\\marathon\\ces\\engine.clj"
+ {:comment 147, :blank 34, :code 176}
+ [:comment 147]
+ :comment
+ 147
+ [:blank 34]
+ :blank
+ 34
+ [:code 176]
+ :code
+ 176
+ ["checkouts\\spork\\src\\spork\\events\\native.clj"
+  {:comment 168, :blank 81, :code 331}]
+ "checkouts\\spork\\src\\spork\\events\\native.clj"
+ {:comment 168, :blank 81, :code 331}
+ [:comment 168]
+ :comment
+ 168
+ [:blank 81]
+ :blank
+ 81
+ [:code 331]
+ :code
+ 331
+ ["checkouts\\spork\\src\\spork\\opt\\neighborhood.clj"
+  {:comment 37, :code 43, :blank 16}]
+ "checkouts\\spork\\src\\spork\\opt\\neighborhood.clj"
+ {:comment 37, :code 43, :blank 16}
+ [:comment 37]
+ :comment
+ 37
+ [:code 43]
+ :code
+ 43
+ [:blank 16]
+ :blank
+ 16
+ ["checkouts\\spork\\src\\spork\\protocols\\core.clj"
+  {:comment 50, :blank 48, :code 213}]
+ "checkouts\\spork\\src\\spork\\protocols\\core.clj"
+ {:comment 50, :blank 48, :code 213}
+ [:comment 50]
+ :comment
+ 50
+ [:blank 48]
+ :blank
+ 48
+ [:code 213]
+ :code
+ 213
+ ["checkouts\\spork\\src\\spork\\data\\randq.clj"
+  {:code 62, :blank 2, :comment 4}]
+ "checkouts\\spork\\src\\spork\\data\\randq.clj"
+ {:code 62, :blank 2, :comment 4}
+ [:code 62]
+ :code
+ 62
+ [:blank 2]
+ :blank
+ 2
+ [:comment 4]
+ :comment
+ 4
+ ["checkouts\\proc\\src\\proc\\powerpoint.clj"
+  {:comment 50, :code 200, :blank 41}]
+ "checkouts\\proc\\src\\proc\\powerpoint.clj"
+ {:comment 50, :code 200, :blank 41}
+ [:comment 50]
+ :comment
+ 50
+ [:code 200]
+ :code
+ 200
+ [:blank 41]
+ :blank
+ 41
+ ["checkouts\\spork\\src\\spork\\util\\stats.clj"
+  {:comment 45, :blank 75, :code 418}]
+ "checkouts\\spork\\src\\spork\\util\\stats.clj"
+ {:comment 45, :blank 75, :code 418}
+ [:comment 45]
+ :comment
+ 45
+ [:blank 75]
+ :blank
+ 75
+ [:code 418]
+ :code
+ 418
+ ["checkouts\\spork\\src\\spork\\util\\generators.clj"
+  {:comment 5, :code 20, :blank 2}]
+ "checkouts\\spork\\src\\spork\\util\\generators.clj"
+ {:comment 5, :code 20, :blank 2}
+ [:comment 5]
+ :comment
+ 5
+ [:code 20]
+ :code
+ 20
+ [:blank 2]
+ :blank
+ 2
+ ["src\\marathon\\processing\\highwater.clj"
+  {:comment 20, :code 109, :blank 13}]
+ "src\\marathon\\processing\\highwater.clj"
+ {:comment 20, :code 109, :blank 13}
+ [:comment 20]
+ :comment
+ 20
+ [:code 109]
+ :code
+ 109
+ [:blank 13]
+ :blank
+ 13
+ ["checkouts\\spork\\obe\\slowdata.clj"
+  {:code 206, :blank 40, :comment 44}]
+ "checkouts\\spork\\obe\\slowdata.clj"
+ {:code 206, :blank 40, :comment 44}
+ [:code 206]
+ :code
+ 206
+ [:blank 40]
+ :blank
+ 40
+ [:comment 44]
+ :comment
+ 44
+ ["checkouts\\spork\\src\\spork\\sim\\agenda.clj"
+  {:comment 98, :code 107, :blank 20}]
+ "checkouts\\spork\\src\\spork\\sim\\agenda.clj"
+ {:comment 98, :code 107, :blank 20}
+ [:comment 98]
+ :comment
+ 98
+ [:code 107]
+ :code
+ 107
+ [:blank 20]
+ :blank
+ 20
+ ["checkouts\\spork\\src\\spork\\examples\\samplingvis.clj"
+  {:comment 70, :code 139, :blank 26}]
+ "checkouts\\spork\\src\\spork\\examples\\samplingvis.clj"
+ {:comment 70, :code 139, :blank 26}
+ [:comment 70]
+ :comment
+ 70
+ [:code 139]
+ :code
+ 139
+ [:blank 26]
+ :blank
+ 26
+ ["src\\marathon\\ces\\supply.clj"
+  {:comment 212, :code 425, :blank 92}]
+ "src\\marathon\\ces\\supply.clj"
+ {:comment 212, :code 425, :blank 92}
+ [:comment 212]
+ :comment
+ 212
+ [:code 425]
+ :code
+ 425
+ [:blank 92]
+ :blank
+ 92
+ ["checkouts\\spork\\src\\spork\\data\\ctrie.clj"
+  {:comment 21, :code 108, :blank 21}]
+ "checkouts\\spork\\src\\spork\\data\\ctrie.clj"
+ {:comment 21, :code 108, :blank 21}
+ [:comment 21]
+ :comment
+ 21
+ [:code 108]
+ :code
+ 108
+ [:blank 21]
+ :blank
+ 21
+ ["checkouts\\spork\\loop.clj" {:comment 321, :blank 151, :code 1480}]
+ "checkouts\\spork\\loop.clj"
+ {:comment 321, :blank 151, :code 1480}
+ [:comment 321]
+ :comment
+ 321
+ [:blank 151]
+ :blank
+ 151
+ [:code 1480]
+ :code
+ 1480
+ ["checkouts\\proc\\src\\proc\\schemas.clj"
+  {:code 201, :blank 18, :comment 9}]
+ "checkouts\\proc\\src\\proc\\schemas.clj"
+ {:code 201, :blank 18, :comment 9}
+ [:code 201]
+ :code
+ 201
+ [:blank 18]
+ :blank
+ 18
+ [:comment 9]
+ :comment
+ 9
+ ["checkouts\\spork\\src\\spork\\sim\\pure\\network.clj"
+  {:comment 256, :blank 90, :code 401}]
+ "checkouts\\spork\\src\\spork\\sim\\pure\\network.clj"
+ {:comment 256, :blank 90, :code 401}
+ [:comment 256]
+ :comment
+ 256
+ [:blank 90]
+ :blank
+ 90
+ [:code 401]
+ :code
+ 401
+ ["checkouts\\proc\\src\\proc\\fillsfiles.clj"
+  {:blank 17, :comment 13, :code 113}]
+ "checkouts\\proc\\src\\proc\\fillsfiles.clj"
+ {:blank 17, :comment 13, :code 113}
+ [:blank 17]
+ :blank
+ 17
+ [:comment 13]
+ :comment
+ 13
+ [:code 113]
+ :code
+ 113
+ ["checkouts\\spork\\src\\spork\\mvc.clj"
+  {:comment 42, :code 25, :blank 11}]
+ "checkouts\\spork\\src\\spork\\mvc.clj"
+ {:comment 42, :code 25, :blank 11}
+ [:comment 42]
+ :comment
+ 42
+ [:code 25]
+ :code
+ 25
+ [:blank 11]
+ :blank
+ 11
+ ["src\\marathon\\main.clj" {:comment 18, :code 15, :blank 1}]
+ "src\\marathon\\main.clj"
+ {:comment 18, :code 15, :blank 1}
+ [:comment 18]
+ :comment
+ 18
+ [:code 15]
+ :code
+ 15
+ [:blank 1]
+ :blank
+ 1
+ ["src\\marathon\\processing\\post.clj"
+  {:comment 58, :code 136, :blank 29}]
+ "src\\marathon\\processing\\post.clj"
+ {:comment 58, :code 136, :blank 29}
+ [:comment 58]
+ :comment
+ 58
+ [:code 136]
+ :code
+ 136
+ [:blank 29]
+ :blank
+ 29
+ ["checkouts\\spork\\src\\spork\\opt\\packing.clj"
+  {:comment 9, :blank 9, :code 24}]
+ "checkouts\\spork\\src\\spork\\opt\\packing.clj"
+ {:comment 9, :blank 9, :code 24}
+ [:comment 9]
+ :comment
+ 9
+ [:blank 9]
+ :blank
+ 9
+ [:code 24]
+ :code
+ 24
+ ["checkouts\\proc\\src\\proc\\charts.clj"
+  {:code 254, :blank 45, :comment 6}]
+ "checkouts\\proc\\src\\proc\\charts.clj"
+ {:code 254, :blank 45, :comment 6}
+ [:code 254]
+ :code
+ 254
+ [:blank 45]
+ :blank
+ 45
+ [:comment 6]
+ :comment
+ 6
+ ["checkouts\\spork\\src\\spork\\opt\\core.clj"
+  {:comment 63, :blank 34, :code 196}]
+ "checkouts\\spork\\src\\spork\\opt\\core.clj"
+ {:comment 63, :blank 34, :code 196}
+ [:comment 63]
+ :comment
+ 63
+ [:blank 34]
+ :blank
+ 34
+ [:code 196]
+ :code
+ 196
+ ["checkouts\\proc\\src\\proc\\stats.clj"
+  {:blank 40, :code 146, :comment 28}]
+ "checkouts\\proc\\src\\proc\\stats.clj"
+ {:blank 40, :code 146, :comment 28}
+ [:blank 40]
+ :blank
+ 40
+ [:code 146]
+ :code
+ 146
+ [:comment 28]
+ :comment
+ 28
+ ["checkouts\\spork\\src\\spork\\util\\cellular.clj"
+  {:comment 113, :blank 49, :code 429}]
+ "checkouts\\spork\\src\\spork\\util\\cellular.clj"
+ {:comment 113, :blank 49, :code 429}
+ [:comment 113]
+ :comment
+ 113
+ [:blank 49]
+ :blank
+ 49
+ [:code 429]
+ :code
+ 429
+ ["src\\marathon\\sampledata\\synthetic.clj"
+  {:comment 22, :code 11, :blank 8}]
+ "src\\marathon\\sampledata\\synthetic.clj"
+ {:comment 22, :code 11, :blank 8}
+ [:comment 22]
+ :comment
+ 22
+ [:code 11]
+ :code
+ 11
+ [:blank 8]
+ :blank
+ 8
+ ["checkouts\\spork\\src\\spork\\util\\tags.clj"
+  {:comment 17, :blank 26, :code 148}]
+ "checkouts\\spork\\src\\spork\\util\\tags.clj"
+ {:comment 17, :blank 26, :code 148}
+ [:comment 17]
+ :comment
+ 17
+ [:blank 26]
+ :blank
+ 26
+ [:code 148]
+ :code
+ 148
+ ["checkouts\\spork\\src\\spork\\util\\vectors.clj"
+  {:comment 19, :blank 16, :code 106}]
+ "checkouts\\spork\\src\\spork\\util\\vectors.clj"
+ {:comment 19, :blank 16, :code 106}
+ [:comment 19]
+ :comment
+ 19
+ [:blank 16]
+ :blank
+ 16
+ [:code 106]
+ :code
+ 106
+ ["checkouts\\spork\\src\\spork\\ai\\core.clj"
+  {:comment 68, :code 42, :blank 23}]
+ "checkouts\\spork\\src\\spork\\ai\\core.clj"
+ {:comment 68, :code 42, :blank 23}
+ [:comment 68]
+ :comment
+ 68
+ [:code 42]
+ :code
+ 42
+ [:blank 23]
+ :blank
+ 23
+ ["checkouts\\spork\\src\\spork\\cljgraph\\arrayflow.clj"
+  {:comment 55, :code 401, :blank 56}]
+ "checkouts\\spork\\src\\spork\\cljgraph\\arrayflow.clj"
+ {:comment 55, :code 401, :blank 56}
+ [:comment 55]
+ :comment
+ 55
+ [:code 401]
+ :code
+ 401
+ [:blank 56]
+ :blank
+ 56)
